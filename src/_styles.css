@@ -1,0 +1,236 @@
+/*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */*,::after,::before{box-sizing:border-box}html{-moz-tab-size:4;tab-size:4}html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji'}hr{height:0;color:inherit}abbr[title]{text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button}::-moz-focus-inner{border-style:none;padding:0}:-moz-focusring{outline:1px dotted ButtonText}:-moz-ui-invalid{box-shadow:none}legend{padding:0}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0rem;
+  background: #fff;
+  font-family: system-ui, sans-serif;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23bababa' fill-opacity='1' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+}
+
+header {
+  width: 100%;
+  margin: 0;
+  padding: 2rem;
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+  font-family: 'Avenir Next', 'Avenir Next LT Pro', Montserrat, Corbel, 'Noto Sans', sans-serif;
+  font-family: Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif;
+
+}
+
+header > div {
+  width: 100%;
+  max-width: 48rem;
+  margin: 0 auto;
+}
+
+header svg {
+  display: block;
+  margin: 0 auto;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  line-height: 1.1;
+  text-align: center;
+  margin: 0.5rem 1rem 1rem;
+  font-weight: 400;
+}
+
+header h2 {
+  font-size: 1.25rem;
+  line-height: 1.3;
+  text-align: center;
+  margin: 0.5rem;
+  font-weight: 600;
+}
+
+header p {
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.font-ui {
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto 1.5rem;
+  background: #000;
+  color: #fff;
+}
+
+.font-ui h1 {
+  margin: 0;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1;
+  padding: 20px 30px 20px 20px;
+  display: inline-block;
+}
+
+.font-ui-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 82rem;
+  margin: 0 auto;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.font-ui-container > div {
+  flex: 1 auto;
+}
+
+.font-ui-container input {
+  width: 100%;
+}
+
+main {
+  text-align: center;
+  max-width: 84rem;
+  margin: 0 auto;
+  padding: 2rem 1rem 4rem;
+  font-size: 2rem;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-bottom-width: 2px;
+  border: 1px solid #888;
+  box-shadow: 4px 4px 0 0 rgba(0,0,0,0.2);
+}
+
+.font-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.25rem 1rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.font-title h3 {
+  font-size: 1.5rem;
+  margin: 0;
+  font-weight: 400;
+  text-align: left;
+}
+
+.font-callout {
+  font-family: system-ui, sans-serif;
+  white-space: nowrap;
+  background: #eee;
+  color: #505050;
+  padding: 6px 10px;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1;
+  border-radius: 20px;
+}
+
+.font-preview {
+  display: block;
+  flex: 1 auto;
+  margin: 0;
+  padding: 1.5rem 1rem;
+  line-height: 1.2;
+  overflow: hidden;
+}
+
+.font-preview:empty:after {
+  content: "ABCDEFGHIJKLM\a NOPQRSTUVWXYZ\a abcdefghijklm\a nopqrstuvwxyz\a 1234567890";
+  white-space: pre;
+}
+
+.font-weights {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+  padding: 1rem;
+  border-top: 1px solid #e5e7eb;
+}
+
+.font-weights span {
+  text-decoration: none;
+  text-underline-offset: 3px;
+}
+
+.weight-100 { font-weight: 100; }
+.weight-200 { font-weight: 200; }
+.weight-300 { font-weight: 300; }
+.weight-400 { font-weight: 400; }
+.weight-500 { font-weight: 500; }
+.weight-600 { font-weight: 600; }
+.weight-700 { font-weight: 700; }
+.weight-800 { font-weight: 800; }
+.weight-900 { font-weight: 900; }
+
+[data-weight="100"] .weight-100,
+[data-weight="200"] .weight-200,
+[data-weight="300"] .weight-300,
+[data-weight="400"] .weight-400,
+[data-weight="500"] .weight-500,
+[data-weight="600"] .weight-600,
+[data-weight="700"] .weight-700,
+[data-weight="800"] .weight-800,
+[data-weight="900"] .weight-900 { 
+  text-decoration: underline;
+}
+
+.font-stack {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  min-height: 5rem;
+  text-align: left;
+  padding: .5rem 1rem .75rem;
+  border-top: 1px solid #e5e7eb;
+}
+
+.font-stack code {
+  font-family: 'Cascadia Code', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+  font-size: 13px;
+  line-height: 1.66;
+  font-weight: normal;
+  color: #1e293b;
+}
+
+.nope { color: #ec5f67; }
+.yep { color: #52a949; }
+
+.yep:first-child, :not(.yep) + .yep {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.yep ~ .yep {
+  text-decoration: none;
+}
+
+@media (min-width: 26rem) {
+  
+  .font-ui {
+    position: sticky;
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(22rem, 1fr));
+    gap: 0 1.5rem;
+    padding: 2rem 1.5rem 4rem;
+  }
+  
+}
+
