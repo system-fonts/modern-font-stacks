@@ -6,9 +6,10 @@
   "license": "MIT",
   "scripts": {
     "build": "html-includes --src src --dest dist --minify minifyJS=true",
-    "watch": "html-includes --src src --dest dist --watch"
+    "serve": "html-includes --src src --dest dist --watch & servor dist --reload --browse"
   },
   "devDependencies": {
-    "html-includes": "^4.4.1"
+    "html-includes": "^4.4.1",
+    "servor": "^4.0.2"
   }
 }
