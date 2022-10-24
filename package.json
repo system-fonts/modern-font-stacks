@@ -5,8 +5,9 @@
   "author": "Dan Klammer",
   "license": "MIT",
   "scripts": {
-    "build": "html-includes --src src --dest dist --minify minifyJS=true",
-    "serve": "html-includes --src src --dest dist --watch & servor dist --reload --browse"
+    "setup": "rm -rf /dist/ ; cp -r ./src/. ./dist ; rm ./dist/_*.*",
+    "build": "npm run setup && html-includes --src src --dest dist --minify minifyJS=true",
+    "serve": "npm run setup && servor dist --reload --browse & html-includes --src src --dest dist --watch"
   },
   "devDependencies": {
     "html-includes": "^4.4.1",
