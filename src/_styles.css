@@ -61,18 +61,8 @@ header p {
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
-  margin: 0 auto 1.5rem;
   background: #000;
   color: #fff;
-}
-
-.font-ui h1 {
-  margin: 0;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 1;
-  padding: 20px 30px 20px 20px;
-  display: inline-block;
 }
 
 .font-ui-container {
@@ -99,7 +89,7 @@ header p {
   text-transform: uppercase;
   letter-spacing: 1px;
   padding-bottom: 0.5rem;
-  opacity: 0.6;
+  color: #808080;
   font-weight: 600;
 }
 
@@ -130,6 +120,15 @@ header p {
   background: #fff;
   border-radius: 1rem;
   border: none;
+}
+
+.font-ui-container div output {
+  color: #fff;
+}
+
+#sizeoutput:after {
+  content: "em";
+  text-transform: lowercase;
 }
 
 #preview-text {
