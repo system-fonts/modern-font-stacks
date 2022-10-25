@@ -26,9 +26,15 @@
   
   <div class="font-ui">
     <div class="font-ui-container">
-      <div>Font Size:<br><input type="range" min="1.25" max="4" step=".25" value="2" oninput="changeSize(this.value)" onchange="changeSize(this.value)"></div>
-      <div>Font Weight:<br><input type="range" min="100" max="900" step="100" value="400" oninput="changeWeight(this.value)" onchange="changeWeight(this.value)"></div>
-      <div><input id="preview-text" type="search" size="30" oninput="updateText(this.value)" onchange="updateText(this.value)" placeholder="Type something..."></div>
+      <div>
+        <label for="font-size">Font Size</label>
+        <input id="font-size" name="font-size" type="range" min="1.25" max="4" step=".25" value="2" oninput="changeSize(this.value)" onchange="changeSize(this.value)">
+      </div>
+      <div>
+        <label for="font-weight">Font Weight</label>
+        <input id="font-weight" name="font-weight" type="range" min="100" max="900" step="100" value="400" oninput="changeWeight(this.value)" onchange="changeWeight(this.value)">
+      </div>
+      <input id="preview-text" type="search" size="30" oninput="updateText(this.value)" onchange="updateText(this.value)" placeholder="Type something to preview text..." autofocus>
     </div>
   </div>
   
