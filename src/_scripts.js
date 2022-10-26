@@ -44,7 +44,7 @@
   };
 })(document);
 
-var fonts = document.querySelector('main');
+var fonts = document.querySelector('#fonts-showcase');
 var previewText = document.querySelector('#preview-text');
 var systemfont = document.querySelectorAll('.font-stack span');
 
