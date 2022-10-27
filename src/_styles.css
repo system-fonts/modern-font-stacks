@@ -6,6 +6,7 @@
 html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -13,6 +14,66 @@ body {
   background: #fff;
   font-family: system-ui, sans-serif;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23bababa' fill-opacity='1' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+}
+
+
+/* === MENU NAVIGATION === */
+
+#menu details {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  padding: 0.5rem;
+  z-index: 2;
+  border: 2px solid transparent;
+}
+
+#menu details[open] {
+  background: rgba(255,255,255,0.98);
+  border: 2px solid #000;
+  box-shadow: 3px 3px 0 0 rgba(180,180,180,0.30);
+}
+
+#menu summary {
+  list-style: none;
+  cursor: pointer;
+  text-align: right;
+  float: right;
+  padding: 0.5rem;
+  margin-top: -0.5rem;
+  margin-right: -0.5rem;
+}
+
+#menu summary::-webkit-details-marker {
+  display: none;
+}
+
+#menu #i-close,
+#menu details[open] #i-menu { display: none; }
+#menu details[open] #i-close { display: block; }
+
+#menu nav {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 0.25rem;
+  min-width: 7rem;
+}
+
+#menu nav a {
+  color: #000;
+  font-size: 1.125rem;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  margin: 0 -0.75rem;
+  font-weight: 400;
+  text-decoration-color: #ccc;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
+
+#menu nav a:hover {
+  color: #202020;
+  text-decoration: underline;
 }
 
 
@@ -168,9 +229,9 @@ header p {
 }
 
 
-/* === FONT SHOWCASE === */
+/* === FONT STACKS === */
 
-#showcase {
+#fonts {
   text-align: center;
   max-width: 84rem;
   margin: 0 auto;
@@ -436,6 +497,10 @@ header p {
 
 @media (min-width: 42rem) {
   
+  #menu details {
+    position: fixed;
+  }
+  
   .ui {
     min-height: 4.5rem
   }
@@ -447,7 +512,7 @@ header p {
     border: 2px solid #404040;
   }
 
-  #showcase {
+  #fonts {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(22rem, 1fr));
     gap: 0 1.5rem;
