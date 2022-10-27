@@ -15,7 +15,7 @@ body {
 header {
   width: 100%;
   margin: 0;
-  padding: 2rem 1rem;
+  padding: 2.5rem 0.5rem;
   background: #fff;
   border-bottom: 1px solid #ddd;
   font-family: 'Avenir Next', 'Avenir Next LT Pro', Montserrat, Corbel, 'Noto Sans', sans-serif;
@@ -91,6 +91,7 @@ header p {
   padding-bottom: 0.5rem;
   color: #808080;
   font-weight: 600;
+  white-space: nowrap;
 }
 
 .font-ui-container div input {
@@ -124,6 +125,8 @@ header p {
 
 .font-ui-container div output {
   color: #fff;
+  display: inline-block;
+  min-width: 3.5rem;
 }
 
 #sizeoutput:after {
