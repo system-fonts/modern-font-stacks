@@ -542,6 +542,7 @@ header p {
     gap: 0.75rem 0.25rem;
     justify-content: center;
     max-width: 72rem;
+    overflow-x: hidden;
   }
   
 }
