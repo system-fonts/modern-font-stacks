@@ -268,8 +268,8 @@ header p {
   color: #1e293b;
 }
 
-.nope { color: #ec5f67; }
-.yep { color: #52a949; }
+.nope { color: #DC2626; }
+.yep { color: #408439; }
 
 .yep:first-child, :not(.yep) + .yep {
   text-decoration: underline;
