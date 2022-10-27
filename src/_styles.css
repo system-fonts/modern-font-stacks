@@ -54,7 +54,7 @@ header p {
   line-height: 1.5;
 }
 
-.font-ui {
+.ui-bg {
   position: sticky;
   top: 0;
   display: flex;
@@ -63,9 +63,10 @@ header p {
   width: 100%;
   background: #000;
   color: #fff;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.2);
 }
 
-.font-ui-container {
+.ui {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -77,13 +78,13 @@ header p {
   gap: 0 1rem;
 }
 
-.font-ui-container > div {
+.ui > div {
   flex: 1 auto;
   max-width: calc(50% - 0.5rem);
   padding: 0.75rem 0;
 }
 
-.font-ui-container div label {
+.ui div label {
   display: block;
   font-size: 0.75rem;
   text-transform: uppercase;
@@ -94,7 +95,7 @@ header p {
   white-space: nowrap;
 }
 
-.font-ui-container div input {
+.ui div input {
   width: 100%;
   appearance: none;
   background: #404040;
@@ -102,11 +103,11 @@ header p {
   cursor: grab;
 }
 
-.font-ui-container div input:active {
+.ui div input:active {
   cursor: grabbing;
 }
 
-.font-ui-container div input::-webkit-slider-thumb {
+.ui div input::-webkit-slider-thumb {
   appearance: none;
   width: .25rem;
   height: 1.25rem;
@@ -115,7 +116,7 @@ header p {
   border: none;
 }
 
-.font-ui-container div input::-moz-range-thumb {
+.ui div input::-moz-range-thumb {
   width: .25rem;
   height: 1.25rem;
   background: #fff;
@@ -123,7 +124,7 @@ header p {
   border: none;
 }
 
-.font-ui-container div output {
+.ui div output {
   color: #fff;
   display: inline-block;
   min-width: 3.5rem;
@@ -174,7 +175,7 @@ header p {
   border: 1px solid #e5e7eb;
   border-bottom-width: 2px;
   border: 1px solid #888;
-  box-shadow: 4px 4px 0 0 rgba(0,0,0,0.2);
+  box-shadow: 4px 4px 0 0 rgba(0,0,0,0.15);
 }
 
 .font-title {
@@ -282,29 +283,34 @@ header p {
   text-decoration: none;
 }
 
-
-#test-drive .font-ui-container {
-  gap: 1rem;
-  justify-content: center;
-  padding: 1.25rem 0;
-}
-
-
 #test-drive {
   background: #fff;
 }
 
-#test-drive button {
+#test-drive .ui {
+  gap: 0.75rem 0;
+  justify-content: center;
+  max-width: 70rem;
+  display: block;
+  white-space: nowrap;
+  overflow-x: scroll;
+  padding: 1rem;
+}
+
+#test-drive .ui button {
   appearance: none;
   background: transparent;
   border: none;
   color: #ccc;
-  font-size: 1;
+  font-size: 1.125rem;
+  line-height: 1.1;
+  min-height: 1.5rem;
   padding: 0.5rem 0.75rem;
   border: 2px solid rgba(255,255,255, 0.2);
   border-radius: 4px;
   cursor: pointer;
   position: relative;
+  margin: 0 0.5rem;
 }
 
 #test-drive button:active {
@@ -341,7 +347,7 @@ header p {
   display: block;
   font-size: 3rem;
   margin: 4rem auto;
-  max-width: 28rem;
+  max-width: 30rem;
   line-height: 1.1;
   text-align: center;
   font-weight: 200;
@@ -368,7 +374,7 @@ header p {
 
 @media (min-width: 42rem) {
   
-  .font-ui {
+  .ui {
     min-height: 4.5rem
   }
   
@@ -384,6 +390,12 @@ header p {
     grid-template-columns: repeat(auto-fill, minmax(22rem, 1fr));
     gap: 0 1.5rem;
     padding: 2rem 1.5rem 4rem;
+  }
+  
+  #test-drive .ui {
+    display: flex;
+    padding: 1.25rem 0;
+    white-space: auto;
   }
   
 }
