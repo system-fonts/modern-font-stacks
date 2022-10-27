@@ -1,5 +1,8 @@
 /*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */*,::after,::before{box-sizing:border-box}html{-moz-tab-size:4;tab-size:4}html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji'}hr{height:0;color:inherit}abbr[title]{text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',Menlo,monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button}::-moz-focus-inner{border-style:none;padding:0}:-moz-focusring{outline:1px dotted ButtonText}:-moz-ui-invalid{box-shadow:none}legend{padding:0}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}
 
+
+/* === BASE === */
+
 html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -11,6 +14,9 @@ body {
   font-family: system-ui, sans-serif;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23bababa' fill-opacity='1' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
 }
+
+
+/* === HEADER === */
 
 header {
   width: 100%;
@@ -53,6 +59,9 @@ header p {
   font-size: 1.25rem;
   line-height: 1.5;
 }
+
+
+/* === UI ELEMENTS === */
 
 .ui-bg {
   position: sticky;
@@ -158,6 +167,9 @@ header p {
   cursor: pointer:
 }
 
+
+/* === FONT SHOWCASE === */
+
 #showcase {
   text-align: center;
   max-width: 84rem;
@@ -195,6 +207,8 @@ header p {
 
 .font-callout {
   font-family: system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   white-space: nowrap;
   background: #eee;
   color: #505050;
@@ -266,6 +280,8 @@ header p {
 
 .font-stack code {
   font-family: 'Cascadia Code', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   font-size: 13px;
   line-height: 1.66;
   font-weight: normal;
@@ -282,6 +298,9 @@ header p {
 .yep ~ .yep {
   text-decoration: none;
 }
+
+
+/* === FONT TEST DRIVE === */
 
 #test-drive {
   background: #fff;
@@ -320,19 +339,6 @@ header p {
   color: #fff;
 }
 
-.system { font-family: system-ui, sans-serif; }
-.transitional-serif { font-family: Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif; }
-.humanist-sans { font-family: Seravek, 'PT Sans', Cantarell, Ubuntu, Calibri, 'Noto Sans', sans-serif; }
-.geo-humanist-sans { font-family: 'Avenir Next', 'Avenir Next LT Pro', Montserrat, Corbel, 'Noto Sans', sans-serif; }
-.neo-grotesque-sans { font-family: Roboto, 'Helvetica Neue', 'Nimbus Sans', Arial, sans-serif; }
-.old-style-serif { font-family: 'Iowan Old Style', 'Palatino Linotype', 'URW Palladio L', serif; }
-.monospace-slab-serif { font-family: 'Courier New', 'Nimbus Mono PS', 'Cutive Mono', monospace; }
-.monospace-code { font-family: 'Cascadia Code', Menlo, Consolas, 'DejaVu Sans Mono', monospace; }
-.industrial-semibold { font-family: 'Bahnschrift_SemiBold', 'DIN Alternate', 'Franklin Gothic Medium', 'NotoSans-SemiCondensedMedium', sans-serif; }
-.rounded-sans { font-family: ui-rounded, 'Hiragino Maru Gothic ProN', Quicksand, 'Arial Rounded MT Bold', MotoyaLMaru, sans-serif; }
-.slab-serif { font-family: Superclarendon, 'Bookman Old Style', 'Sitka Heading', 'URW Bookman', 'URW Bookman L', serif; }
-.didone-serif { font-family: Didot, 'Bodoni MT', 'URW Palladio L', serif; }
-
 #test-drive article {
   font-size: 1.25rem;
   line-height: 1.7777778;
@@ -370,6 +376,64 @@ header p {
   font-weight: 600;
 }
 
+
+/* === FONT STACKS === */
+
+.system {
+  font-family: system-ui, sans-serif;
+}
+
+.transitional-serif {
+  font-family: Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif;
+}
+
+.humanist-sans {
+  font-family: Seravek, 'PT Sans', Cantarell, Ubuntu, Calibri, 'Noto Sans', sans-serif;
+}
+
+.geo-humanist-sans {
+  font-family: 'Avenir Next', 'Avenir Next LT Pro', Montserrat, Corbel, 'Noto Sans', sans-serif;
+}
+
+.neo-grotesque-sans {
+  font-family: Roboto, 'Helvetica Neue', 'Nimbus Sans', Arial, sans-serif;
+}
+
+.old-style-serif {
+  font-family: 'Iowan Old Style', 'Palatino Linotype', 'URW Palladio L', serif;
+}
+
+.monospace-slab-serif {
+  font-family: 'Courier New', 'Nimbus Mono PS', 'Cutive Mono', monospace;
+  -webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: auto;
+}
+
+.monospace-code {
+  font-family: 'Cascadia Code', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+}
+
+.industrial-semibold {
+  font-family: 'Bahnschrift_SemiBold', 'DIN Alternate', 'Franklin Gothic Medium', 'NotoSans-SemiCondensedMedium', sans-serif;
+}
+
+.rounded-sans {
+  font-family: ui-rounded, 'Hiragino Maru Gothic ProN', Quicksand, 'Arial Rounded MT Bold', MotoyaLMaru, sans-serif;
+}
+
+.slab-serif {
+  font-family: Superclarendon, 'Bookman Old Style', 'Sitka Heading', 'URW Bookman', 'URW Bookman L', serif;
+}
+
+.didone-serif {
+  font-family: 'Didot', 'Bodoni MT', 'URW Palladio L', serif;
+  -webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: auto;
+}
+
+
+/* === DESKTOP STYLES === */
+
 @media (min-width: 42rem) {
   
   .ui {
@@ -400,4 +464,3 @@ header p {
   }
   
 }
-
