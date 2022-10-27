@@ -229,7 +229,7 @@ header p {
 }
 
 
-/* === FONT STACKS === */
+/* === SECTION: FONT STACKS === */
 
 #fonts {
   text-align: center;
@@ -361,7 +361,7 @@ header p {
 }
 
 
-/* === FONT TEST DRIVE === */
+/* === SECTION : FONT TEST DRIVE === */
 
 #test-drive {
   background: #fff;
@@ -490,6 +490,22 @@ header p {
   font-family: 'Didot', 'Bodoni MT', 'URW Palladio L', serif;
   -webkit-font-smoothing: auto;
   -moz-osx-font-smoothing: auto;
+}
+
+/* === ABOUT === */
+
+#about {
+  padding: 2rem 1rem;
+  min-height: 20rem;
+  background: #000;
+  color: #fff;
+}
+
+#about .messaging {
+  width: 100%;
+  max-width: 48rem;
+  margin: 0 auto;
+  text-align: center;
 }
 
 
