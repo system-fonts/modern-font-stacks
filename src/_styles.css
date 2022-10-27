@@ -6,7 +6,7 @@ html {
 }
 
 body {
-  margin: 0rem;
+  margin: 0;
   background: #fff;
   font-family: system-ui, sans-serif;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23bababa' fill-opacity='1' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
@@ -285,12 +285,10 @@ header p {
 
 #test-drive {
   background: #fff;
+  padding-bottom: 3rem;
 }
 
 #test-drive .ui {
-  gap: 0.75rem 0;
-  justify-content: center;
-  max-width: 70rem;
   display: block;
   white-space: nowrap;
   overflow-x: scroll;
@@ -300,17 +298,17 @@ header p {
 #test-drive .ui button {
   appearance: none;
   background: transparent;
-  border: none;
   color: #ccc;
   font-size: 1.125rem;
   line-height: 1.1;
   min-height: 1.5rem;
-  padding: 0.5rem 0.75rem;
   border: 2px solid rgba(255,255,255, 0.2);
   border-radius: 4px;
+  padding: 0.5rem 0.75rem;
+  margin: 0 0.25rem;
+  vertical-align: top;
   cursor: pointer;
   position: relative;
-  margin: 0 0.5rem;
 }
 
 #test-drive button:active {
@@ -339,7 +337,7 @@ header p {
   font-size: 1.25rem;
   line-height: 1.7777778;
   max-width: 45rem;
-  margin: 3rem auto;
+  margin: 2rem auto;
   padding: 1rem;
 }
 
@@ -389,13 +387,16 @@ header p {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(22rem, 1fr));
     gap: 0 1.5rem;
-    padding: 2rem 1.5rem 4rem;
+    padding: 3rem 1.5rem 4rem;
   }
   
   #test-drive .ui {
     display: flex;
     padding: 1.25rem 0;
-    white-space: auto;
+    white-space: normal;
+    gap: 0.75rem 0.25rem;
+    justify-content: center;
+    max-width: 72rem;
   }
   
 }
