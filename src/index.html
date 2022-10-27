@@ -28,7 +28,7 @@
     <div class="font-ui-container">
       <div>
         <label for="fontsize">
-          Font Size:
+          Font Size:&nbsp;
           <output id="sizeoutput">2</output>
         </label>
         <input id="fontsize" name="fontsize" type="range" min="1.25" max="4" step=".25" value="2" oninput="sizeoutput.value = this.value; changeSize(this.value)" onchange="changeSize(this.value)">
@@ -36,7 +36,7 @@
       </div>
       <div>
         <label for="fontweight">
-          Font Weight:
+          Font Weight:&nbsp;
           <output id="weightoutput">400</output>
         </label>
         <input id="fontweight" name="fontweight" type="range" min="100" max="900" step="100" value="400" oninput="weightoutput.value = this.value; changeWeight(this.value)" onchange="changeWeight(this.value)">
