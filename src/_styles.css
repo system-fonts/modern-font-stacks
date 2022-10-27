@@ -157,7 +157,7 @@ header p {
   cursor: pointer:
 }
 
-#fonts-showcase {
+#showcase {
   text-align: center;
   max-width: 84rem;
   margin: 0 auto;
@@ -282,6 +282,90 @@ header p {
   text-decoration: none;
 }
 
+
+#test-drive .font-ui-container {
+  gap: 1rem;
+  justify-content: center;
+  padding: 1.25rem 0;
+}
+
+
+#test-drive {
+  background: #fff;
+}
+
+#test-drive button {
+  appearance: none;
+  background: transparent;
+  border: none;
+  color: #ccc;
+  font-size: 1;
+  padding: 0.5rem 0.75rem;
+  border: 2px solid rgba(255,255,255, 0.2);
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+}
+
+#test-drive button:active {
+ top: 1px; 
+}
+
+#test-drive button[data-on="true"] {
+  border: 2px solid rgba(255,255,255, 1);
+  color: #fff;
+}
+
+.system { font-family: system-ui, sans-serif; }
+.transitional-serif { font-family: Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif; }
+.humanist-sans { font-family: Seravek, 'PT Sans', Cantarell, Ubuntu, Calibri, 'Noto Sans', sans-serif; }
+.geo-humanist-sans { font-family: 'Avenir Next', 'Avenir Next LT Pro', Montserrat, Corbel, 'Noto Sans', sans-serif; }
+.neo-grotesque-sans { font-family: Roboto, 'Helvetica Neue', 'Nimbus Sans', Arial, sans-serif; }
+.old-style-serif { font-family: 'Iowan Old Style', 'Palatino Linotype', 'URW Palladio L', serif; }
+.monospace-slab-serif { font-family: 'Courier New', 'Nimbus Mono PS', 'Cutive Mono', monospace; }
+.monospace-code { font-family: 'Cascadia Code', Menlo, Consolas, 'DejaVu Sans Mono', monospace; }
+.industrial-semibold { font-family: 'Bahnschrift_SemiBold', 'DIN Alternate', 'Franklin Gothic Medium', 'NotoSans-SemiCondensedMedium', sans-serif; }
+.rounded-sans { font-family: ui-rounded, 'Hiragino Maru Gothic ProN', Quicksand, 'Arial Rounded MT Bold', MotoyaLMaru, sans-serif; }
+.slab-serif { font-family: Superclarendon, 'Bookman Old Style', 'Sitka Heading', 'URW Bookman', 'URW Bookman L', serif; }
+.didone-serif { font-family: Didot, 'Bodoni MT', 'URW Palladio L', serif; }
+
+#test-drive article {
+  font-size: 1.25rem;
+  line-height: 1.7777778;
+  max-width: 45rem;
+  margin: 3rem auto;
+  padding: 1rem;
+}
+
+#test-drive article .title {
+  display: block;
+  font-size: 3rem;
+  margin: 4rem auto;
+  max-width: 28rem;
+  line-height: 1.1;
+  text-align: center;
+  font-weight: 200;
+}
+
+#test-drive article .chaper {
+  display: block;
+  font-size: 1rem;
+  line-height: 1;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+#test-drive article .chaper-name {
+  display: block;
+  margin: 1rem 0 2rem;
+  font-size: 2rem;
+  line-height: 1.1;
+  text-align: center;
+  font-weight: 600;
+}
+
 @media (min-width: 42rem) {
   
   .font-ui {
@@ -295,7 +379,7 @@ header p {
     border: 2px solid #404040;
   }
 
-  #fonts-showcase {
+  #showcase {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(22rem, 1fr));
     gap: 0 1.5rem;

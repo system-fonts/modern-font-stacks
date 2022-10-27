@@ -44,7 +44,7 @@
   };
 })(document);
 
-var fonts = document.querySelector('#fonts-showcase');
+var fonts = document.querySelector('#showcase');
 var previewText = document.querySelector('#preview-text');
 var systemfont = document.querySelectorAll('.font-stack span');
 
@@ -73,3 +73,17 @@ systemfont.forEach(function(el) {
   }
 });
 
+var article = document.querySelector('article');
+var previewButtons = document.querySelectorAll('#test-drive button');
+
+[].forEach.call(previewButtons, function(e){
+    e.addEventListener("click", function(){
+      article.className = '';
+      article.classList.add(this.className);
+      [].forEach.call(previewButtons, function(el) {
+         el.dataset.on = false;
+      });
+      this.dataset.on = true;
+      }, false);
+    }
+);
