@@ -453,7 +453,11 @@ header p {
 }
 
 .geo-humanist-sans {
-  font-family: 'Avenir Next', 'Avenir Next LT Pro', Montserrat, Corbel, 'Noto Sans', sans-serif;
+  font-family: 'Avenir Next', 'Avenir Next LT Pro', Montserrat, Corbel, 'Source Sans Pro', sans-serif;
+}
+
+.ancient-humanist-sans {
+  font-family: Skia, Candara, 'Noto Sans', sans-serif;
 }
 
 .neo-grotesque-sans {
@@ -479,17 +483,21 @@ header p {
 }
 
 .rounded-sans {
-  font-family: ui-rounded, 'Hiragino Maru Gothic ProN', Quicksand, 'Arial Rounded MT Bold', MotoyaLMaru, sans-serif;
+  font-family: ui-rounded, 'Hiragino Maru Gothic ProN', Quicksand, 'Arial Rounded MT Bold', Calibri, MotoyaLMaru, sans-serif;
 }
 
 .slab-serif {
-  font-family: Superclarendon, 'Bookman Old Style', 'Sitka Heading', 'URW Bookman', 'URW Bookman L', serif;
+  font-family: Superclarendon, 'Bookman Old Style', 'Sitka Heading', 'URW Bookman', 'URW Bookman L', Georgia, serif;
 }
 
 .didone-serif {
-  font-family: 'Didot', 'Bodoni MT', 'URW Palladio L', serif;
+  font-family: 'Didot', 'Bodoni MT', 'URW Palladio L', Sylfaen, serif;
   -webkit-font-smoothing: auto;
   -moz-osx-font-smoothing: auto;
+}
+
+.handwritten {
+  font-family: 'Segoe Print', 'Bradley Hand', 'Coming Soon', cursive;
 }
 
 /* === ABOUT === */
@@ -541,7 +549,7 @@ header p {
     white-space: normal;
     gap: 0.75rem 0.25rem;
     justify-content: center;
-    max-width: 72rem;
+    max-width: 80rem;
     overflow-x: hidden;
   }
   
