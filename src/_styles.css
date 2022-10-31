@@ -444,27 +444,27 @@ header p {
   font-family: system-ui, sans-serif;
 }
 
-.transitional-serif {
+.transitional {
   font-family: Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif;
 }
 
-.humanist-sans {
+.humanist {
   font-family: Seravek, 'PT Sans', Cantarell, Ubuntu, Calibri, 'Noto Sans', sans-serif;
 }
 
-.geo-humanist-sans {
+.geo-humanist {
   font-family: 'Avenir Next', 'Avenir Next LT Pro', Montserrat, Corbel, 'Source Sans Pro', sans-serif;
 }
 
-.ancient-humanist-sans {
+.ancient-humanist {
   font-family: Skia, Candara, 'Noto Sans', sans-serif;
 }
 
-.neo-grotesque-sans {
+.neo-grotesque {
   font-family: Roboto, 'Helvetica Neue', 'Nimbus Sans', Arial, sans-serif;
 }
 
-.old-style-serif {
+.old-style {
   font-family: 'Iowan Old Style', 'Palatino Linotype', 'URW Palladio L', serif;
 }
 
@@ -490,7 +490,7 @@ header p {
   font-family: Superclarendon, 'Bookman Old Style', 'Sitka Heading', 'URW Bookman', 'URW Bookman L', Georgia, serif;
 }
 
-.didone-serif {
+.didone {
   font-family: 'Didot', 'Bodoni MT', 'URW Palladio L', Sylfaen, serif;
   -webkit-font-smoothing: auto;
   -moz-osx-font-smoothing: auto;
