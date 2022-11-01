@@ -457,7 +457,7 @@ header p {
 }
 
 .ancient-humanist {
-  font-family: Skia, Candara, 'Noto Sans', sans-serif;
+  font-family: Skia, Optima, Candara, 'Noto Sans', sans-serif;
 }
 
 .neo-grotesque {
@@ -479,7 +479,7 @@ header p {
 }
 
 .industrial-semibold {
-  font-family: 'Bahnschrift_SemiBold', 'DIN Alternate', 'Franklin Gothic Medium', 'NotoSans-SemiCondensedMedium', sans-serif;
+  font-family: Bahnschrift, 'DIN Alternate', 'Franklin Gothic Medium', 'Roboto Condensed', sans-serif;
 }
 
 .rounded-sans {
