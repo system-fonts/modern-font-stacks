@@ -437,6 +437,12 @@ header p {
   font-weight: 600;
 }
 
+#test-drive article p:first-of-type::first-letter {
+  font-size: 225%;
+  line-height: 1;
+  margin-right: 0.1rem;
+}
+
 
 /* === FONT STACKS === */
 
