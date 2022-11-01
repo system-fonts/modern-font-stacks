@@ -454,6 +454,10 @@ header p {
   font-family: Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif;
 }
 
+.old-style {
+  font-family: 'Iowan Old Style', 'Palatino Linotype', 'URW Palladio L', serif;
+}
+
 .humanist {
   font-family: Seravek, 'PT Sans', Cantarell, Ubuntu, Calibri, 'Noto Sans', sans-serif;
 }
@@ -470,8 +474,8 @@ header p {
   font-family: Roboto, 'Helvetica Neue', 'Nimbus Sans', Arial, sans-serif;
 }
 
-.old-style {
-  font-family: 'Iowan Old Style', 'Palatino Linotype', 'URW Palladio L', serif;
+.geometric-slab-serif {
+  font-family: 'Rockwell Nova', Rockwell, sans-serif;
 }
 
 .monospace-slab-serif {
