@@ -170,6 +170,7 @@ header p {
   appearance: none;
   background: #404040;
   height: 3px;
+  border-radius: 2px;
   cursor: grab;
 }
 
@@ -573,6 +574,28 @@ header p {
   
   #test-drive article .chaper-name {
     font-size: 2rem;
+  }
+  
+}
+
+
+/* === TOUCH DEVICES ONLY STYLES === */
+
+@media (pointer: coarse) {
+  
+  .ui div input::-webkit-slider-thumb {
+    width: 0.5rem;
+    height: 1.5rem;
+    background: linear-gradient(90deg, #fff0 0%, #fff0  45%, #fff 45%, #fff 55%, #fff0 55%, #fff0 100%);
+    transform: scaleX(4.25);
+    box-shadow: none;
+  }
+  
+  .ui div input::-moz-range-thumb {
+    width: 0.5rem;
+    height: 1.5rem;
+    background: linear-gradient(90deg, #fff0 0%, #fff0  45%, #fff 45%, #fff 55%, #fff0 55%, #fff0 100%);
+    box-shadow: none;
   }
   
 }
