@@ -74,12 +74,14 @@ systemfont.forEach(function(el) {
 });
 
 var article = document.querySelector('article');
+var testDriveMenu = document.querySelector('#test-drive details');
 var previewButtons = document.querySelectorAll('#test-drive button');
 
 [].forEach.call(previewButtons, function(e){
     e.addEventListener('click', function(){
       article.className = '';
       article.classList.add(this.className);
+      testDriveMenu.removeAttribute("open");
       [].forEach.call(previewButtons, function(el) {
          el.dataset.on = false;
       });
@@ -97,7 +99,6 @@ var menuLinks = document.querySelectorAll('#menu nav a');
       }, false);
     }
 );
-
 
 document.addEventListener('click', event => {
   const isClickInside = menu.contains(event.target);
