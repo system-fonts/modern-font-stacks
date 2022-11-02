@@ -579,7 +579,7 @@ header p {
 }
 
 
-/* === TOUCH DEVICES ONLY STYLES === */
+/* === TOUCH ONLY STYLES === */
 
 @media (pointer: coarse) {
   
