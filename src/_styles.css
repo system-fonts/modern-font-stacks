@@ -584,18 +584,23 @@ header p {
 @media (pointer: coarse) {
   
   .ui div input::-webkit-slider-thumb {
-    width: 0.5rem;
-    height: 1.5rem;
-    background: linear-gradient(90deg, #fff0 0%, #fff0  45%, #fff 45%, #fff 55%, #fff0 55%, #fff0 100%);
-    transform: scaleX(4.25);
+    width: 0.25rem;
+    height: 2.75rem;
+    background: linear-gradient(90deg, #fff0 0%, #fff0 47%, #fff 47%, #fff 53%, #fff0 53%, #fff0 100%);
+    transform: scaleX(12);
     box-shadow: none;
+    border-top: 0.75rem solid #000;
+    border-bottom: 0.75rem solid #000;
   }
   
   .ui div input::-moz-range-thumb {
-    width: 0.5rem;
-    height: 1.5rem;
-    background: linear-gradient(90deg, #fff0 0%, #fff0  45%, #fff 45%, #fff 55%, #fff0 55%, #fff0 100%);
+    width: 0.25rem;
+    height: 2.75rem;
+    background: linear-gradient(90deg, #fff0 0%, #fff0 47%, #fff 47%, #fff 53%, #fff0 53%, #fff0 100%);
+    transform: scaleX(12);
     box-shadow: none;
+    border-top: 0.75rem solid #000;
+    border-bottom: 0.75rem solid #000;
   }
   
 }
