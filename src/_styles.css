@@ -487,6 +487,12 @@ header p {
   font-family: Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial, sans-serif;
 }
 
+@font-face {
+    font-family: 'Rockwell';
+    src: local('Rockwell');
+    ascent-override: 100%;
+}
+
 .geometric-slab-serif {
   font-family: 'Rockwell Nova', Rockwell, sans-serif;
 }
