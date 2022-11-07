@@ -1,4 +1,4 @@
 .DS_Store
 .nova
-dist
-node_modules
+site/dist
+site/node_modules
