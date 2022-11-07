@@ -449,6 +449,10 @@ header p {
   font-style: italic;
 }
 
+#test-drive article img {
+  display: block;
+  margin: 0 auto 2rem;
+}
 
 #test-drive article .chaper {
   display: block;
