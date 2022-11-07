@@ -573,8 +573,11 @@ header p {
   }
   
   #test-drive .ui {
-    padding: 0.25rem 0;
     max-width: 80rem;
+  }
+  #test-drive .ui summary {
+    padding: 1rem 4rem;
+    gap: 0.5rem
   }
   
   #test-drive article {
