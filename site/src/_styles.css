@@ -16,6 +16,17 @@ body {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23bababa' fill-opacity='1' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
 }
 
+a {
+  color: #000;
+  text-decoration-color: #ccc;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
+
+a:hover  {
+  text-decoration-color: #000;
+}
+
 
 /* === MENU NAVIGATION === */
 
@@ -62,13 +73,9 @@ body {
 #menu nav a {
   color: #000;
   font-size: 1.125rem;
-  text-decoration: none;
   padding: 0.5rem 1rem;
   margin: 0 -0.75rem;
   font-weight: 400;
-  text-decoration-color: #ccc;
-  text-decoration-thickness: 2px;
-  text-underline-offset: 4px;
 }
 
 #menu nav a:hover {
@@ -424,12 +431,24 @@ header p {
 #test-drive article .title {
   display: block;
   font-size: 2.5rem;
-  margin: 4rem auto;
+  margin: 4rem auto 5rem;
   max-width: 32rem;
   line-height: 1.1;
   text-align: center;
   font-weight: 200;
 }
+
+#test-drive article .author {
+  display: block;
+  font-size: 1.25rem;
+  margin: 1rem auto;
+  max-width: 32rem;
+  line-height: 1.1;
+  text-align: center;
+  font-weight: 200;
+  font-style: italic;
+}
+
 
 #test-drive article .chaper {
   display: block;
