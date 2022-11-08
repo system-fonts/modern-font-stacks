@@ -84,7 +84,7 @@ a:hover  {
 }
 
 
-/* === HEADER === */
+/* === ABOUT HEADER === */
 
 header {
   width: 100%;
@@ -99,6 +99,7 @@ header > div {
   width: 100%;
   max-width: 48rem;
   margin: 0 auto;
+  text-align: center;
 }
 
 header svg {
@@ -119,13 +120,44 @@ header h2 {
   font-size: 1.25rem;
   line-height: 1.3;
   text-align: center;
-  margin: 0.5rem;
-  font-weight: 400;
+  margin: 0.75rem;
+  font-weight: 500;
 }
 
 header p {
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   line-height: 1.5;
+}
+
+#about-buttons {
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem 1rem 1rem;
+  gap: 0.75rem;
+}
+
+.btn {
+  display: inline-flex;
+  gap: 0.5rem;
+  justify-content: center;
+  position: relative;
+  font-size: 1rem;
+  line-height: 1;
+  font-weight: 600;
+  align-items: center;
+  text-decoration: none;
+  padding: 0.5rem 1.25rem;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  background: #fdfdfd;
+}
+
+.btn:hover {
+  border: 2px solid #aaa;
+}
+
+.btn:active {
+  top: 1px;
 }
 
 
@@ -140,7 +172,8 @@ section > h2 {
   background: #252525;
   color: #fff;
   margin: 0;
-  padding: 1.5rem 1rem;
+  padding: 1rem;
+  border-top: 1px solid #353535;
   border-bottom: 1px solid #353535;
 }
 
@@ -568,17 +601,28 @@ section > h2 {
 /* === Footer === */
 
 footer {
-  padding: 2rem 1rem;
-  min-height: 20rem;
-  background: #000;
-  color: #fff;
+  padding: 2rem 1rem 2.25rem;
+  background: #252525;
+  color: #ccc;
+  font-size: 0.875;
+  line-height: 1.5;
+  text-align: center;
 }
 
-footer .messaging {
-  width: 100%;
-  max-width: 48rem;
-  margin: 0 auto;
-  text-align: center;
+footer a {
+  color: inherit;
+  text-decoration-color: #aaa;
+  text-decoration-thickness: 1px;
+}
+
+footer a:hover {
+  color: inherit;
+  text-decoration-color: #fff;
+}
+
+footer span {
+  padding: 0 0.75rem;
+  opacity: 0.5
 }
 
 
@@ -588,6 +632,10 @@ footer .messaging {
   
   #menu details {
     position: fixed;
+  }
+  
+  section > h2 {
+    padding: 1.5rem 1rem;
   }
   
   .ui {
