@@ -131,6 +131,19 @@ header p {
 
 /* === UI ELEMENTS === */
 
+section > h2 {
+  font-size: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 400;
+  background: #252525;
+  color: #fff;
+  margin: 0;
+  padding: 1.5rem 1rem;
+  border-bottom: 1px solid #353535;
+}
+
 .ui-bg {
   position: sticky;
   top: 0;
@@ -140,7 +153,6 @@ header p {
   width: 100%;
   background: #000;
   color: #fff;
-  box-shadow: 0 -1px 0 rgba(255,255,255,0.2);
 }
 
 .ui {
@@ -149,7 +161,7 @@ header p {
   justify-content: space-between;
   align-items: start;
   width: 100%;
-  max-width: 64rem;
+  max-width: 72rem;
   margin: 0 auto;
   padding: 0 1rem;
   gap: 0 1rem;
@@ -214,6 +226,7 @@ header p {
 }
 
 #preview-text {
+  width: 100%;
   flex: 1 auto;
   appearance: none;
   border-radius: 3px;
@@ -552,16 +565,16 @@ header p {
   font-family: 'Segoe Print', 'Bradley Hand', 'Coming Soon', cursive;
 }
 
-/* === ABOUT === */
+/* === Footer === */
 
-#about {
+footer {
   padding: 2rem 1rem;
   min-height: 20rem;
   background: #000;
   color: #fff;
 }
 
-#about .messaging {
+footer .messaging {
   width: 100%;
   max-width: 48rem;
   margin: 0 auto;
@@ -578,10 +591,12 @@ header p {
   }
   
   .ui {
-    min-height: 4.5rem
+    min-height: 4.5rem;
+    padding: 0 4rem;
   }
   
   #preview-text {
+    width: auto;
     padding: 0.75rem;
     margin-left: 1rem;
     align-self: center;
