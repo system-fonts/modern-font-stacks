@@ -76,6 +76,7 @@ a:hover  {
   padding: 0.5rem 1rem;
   margin: 0 -0.75rem;
   font-weight: 400;
+  text-decoration: none;
 }
 
 #menu nav a:hover {
