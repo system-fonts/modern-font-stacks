@@ -451,7 +451,7 @@ header p {
 
 #test-drive article img {
   display: block;
-  margin: 0 auto 2rem;
+  margin: 0 auto;
 }
 
 #test-drive article .chaper {
@@ -613,6 +613,11 @@ header p {
   
   #test-drive article .chaper-name {
     font-size: 2rem;
+  }
+  
+  #test-drive article img {
+    margin: 0 -3rem 0 1.5rem;
+    float: right;
   }
   
 }
