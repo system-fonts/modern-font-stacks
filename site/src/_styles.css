@@ -431,7 +431,7 @@ header p {
 #test-drive article .title {
   display: block;
   font-size: 2.5rem;
-  margin: 4rem auto 5rem;
+  margin: 4rem auto 6rem;
   max-width: 32rem;
   line-height: 1.1;
   text-align: center;
@@ -466,7 +466,7 @@ header p {
 
 #test-drive article .chaper-name {
   display: block;
-  margin: 1rem 0 2rem;
+  margin: 0.75rem 0 2rem;
   font-size: 1.75rem;
   line-height: 1.1;
   text-align: center;
