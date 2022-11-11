@@ -32,10 +32,10 @@ a:hover  {
 
 #menu details {
   position: absolute;
+  z-index: 3;
   top: 0.5rem;
   right: 0.5rem;
   padding: 0.5rem;
-  z-index: 2;
   border: 2px solid transparent;
 }
 
