@@ -543,15 +543,15 @@ section > h2 {
 }
 
 .humanist {
-  font-family: Seravek, 'Gill Sans Nova', Cantarell, Ubuntu, Calibri, 'Noto Sans', sans-serif;
+  font-family: Seravek, 'Gill Sans Nova', Cantarell, Ubuntu, Calibri, source-sans-pro, sans-serif;
 }
 
 .geometric-humanist {
-  font-family: 'Avenir Next', 'Avenir Next LT Pro', Montserrat, Corbel, 'Source Sans Pro', sans-serif;
+  font-family: 'Avenir Next', 'Avenir Next LT Pro', Montserrat, Corbel, source-sans-pro, sans-serif;
 }
 
 .classical-humanist {
-  font-family: Optima, Candara, 'Noto Sans', sans-serif;
+  font-family: Optima, Candara, source-sans-pro, sans-serif;
 }
 
 .neo-grotesque {
@@ -579,11 +579,11 @@ section > h2 {
 }
 
 .industrial-semibold {
-  font-family: Bahnschrift, 'DIN Alternate', 'Franklin Gothic Medium', 'Roboto Condensed', sans-serif;
+  font-family: Bahnschrift, 'DIN Alternate', 'Franklin Gothic Medium', sans-serif-condensed, sans-serif;
 }
 
 .rounded-sans {
-  font-family: ui-rounded, 'Hiragino Maru Gothic ProN', Quicksand, 'Arial Rounded MT Bold', Calibri, MotoyaLMaru, sans-serif;
+  font-family: ui-rounded, 'Hiragino Maru Gothic ProN', Quicksand, 'Arial Rounded MT Bold', Calibri, source-sans-pro, sans-serif;
 }
 
 .slab-serif {
@@ -597,7 +597,7 @@ section > h2 {
 }
 
 .handwritten {
-  font-family: 'Segoe Print', 'Bradley Hand', 'Coming Soon', cursive;
+  font-family: 'Segoe Print', 'Bradley Hand', casual, cursive;
 }
 
 /* === Footer === */
