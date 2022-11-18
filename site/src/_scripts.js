@@ -64,6 +64,12 @@ function updateText(newVal){
     });
 }
 
+function enterToBlur(el){
+  if (event.key == 'Enter'){
+    el.blur();
+  }
+};
+
 systemfont.forEach(function(el) {
   var font = el.innerText;
   if (isFontAvailable(font)) {
