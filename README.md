@@ -14,7 +14,7 @@ These font stacks have been designed by using the best in its classification fir
 
 ## Transitional Serif
 
-Transitional typefaces are a mix between Old Style and Modern typefaces that was developed during The Enlightment. Baskerville and Times New Roman are common examples of Transitional serifs.
+Transitional typefaces are a mix between Old Style and Modern typefaces that was developed during The Enlightenment. Baskerville and Times New Roman are common examples of Transitional serifs.
 
 - Charter is a fantastic and timeless typeface designed by Matthew Carter in 1987 for low-resolution 300dpi fax machines and laser printers. It has a large x-height helping with readability, and holds up beautifully on today's screens.
 - Sitka is another beautiful typeface designed by Matthew Carter that slightly resembles Charter. Sitka was designed in collaboration Microsoft's Advanced Reading Technologies to optimize readability.
