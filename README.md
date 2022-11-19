@@ -5,8 +5,7 @@
 </p>
 
 <h1 align="center">Modern Font Stacks</h1>
-<h3 align="center">Hand-picked system font stacks, organized by typeface classification</h3>
-
+<h3 align="center">Progressive system font stacks, organized by typeface classification</h3>
 
 These font stacks have been designed by using the best in its classification first, followed by the next best avaliable for each modern operating system. By the nature of this project, these font selections are somewhat subjective.
 
