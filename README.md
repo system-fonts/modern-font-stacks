@@ -85,4 +85,4 @@ html {
 - Android 10 or newer
 - iOS 9.3 or newer
 - macOS 10.9 (Mavericks) or newer
-- Linux (most Debian and Arch distros)
+- Linux
