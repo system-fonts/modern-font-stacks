@@ -11,7 +11,7 @@ These font stacks have been designed by using the best in its classification fir
 
 <br>
 
-## Transitional Serif
+## Transitional
 
 Transitional typefaces are a mix between Old Style and Modern typefaces that was developed during The Enlightenment. Baskerville and Times New Roman are common examples of Transitional serifs.
 
@@ -21,6 +21,7 @@ font-family: Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif;
 ```
 
 <img src="img/transitional-serif.png" alt="Transitional Serif Font Stack"> 
+
 
 <details>
 <summary><strong>🎥 Preview Rendering</strong></summary>
