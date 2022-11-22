@@ -7,7 +7,7 @@
 <h1 align="center">Modern Font Stacks</h1>
 <h3 align="center">Progressive system font stacks, organized by typeface classification</h3>
 
-These font stacks have been designed by using the best in its classification first, followed by the next best avaliable for each modern operating system. By the nature of this project, these font selections are somewhat subjective.
+You may not need Google Fonts or web fonts. No CLS, no jank, no KBs — instant renders.
 
 <br>
 
@@ -21,7 +21,6 @@ font-family: Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif;
 ```
 
 <img src="img/transitional-serif.png" alt="Transitional Serif Font Stack"> 
-
 
 <details>
 <summary><strong>🎥 Preview Rendering</strong></summary>
