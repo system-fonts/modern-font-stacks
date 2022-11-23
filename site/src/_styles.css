@@ -286,11 +286,14 @@ section > h2 {
 
 /* === SECTION: FONT STACKS === */
 
-#fonts {
+#font-stacks {
   text-align: center;
+}
+
+#fonts {
   max-width: 84rem;
   margin: 0 auto;
-  padding: 2rem 1rem 4rem;
+  padding: 2rem 1rem 0;
   font-size: 2rem;
 }
 
@@ -404,6 +407,18 @@ section > h2 {
   color: #1e293b;
 }
 
+#font-stacks-key {
+  display: inline-flex;
+  flex-direction: row;
+  margin: 0.5rem auto 4rem;
+  gap: 1rem;
+  justify-content: center;
+  padding: 1rem;
+  font-size: 13px;
+  font-weight: 500;
+  background: white;
+}
+
 .nope { color: #DC2626; }
 .yep { color: #408439; }
 
@@ -465,7 +480,6 @@ section > h2 {
   border: 2px solid rgba(255,255,255, 1);
   color: #fff;
 }
-
 
 #test-drive article {
   font-size: 1.125rem;
@@ -660,7 +674,7 @@ footer span {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(22rem, 1fr));
     gap: 0 1.5rem;
-    padding: 3rem 1.5rem 4rem;
+    padding: 3rem 1.5rem 0;
   }
   
   #test-drive .ui {
