@@ -44,8 +44,14 @@
   };
 })(document);
 
+
+// Font Stacks
+
 var fonts = document.querySelector('#fonts');
 var previewText = document.querySelector('#preview-text');
+var fontWeightRange = document.querySelector('#fontweight');
+var fontWeightOutput = document.querySelector('#weightoutput');
+var fontWeights = document.querySelectorAll('.font-weights span');
 var systemfont = document.querySelectorAll('.font-stack span');
 
 function changeSize(newVal){
@@ -56,6 +62,15 @@ function changeWeight(newVal){
   fonts.style.fontWeight = newVal;
   fonts.setAttribute('data-weight', newVal);
 }
+
+[].forEach.call(fontWeights, function(e){
+  e.addEventListener('click', function(){
+    fonts.style.fontWeight = e.innerText;
+    fonts.setAttribute('data-weight', e.innerText);
+    fontWeightRange.value = e.innerText;
+    fontWeightOutput.innerText = e.innerText;
+  }, false);
+});
 
 function updateText(newVal){
   var elements = document.querySelectorAll('.font-preview');
@@ -78,6 +93,9 @@ systemfont.forEach(function(el) {
     el.classList.add('nope');
   }
 });
+
+
+// Test Drive
 
 var article = document.querySelector('article');
 var testDriveMenu = document.querySelector('#test-drive details');
@@ -111,4 +129,4 @@ document.addEventListener('click', event => {
   if (!isClickInside) {
     menu.removeAttribute("open");
   }
-})
+});

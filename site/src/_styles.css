@@ -210,6 +210,7 @@ section > h2 {
 .ui div label {
   display: block;
   font-size: 0.75rem;
+  text-align: left;
   text-transform: uppercase;
   letter-spacing: 1px;
   padding-bottom: 0.5rem;
@@ -363,6 +364,7 @@ section > h2 {
 .font-weights span {
   text-decoration: none;
   text-underline-offset: 3px;
+  cursor: pointer;
 }
 
 .weight-100 { font-weight: 100; }
