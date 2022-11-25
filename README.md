@@ -30,9 +30,6 @@ font-family: Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif;
 <details>
 <summary><strong>✅ Font Weights & Notes</strong></summary>
 
-
-#### Supported Font Weights
-
 | Font Weights          | 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900 |
 |:----------------------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | Charter               |     |     |     |  ●  |     |     |  ●  |     |  ●  |
@@ -41,8 +38,6 @@ font-family: Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif;
 | Cambria               |     |     |     |  ●  |     |     |  ●  |     |     |
 | Noto Serif¹           |     |     |     |  ●  |     |     |  ●  |     |     |
 
-
-#### Notes
 - Android uses Noto Serif as its default `serif` font, so no need to specify in the stack.
 - ¹Noto Serif may have all font weights depending on the linux distro.
 
