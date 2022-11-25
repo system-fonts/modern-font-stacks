@@ -20,11 +20,11 @@ Transitional typefaces are a mix between Old Style and Modern typefaces that was
 font-family: Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif;
 ```
 
-<img src="img/transitional-serif.png" alt="Transitional Serif Font Stack"> 
+<img src="img/transitional.png" alt="Transitional Font Stack"> 
 
 <details>
 <summary><strong>🎥 Preview Rendering</strong></summary>
-<img src="img/transitional-serif-preview.gif" alt="Transitional Serif Font Stack">
+<img src="img/transitional-preview.gif" alt="Transitional Font Rendering">
 </details>
 
 <details>
