@@ -590,7 +590,7 @@ section > h2 {
 }
 
 .monospace-code {
-  font-family: 'Cascadia Code', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+  font-family: ui-monospace, 'Cascadia Code', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
 }
 
 .industrial {
