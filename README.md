@@ -13,7 +13,7 @@
 
 ## Transitional
 
-Transitional typefaces are a mix between Old Style and Modern typefaces that was developed during The Enlightenment. Baskerville and Times New Roman are common examples of Transitional serifs.
+Transitional typefaces are a mix between Old Style and Modern typefaces that was developed during The Enlightenment. Times New Roman and Baskerville are common examples of Transitional serifs.
 
 #### CSS Font Stack
 ```css
