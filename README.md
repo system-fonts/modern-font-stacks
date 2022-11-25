@@ -5,9 +5,9 @@
 </p>
 
 <h1 align="center">Modern Font Stacks</h1>
-<h3 align="center">Progressive system font stacks, organized by typeface classification</h3>
+<h3 align="center">System font stacks for the modern OS, organized by typeface classification</h3>
 
-You may not need Google Fonts or web fonts. No CLS, no jank, no KBs — instant renders.
+<p align="center">You may not need Google Fonts or web fonts. No CLS, no jank, no KBs — instant renders.</p>
 
 <br>
 
