@@ -43,8 +43,6 @@ font-family: Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif;
 
 
 #### Notes
-- Charter is a timeless typeface designed by Matthew Carter in 1987 for low-resolution 300dpi fax machines and laser printers. It has a large x-height helping with readability, and holds up on today's screens.
-- Sitka is another typeface designed by Matthew Carter that slightly resembles Charter. Sitka was designed in collaboration Microsoft's Advanced Reading Technologies to optimize readability.
 - Android uses Noto Serif as its default `serif` font, so no need to specify in the stack.
 - ¹Noto Serif may have all font weights depending on the linux distro.
 
