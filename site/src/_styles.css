@@ -97,7 +97,7 @@ header {
 
 header > div {
   width: 100%;
-  max-width: 48rem;
+  max-width: 64rem;
   margin: 0 auto;
   text-align: center;
 }
