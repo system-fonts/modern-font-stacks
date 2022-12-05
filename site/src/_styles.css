@@ -573,16 +573,6 @@ section > h2 {
   font-family: Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial, sans-serif;
 }
 
-@font-face {
-    font-family: 'Rockwell';
-    src: local('Rockwell');
-    ascent-override: 100%;
-}
-
-.geometric-slab-serif {
-  font-family: 'Rockwell Nova', Rockwell, sans-serif;
-}
-
 .monospace-slab-serif {
   font-family: 'Nimbus Mono PS', 'Courier New', 'Cutive Mono', monospace;
   -webkit-font-smoothing: auto;
@@ -603,6 +593,16 @@ section > h2 {
 
 .slab-serif {
   font-family: Superclarendon, 'Bookman Old Style', 'Sitka Heading', 'URW Bookman', 'URW Bookman L', 'Georgia Pro', Georgia, serif;
+}
+
+@font-face {
+    font-family: 'Rockwell';
+    src: local('Rockwell');
+    ascent-override: 100%;
+}
+
+.geometric-slab-serif {
+  font-family: 'Rockwell Nova', Rockwell, sans-serif;
 }
 
 .didone {
