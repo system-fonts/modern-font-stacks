@@ -554,15 +554,15 @@ section > h2 {
 }
 
 .old-style {
-  font-family: 'Iowan Old Style', 'Palatino Linotype', 'URW Palladio L', serif;
+  font-family: 'Iowan Old Style', 'Palatino Linotype', 'URW Palladio L', P052, serif;
 }
 
 .humanist {
-  font-family: Seravek, 'Gill Sans Nova', Cantarell, Ubuntu, Calibri, source-sans-pro, sans-serif;
+  font-family: Seravek, 'Gill Sans Nova', Cantarell, Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
 }
 
 .geometric-humanist {
-  font-family: 'Avenir Next', 'Avenir Next LT Pro', Montserrat, Corbel, source-sans-pro, sans-serif;
+  font-family: Avenir, 'Avenir Next LT Pro', Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
 }
 
 .classical-humanist {
@@ -570,7 +570,7 @@ section > h2 {
 }
 
 .neo-grotesque {
-  font-family: Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial, sans-serif;
+  font-family: Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial, sans-serif;
 }
 
 @font-face {
@@ -584,7 +584,7 @@ section > h2 {
 }
 
 .monospace-slab-serif {
-  font-family: 'Courier New', 'Nimbus Mono PS', 'Cutive Mono', monospace;
+  font-family: 'Nimbus Mono PS', 'Courier New', 'Cutive Mono', monospace;
   -webkit-font-smoothing: auto;
   -moz-osx-font-smoothing: auto;
 }
@@ -594,11 +594,11 @@ section > h2 {
 }
 
 .industrial {
-  font-family: Bahnschrift, 'DIN Alternate', 'Franklin Gothic Medium', sans-serif-condensed, sans-serif;
+  font-family: Bahnschrift, 'DIN Alternate', 'Franklin Gothic Medium', 'Nimbus Sans Narrow', sans-serif-condensed, sans-serif;
 }
 
 .rounded-sans {
-  font-family: ui-rounded, 'Hiragino Maru Gothic ProN', Quicksand, 'Arial Rounded MT Bold', Calibri, source-sans-pro, sans-serif;
+  font-family: ui-rounded, 'Hiragino Maru Gothic ProN', Quicksand, Comfortaa, Manjari, 'Arial Rounded MT Bold', Calibri, source-sans-pro, sans-serif;
 }
 
 .slab-serif {
@@ -606,13 +606,13 @@ section > h2 {
 }
 
 .didone {
-  font-family: 'Didot', 'Bodoni MT', 'URW Palladio L', Sylfaen, serif;
+  font-family: Didot, 'Bodoni MT', 'Noto Serif Display', 'URW Palladio L', P052, Sylfaen, serif
   -webkit-font-smoothing: auto;
   -moz-osx-font-smoothing: auto;
 }
 
 .handwritten {
-  font-family: 'Segoe Print', 'Bradley Hand', casual, cursive;
+  font-family: 'Segoe Print', 'Bradley Hand', Chilanka, casual, cursive;
 }
 
 /* === Footer === */
