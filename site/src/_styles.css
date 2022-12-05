@@ -647,6 +647,10 @@ footer span {
 
 @media (min-width: 42rem) {
   
+  header h2 {
+    font-size: 1.25rem;
+  }
+  
   header p {
     font-size: 1.125rem;
   }
