@@ -573,6 +573,12 @@ section > h2 {
   font-family: Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial, sans-serif;
 }
 
+@font-face {
+  font-family: 'Nimbus Mono PS';
+  src: local('Nimbus Mono PS');
+  ascent-override: 100%;
+}
+
 .monospace-slab-serif {
   font-family: 'Nimbus Mono PS', 'Courier New', 'Cutive Mono', monospace;
   -webkit-font-smoothing: auto;
@@ -596,9 +602,9 @@ section > h2 {
 }
 
 @font-face {
-    font-family: 'Rockwell';
-    src: local('Rockwell');
-    ascent-override: 100%;
+  font-family: 'Rockwell';
+  src: local('Rockwell');
+  ascent-override: 100%;
 }
 
 .geometric-slab-serif {
