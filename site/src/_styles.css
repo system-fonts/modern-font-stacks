@@ -572,12 +572,12 @@ section > h2 {
 .neo-grotesque {
   font-family: Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial, sans-serif;
 }
-
+/* 
 @font-face {
   font-family: 'Nimbus Mono PS';
   src: local('Nimbus Mono PS');
   ascent-override: 100%;
-}
+} */
 
 .monospace-slab-serif {
   font-family: 'Nimbus Mono PS', 'Courier New', 'Cutive Mono', monospace;
