@@ -597,18 +597,18 @@ section > h2 {
   font-family: ui-rounded, 'Hiragino Maru Gothic ProN', Quicksand, Comfortaa, Manjari, 'Arial Rounded MT Bold', Calibri, source-sans-pro, sans-serif;
 }
 
-.slab-serif {
-  font-family: Superclarendon, 'Bookman Old Style', 'Sitka Heading', 'URW Bookman', 'URW Bookman L', 'Georgia Pro', Georgia, serif;
-}
-
 @font-face {
   font-family: 'Rockwell';
   src: local('Rockwell');
   ascent-override: 100%;
 }
 
-.geometric-slab-serif {
+.slab-serif {
   font-family: 'Rockwell Nova', Rockwell, 'DejaVu Serif', 'Sitka Small', serif;
+}
+
+.antique {
+  font-family: Superclarendon, 'Bookman Old Style', 'Sitka Heading', 'URW Bookman', 'URW Bookman L', 'Georgia Pro', Georgia, serif;
 }
 
 .didone {
