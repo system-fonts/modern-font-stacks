@@ -574,19 +574,13 @@ section > h2 {
 }
 
 @font-face {
-  font-family: 'NimbusMono';
-  src: local('NimbusMono');
-  ascent-override: 100%;
-}
-
-@font-face {
   font-family: 'Nimbus Mono PS';
   src: local('Nimbus Mono PS');
   ascent-override: 100%;
 }
 
 .monospace-slab-serif {
-  font-family: 'NimbusMono', 'Nimbus Mono PS', 'Courier New', 'Cutive Mono', monospace;
+  font-family: 'Nimbus Mono PS', 'Courier New', 'Cutive Mono', monospace;
   -webkit-font-smoothing: auto;
   -moz-osx-font-smoothing: auto;
 }
