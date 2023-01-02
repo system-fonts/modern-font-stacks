@@ -11,6 +11,38 @@
 
 <br>
 
+## System UI
+
+System UI fonts are those native to the operating system interface. They are highly legible and easy to read at small sizes, contains many font weights, and is ideal for UI elements.
+
+#### CSS Font Stack
+```css
+font-family: system-ui, sans-serif;
+```
+
+<img src="img/system-ui.png" alt="System UI Font Stack"> 
+
+<details>
+<summary><strong>🎥 Preview Rendering</strong></summary>
+<img src="img/system-ui-preview.gif" alt="System UI Font Rendering">
+</details>
+
+<details>
+<summary><strong>✅ Font Weights & Notes</strong></summary>
+
+<br>
+
+| Font Weights          | 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900 |
+|:----------------------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| San Francisco         |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |
+| Segoe UI              |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |
+| Roboto                |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |
+| Ubuntu                |  ●  |     |  ●  |  ●  |  ●  |     |  ●  |     |     |
+| Cantarell             |  ●  |     |  ●  |  ●  |     |     |  ●  |  ●  |     |
+| Noto Sans             |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |
+
+</details>
+
 ## Transitional
 
 Transitional typefaces are a mix between Old Style and Modern typefaces that was developed during The Enlightenment. Times New Roman and Baskerville are common examples of Transitional serifs.
