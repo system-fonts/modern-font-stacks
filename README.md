@@ -43,6 +43,9 @@ font-family: system-ui, sans-serif;
 
 </details>
 
+
+<br>
+
 ## Transitional
 
 Transitional typefaces are a mix between Old Style and Modern typefaces that was developed during The Enlightenment. Times New Roman and Baskerville are common examples of Transitional serifs.
