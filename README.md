@@ -10,8 +10,8 @@
 <p align="center">You may not need Google Fonts or web fonts. No CLS, no jank, no KBs — instant renders.</p>
 
 <p align="center">
-  <a href="#system-ui">System UI</a> / 
-  <a href="#transitional">Transitional</a> / 
+  <a href="#system-ui">System UI</a> &nbsp;&middot;&nbsp; 
+  <a href="#transitional">Transitional</a> &nbsp;&middot;&nbsp; 
   <a href="#old-style">Old Style</a>
 </p>
 
