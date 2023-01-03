@@ -12,7 +12,8 @@
 <p align="center">
   <a href="#system-ui">System UI</a> &nbsp;&middot;&nbsp; 
   <a href="#transitional">Transitional</a> &nbsp;&middot;&nbsp; 
-  <a href="#old-style">Old Style</a>
+  <a href="#old-style">Old Style</a> &nbsp;&middot;&nbsp; 
+  <a href="#humanist">Humanist</a>
 </p>
 
 <br>
@@ -119,12 +120,50 @@ font-family: 'Iowan Old Style', 'Palatino Linotype', 'URW Palladio L', P052, ser
 | Iowan Old Style       |     |     |     |  ●  |     |     |  ●  |     |  ●  |
 | Palatino Linotype     |     |     |     |  ●  |     |     |  ●  |     |     |
 | URW Palladio L        |     |     |     |  ●  |     |     |  ●  |     |     |
-| P052.                 |     |     |     |  ●  |     |     |  ●  |     |     |
+| P052                  |     |     |     |  ●  |     |     |  ●  |     |     |
 | Noto Serif            |     |     |     |  ●  |     |     |  ●  |     |     |
 
 
 #### Notes
 - Android uses Noto Serif as its default `serif` font, so no need to specify in the stack.
+
+</details>
+
+<br>
+
+## Humanist
+
+Humanist typefaces are characterized by their organic, calligraphic forms and low contrast between thick and thin strokes. These typefaces are inspired by the handwriting of the Renaissance period and are often considered to be more legible and easier to read than other sans-serif typefaces.
+
+#### CSS Font Stack
+```css
+font-family: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
+```
+
+<img src="img/humanist.png" alt="Humanist Font Stack"> 
+
+<details>
+<summary><strong>🎥 Preview Rendering</strong></summary>
+<img src="img/humanist-preview.gif" alt="Humanist Font Rendering">
+</details>
+
+<details>
+<summary><strong>✅ Font Weights & Notes</strong></summary>
+
+<br>
+
+| Font Weights          | 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900 |
+|:----------------------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| Seravek               |     |  ●  |  ●  |  ●  |  ●  |     |  ●  |     |     |
+| Gill Sans Nova        |     |     |  ●  |  ●  |     |     |  ●  |  ●  |     |
+| Ubuntu                |  ●  |     |  ●  |  ●  |  ●  |     |  ●  |     |     |
+| Calibri               |     |     |  ●  |  ●  |     |     |  ●  |     |     |
+| DejaVu Sans           |     |  ●  |     |  ●  |     |     |  ●  |     |     |
+| Source Sans Pro       |     |     |     |  ●  |     |  ●  |  ●  |     |     |
+
+#### Notes
+- [Gill Sans Nova](https://apps.microsoft.com/store/detail/gill-sans-nova/9PK93BG0Z1JJ) is available as a supplemental downloadable font.
+- Source Sans Pro uses name [source-sans-pro](https://android.googlesource.com/platform/frameworks/base/+/master/data/fonts/fonts.xml#263) under Android, so this font only targets Android devices.
 
 </details>
 
