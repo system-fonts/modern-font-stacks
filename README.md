@@ -14,7 +14,8 @@
   <a href="#transitional">Transitional</a> &nbsp;&middot;&nbsp; 
   <a href="#old-style">Old Style</a> &nbsp;&middot;&nbsp; 
   <a href="#humanist">Humanist</a> &nbsp;&middot;&nbsp; 
-  <a href="#geometric-humanist">Geometric Humanist</a>
+  <a href="#geometric-humanist">Geometric Humanist</a> &nbsp;&middot;&nbsp; 
+  <a href="#classical-humanist">Classical Humanist</a>
 </p>
 
 <br>
