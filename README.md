@@ -13,7 +13,8 @@
   <a href="#system-ui">System UI</a> &nbsp;&middot;&nbsp; 
   <a href="#transitional">Transitional</a> &nbsp;&middot;&nbsp; 
   <a href="#old-style">Old Style</a> &nbsp;&middot;&nbsp; 
-  <a href="#humanist">Humanist</a>
+  <a href="#humanist">Humanist</a> &nbsp;&middot;&nbsp; 
+  <a href="#geometric-humanist">Geometric Humanist</a>
 </p>
 
 <br>
