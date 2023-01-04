@@ -169,6 +169,47 @@ font-family: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-s
 
 <br>
 
+## Geometric Humanist
+
+Geometric Humanist typefaces are characterized by their clean, geometric forms and uniform stroke widths. These typefaces are often considered to be modern and sleek in appearance, and are often used for headlines and other display purposes. Futura is a famous example of this classification.
+
+
+#### CSS Font Stack
+```css
+font-family: Avenir, 'Avenir Next LT Pro', Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+```
+
+<img src="img/geometric-humanist.png" alt="Geometric Humanist Font Stack"> 
+
+<details>
+<summary><strong>🎥 Preview Rendering</strong></summary>
+<img src="img/geometric-humanist-preview.gif" alt="Geometric Humanist Font Rendering">
+</details>
+
+<details>
+<summary><strong>✅ Font Weights & Notes</strong></summary>
+
+<br>
+
+| Font Weights          | 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900 |
+|:----------------------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| Avenir                |     |     |  ●  |  ●  |  ●  |     |     |  ●  |  ●  |
+| Avenir Next LT Pro    |     |     |  ●  |  ●  |     |     |  ●  |     |     |
+| Montserrat            |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |
+| Corbel                |     |     |  ●  |  ●  |     |     |  ●  |     |     |
+| URW Gothic            |     |     |  ●  |     |     |  ●  |     |     |     |
+| Source Sans Pro       |     |     |     |  ●  |     |  ●  |  ●  |     |     |
+
+#### Notes
+- Avenir was chosen over Avenir Next for macOS because the weight 300 is much more legible on the web over the 200 weight that Avenir Next has.
+- [Avenir Next LT Pro](https://learn.microsoft.com/en-us/typography/font-list/avenirnextltpro) is supplied with Microsoft Office products.
+- Source Sans Pro uses name [source-sans-pro](https://android.googlesource.com/platform/frameworks/base/+/master/data/fonts/fonts.xml#263) under Android, so this font only targets Android devices.
+
+
+</details>
+
+<br>
+
 ## Additional Features
 
 #### Emoji Support
