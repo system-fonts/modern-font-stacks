@@ -211,6 +211,39 @@ font-family: Avenir, 'Avenir Next LT Pro', Montserrat, Corbel, 'URW Gothic', sou
 
 <br>
 
+## Classical Humanist
+
+Classical Humanist typefaces are characterized by how the strokes subtly widen as they reach the stroke terminals without ending in a serif. These typefaces are inspired by classical Roman capitals and the stone-carving on Renaissance-period tombstones.
+
+#### CSS Font Stack
+```css
+font-family: Optima, Candara, 'Noto Sans', source-sans-pro, sans-serif;
+```
+
+<img src="img/classical-humanist.png" alt="Classical Humanist Font Stack"> 
+
+<details>
+<summary><strong>🎥 Preview Rendering</strong></summary>
+<img src="img/classical-humanist-preview.gif" alt="Classical Humanist Font Rendering">
+</details>
+
+<details>
+<summary><strong>✅ Font Weights & Notes</strong></summary>
+
+<br>
+
+| Font Weights          | 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900 |
+|:----------------------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| Optima                |     |     |     |  ●  |     |     |  ●  |     |  ●  |
+| Candara               |     |     |  ●  |  ●  |     |     |  ●  |     |     |
+| Noto Sans             |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |
+| Source Sans Pro       |     |     |     |  ●  |     |  ●  |  ●  |     |     |
+
+
+</details>
+
+<br>
+
 ## Additional Features
 
 #### Emoji Support
@@ -236,7 +269,7 @@ html {
 
 ## Operating System Support
 - Windows 7 or newer
-- Android 10 or newer
+- Android 10 or newer (Very limited with 9-10 fonts)
 - iOS 9.3 or newer
 - macOS 10.9 (Mavericks) or newer
 - Linux
