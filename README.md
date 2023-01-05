@@ -309,8 +309,8 @@ html {
 <br>
 
 ## Operating System Support
-- Windows 7 or newer
-- Android 10 or newer (Very limited with 9-10 fonts)
-- iOS 9.3 or newer
-- macOS 10.9 (Mavericks) or newer
-- Linux
+- [Windows 7 or newer](https://learn.microsoft.com/en-us/typography/fonts/windows_7_font_list)
+- [Android 10 or newer](https://android.googlesource.com/platform/frameworks/base/+/master/data/fonts/fonts.xml) <small>(Very limited with 8 fonts)</small>
+- [iOS 9.3 or newer](https://developer.apple.com/fonts/system-fonts/)
+- [macOS 10.9 (Mavericks) or newer](https://support.apple.com/en-us/HT201375)
+- [Linux](https://docs.google.com/spreadsheets/d/1kbxC3UyGTzpA9aOEJD-GYH0uHTops5VSEb8jKKD9Wwc/edit?usp=sharing) <small>(Sampled 12 popular distros)</small>
