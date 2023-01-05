@@ -68,7 +68,7 @@ font-family: system-ui, sans-serif;
 
 ## Transitional
 
-Transitional typefaces are a mix between Old Style and Modern typefaces that was developed during The Enlightenment. One of the most famous examples of a Transitional typeface is Times New Roman, which was developed for the Times of London newspaper. 
+Transitional typefaces are a mix between Old Style and Modern typefaces that was developed during The Enlightenment. One of the most famous examples of a Transitional typeface is Times New Roman, which was developed for the Times of London newspaper.
 
 #### CSS Font Stack
 ```css
@@ -169,7 +169,7 @@ font-family: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-s
 | Gill Sans Nova        |     |     |  ●  |  ●  |     |     |  ●  |  ●  |     |
 | Ubuntu                |  ●  |     |  ●  |  ●  |  ●  |     |  ●  |     |     |
 | Calibri               |     |     |  ●  |  ●  |     |     |  ●  |     |     |
-| DejaVu Sans           |     |  ●  |     |  ●  |     |     |  ●  |     |     |
+| DejaVu Sans           |  ●  |     |     |  ●  |     |     |  ●  |     |     |
 | Source Sans Pro       |     |     |     |  ●  |     |  ●  |  ●  |     |     |
 
 #### Notes
@@ -280,7 +280,7 @@ font-family: Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial
 | Inter                 |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |
 | Roboto                |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |
 | Helvetica Neue        |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |     |     |
-| Arial Nova            |     |  ●  |     |  ●  |     |     |  ●  |     |     |
+| Arial Nova            |     |     |  ●  |  ●  |     |     |  ●  |     |     |
 | Nimbus Sans           |     |     |     |  ●  |     |  ●  |  ●  |     |     |
 | Arial                 |     |     |     |  ●  |     |  ●  |  ●  |     |     |
 
@@ -319,6 +319,47 @@ font-family: 'Nimbus Mono PS', 'Courier New', 'Cutive Mono', monospace;
 - Nimbus Mono PS is specified first because many Linux distros create name alias for Courier New and not always represent a slab serif
 - Cutive Mono probably doesn't need to be prepresented in the stack as Android creates a name alias for Courier New.
 - Cutive Mono unfortunately only has one weight
+
+
+</details>
+
+<br>
+
+## Monospace Code
+
+Monospace Code typefaces are specifically designed for use in programming and other technical applications. These typefaces are characterized by their monospaced design, which means that all letters and characters have the same width, and their clear, legible forms.
+
+
+#### CSS Font Stack
+```css
+font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+```
+
+<img src="img/monospace-code.png" alt="Monospace Code Font Stack"> 
+
+<details>
+<summary><strong>🎥 Preview Rendering</strong></summary>
+<img src="img/monospace-code-preview.gif" alt="Monospace Code Font Rendering">
+</details>
+
+<details>
+<summary><strong>✅ Font Weights & Notes</strong></summary>
+
+<br>
+
+| Font Weights          | 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900 |
+|:----------------------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| SF Mono               |     |     |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |     |
+| Cascadia Code         |  ●  |  ●  |  ●  |  ●  |     |  ●  |  ●  |     |     |
+| Source Code Pro       |     |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |     |
+| Menlo                 |     |     |     |  ●  |     |     |  ●  |     |     |
+| Consolas              |     |     |     |  ●  |     |     |  ●  |     |     |
+| DejaVu Sans Mono      |     |     |     |  ●  |     |     |  ●  |     |     |
+| Droid Sans Mono       |     |     |     |  ●  |     |     |     |     |     |
+
+#### Notes
+- SF Mono is [only available](https://caniuse.com/extended-system-fonts) via `ui-monospace` on macOS 10.15+ and iOS 13.3+ while using Safari
+- Droid Sans Mono for Android does not need to be specified in the stack as `monospace` is a name alias for it
 
 
 </details>
