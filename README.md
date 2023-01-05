@@ -9,6 +9,8 @@
 
 <p align="center">You may not need Google Fonts or web fonts. No CLS, no jank, no KBs — instant renders.</p>
 
+<br>
+<hr>
 <p align="center">
   <a href="#system-ui">System UI</a> &nbsp;&middot;&nbsp; 
   <a href="#transitional">Transitional</a> &nbsp;&middot;&nbsp; 
@@ -17,6 +19,10 @@
   <a href="#geometric-humanist">Geometric Humanist</a> &nbsp;&middot;&nbsp; 
   <a href="#classical-humanist">Classical Humanist</a>
 </p>
+<p align="center">
+  <a href="#neo-grotesque">Neo-Grotesque</a>
+</p>
+<hr>
 
 <br>
 
@@ -240,6 +246,40 @@ font-family: Optima, Candara, 'Noto Sans', source-sans-pro, sans-serif;
 | Noto Sans             |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |
 | Source Sans Pro       |     |     |     |  ●  |     |  ●  |  ●  |     |     |
 
+
+</details>
+
+<br>
+
+## Neo-Grotesque
+
+Neo-Grotesque typefaces are a style of sans-serif that was developed in the late 19th and early 20th centuries and is characterized by its clean, geometric forms and uniform stroke widths. One of the most famous examples of a Neo-Grotesque typeface is Helvetica.
+
+#### CSS Font Stack
+```css
+font-family: Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial, sans-serif;
+```
+
+<img src="img/neo-grotesque.png" alt="Neo-Grotesque Font Stack"> 
+
+<details>
+<summary><strong>🎥 Preview Rendering</strong></summary>
+<img src="img/neo-grotesque-preview.gif" alt="Neo-Grotesque Font Rendering">
+</details>
+
+<details>
+<summary><strong>✅ Font Weights & Notes</strong></summary>
+
+<br>
+
+| Font Weights          | 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900 |
+|:----------------------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| Inter                 |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |
+| Roboto                |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |
+| Helvetica Neue        |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |     |     |
+| Arial Nova            |     |  ●  |     |  ●  |     |     |  ●  |     |     |
+| Nimbus Sans           |     |     |     |  ●  |     |  ●  |  ●  |     |     |
+| Arial                 |     |     |     |  ●  |     |  ●  |  ●  |     |     |
 
 </details>
 
