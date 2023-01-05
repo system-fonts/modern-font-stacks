@@ -250,6 +250,8 @@ font-family: Optima, Candara, 'Noto Sans', source-sans-pro, sans-serif;
 | Noto Sans             |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |
 | Source Sans Pro       |     |     |     |  ●  |     |  ●  |  ●  |     |     |
 
+#### Notes
+- Source Sans Pro uses name [source-sans-pro](https://android.googlesource.com/platform/frameworks/base/+/master/data/fonts/fonts.xml#263) under Android, so this font only targets Android devices.
 
 </details>
 
