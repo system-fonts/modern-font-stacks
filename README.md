@@ -21,7 +21,8 @@
 </p>
 <p align="center">
   <a href="#neo-grotesque">Neo-Grotesque</a> &nbsp;&middot;&nbsp; 
-  <a href="#monospace-slab-serif">Monospace Slab Serif</a>
+  <a href="#monospace-slab-serif">Monospace Slab Serif</a> &nbsp;&middot;&nbsp; 
+  <a href="#monospace-code">Monospace Code</a>
 </p>
 <hr>
 
