@@ -285,6 +285,43 @@ font-family: Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial
 
 <br>
 
+## Monospace Slab Serif
+
+Monospace Slab Serif typefaces are characterized by their fixed-width letters, which have the same width regardless of their shape, and its simple, geometric forms. Used to emulate typewriter output for reports, tabular work and technical documentation.
+
+#### CSS Font Stack
+```css
+font-family: 'Nimbus Mono PS', 'Courier New', 'Cutive Mono', monospace;
+```
+
+<img src="img/monospace-slab-serif.png" alt="Monospace Slab Serif Font Stack"> 
+
+<details>
+<summary><strong>🎥 Preview Rendering</strong></summary>
+<img src="img/monospace-slab-serif-preview.gif" alt="Monospace Slab Serif Font Rendering">
+</details>
+
+<details>
+<summary><strong>✅ Font Weights & Notes</strong></summary>
+
+<br>
+
+| Font Weights          | 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900 |
+|:----------------------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| Nimbus Mono PS        |     |     |     |  ●  |     |     |  ●  |     |     |
+| Courier New           |     |     |     |  ●  |     |     |  ●  |     |     |
+| Cutive Mono           |     |     |     |  ●  |     |     |     |     |     |
+
+#### Notes
+- Nimbus Mono PS is specified first because many Linux distros create name alias for Courier New and not always represent a slab serif
+- Cutive Mono probably doesn't need to be prepresented in the stack as Android creates a name alias for Courier New.
+- Cutive Mono unfortunately only has one weight
+
+
+</details>
+
+<br>
+
 ## Additional Features
 
 #### Emoji Support
