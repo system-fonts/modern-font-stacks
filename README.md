@@ -97,6 +97,8 @@ font-family: Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif;
 
 
 #### Notes
+- [Charter](https://practicaltypography.com/charter.html) is a fantastic and timeless typeface designed by Matthew Carter in 1987 for low-resolution 300dpi fax machines and laser printers. It has a large x-height helping with readability, and holds up beautifully on today's screens.
+- [Sitka](https://learn.microsoft.com/en-us/typography/font-list/sitka) is another beautiful typeface designed by Matthew Carter that slightly resembles Charter. Sitka was designed in collaboration [Microsoft's Advanced Reading Technologies](https://www.microsoft.com/en-us/research/uploads/prod/2021/06/Larson-Carter-2015-Sitka.pdf) to optimize readability.
 - Android uses Noto Serif as its default `serif` font, so no need to specify in the stack.
 
 </details>
