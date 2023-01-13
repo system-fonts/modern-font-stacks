@@ -10,7 +10,12 @@
     "serve": "npm run setup && servor dist --reload --browse & html-includes --src src --dest dist --watch"
   },
   "devDependencies": {
-    "html-includes": "^4.4.1",
+    "html-includes": "^5.0.0",
     "servor": "^4.0.2"
+  },
+  "overrides": {
+    "html-includes": {
+      "loader-utils": "^1.4.2"
+    }
   }
 }
