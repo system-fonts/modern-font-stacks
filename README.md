@@ -7,7 +7,7 @@
 <h1 align="center">Modern Font Stacks</h1>
 <h3 align="center">System font stacks for the modern OS, organized by typeface classification</h3>
 
-<p align="center">You may not need Google Fonts or web fonts. No CLS, no jank, no KBs — instant renders.</p>
+<p align="center">Getting the most out of every local system font. No CLS, no jank, no KBs — instant renders.</p>
 
 <br>
 <hr>
