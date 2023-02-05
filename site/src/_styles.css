@@ -102,6 +102,20 @@ header > div {
   text-align: center;
 }
 
+header .logo-link {
+  display: block;
+  max-width: 22rem;
+  margin: 0 auto 1.25rem;
+  text-decoration: none;
+}
+
+header .logo-link:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-decoration-color: #ccc;
+  text-underline-offset: 0.4rem;
+}
+
 header svg {
   display: block;
   margin: 0 auto;
