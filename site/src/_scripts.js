@@ -45,7 +45,7 @@
 })(document);
 
 
-// Font Stacks
+// ----- FONT STACKS ----- //
 
 var fonts = document.querySelector('#fonts');
 var previewText = document.querySelector('#preview-text');
@@ -95,12 +95,31 @@ systemfont.forEach(function(el) {
 });
 
 
-// Test Drive
+// ----- TEST DRIVE ----- //
 
 var article = document.querySelector('article');
+var testDrive = document.querySelector('#test-drive');
 var testDriveMenu = document.querySelector('#test-drive details');
 var previewButtons = document.querySelectorAll('#test-drive button');
+var urlParams = new URLSearchParams(window.location.search);
+var stackParam = urlParams.get('stack');
 
+var stacksAvail = Array.prototype.map.call(previewButtons, function(el) {
+    return el.className;
+});
+
+// If has proper URL param
+if (stacksAvail.includes(stackParam)) {
+  article.className = '';
+  article.classList.add(stackParam);
+  [].forEach.call(previewButtons, function(el) {
+     el.dataset.on = false;
+  });
+  document.querySelector(`.${CSS.escape(stackParam)}`).dataset.on = true;
+  testDrive.scrollIntoView();
+}
+
+// Font stack buttons
 [].forEach.call(previewButtons, function(e){
     e.addEventListener('click', function(){
       article.className = '';
@@ -109,10 +128,16 @@ var previewButtons = document.querySelectorAll('#test-drive button');
       [].forEach.call(previewButtons, function(el) {
          el.dataset.on = false;
       });
-      this.dataset.on = true;
+      this.dataset.on = true;      
+      urlParams.set('stack', this.className);
+      //window.location.search = urlParams;
+      window.history.replaceState(null, null, '?' + urlParams);
       }, false);
     }
 );
+
+
+// ----- MENU ACTIONS ----- //
 
 var menu = document.querySelector('#menu details');
 var menuLinks = document.querySelectorAll('#menu nav a');
