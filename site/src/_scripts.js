@@ -116,7 +116,7 @@ if (stacksAvail.includes(stackParam)) {
      el.dataset.on = false;
   });
   document.querySelector(`.${CSS.escape(stackParam)}`).dataset.on = true;
-  testDrive.scrollIntoView();
+  testDrive.scrollIntoView({behavior: 'instant'});
 }
 
 // Font stack buttons
