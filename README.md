@@ -42,7 +42,7 @@ font-family: system-ui, sans-serif;
 &nbsp; &nbsp;💻 **[View in Your Browser](https://modernfontstacks.com/?stack=system-ui) ([Article View](https://modernfontstacks.com/?stack=system-ui#article-view))**
 
 <details>
-<summary><strong>🎥 Preview Rendering</strong></summary>
+<summary><strong>🎥 Preview Rendering Across Each OS</strong></summary>
 <img src="img/system-ui-preview.gif" alt="System UI Font Rendering">
 </details>
 
@@ -82,7 +82,7 @@ font-family: Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif;
 &nbsp; &nbsp;💻 **[View in Your Browser](https://modernfontstacks.com/?stack=transitional) ([Article View](https://modernfontstacks.com/?stack=transitional#article-view))**
 
 <details>
-<summary><strong>🎥 Preview Rendering</strong></summary>
+<summary><strong>🎥 Preview Rendering Across Each OS</strong></summary>
 <img src="img/transitional-preview.gif" alt="Transitional Font Rendering">
 </details>
 
@@ -123,7 +123,7 @@ font-family: 'Iowan Old Style', 'Palatino Linotype', 'URW Palladio L', P052, ser
 &nbsp; &nbsp;💻 **[View in Your Browser](https://modernfontstacks.com/?stack=old-style) ([Article View](https://modernfontstacks.com/?stack=old-style#article-view))**
 
 <details>
-<summary><strong>🎥 Preview Rendering</strong></summary>
+<summary><strong>🎥 Preview Rendering Across Each OS</strong></summary>
 <img src="img/old-style-preview.gif" alt="Old Style Font Rendering">
 </details>
 
@@ -162,7 +162,7 @@ font-family: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-s
 &nbsp; &nbsp;💻 **[View in Your Browser](https://modernfontstacks.com/?stack=humanist) ([Article View](https://modernfontstacks.com/?stack=humanist#article-view))**
 
 <details>
-<summary><strong>🎥 Preview Rendering</strong></summary>
+<summary><strong>🎥 Preview Rendering Across Each OS</strong></summary>
 <img src="img/humanist-preview.gif" alt="Humanist Font Rendering">
 </details>
 
@@ -202,7 +202,7 @@ font-family: Avenir, 'Avenir Next LT Pro', Montserrat, Corbel, 'URW Gothic', sou
 &nbsp; &nbsp;💻 **[View in Your Browser](https://modernfontstacks.com/?stack=geometric-humanist) ([Article View](https://modernfontstacks.com/?stack=geometric-humanist#article-view))**
 
 <details>
-<summary><strong>🎥 Preview Rendering</strong></summary>
+<summary><strong>🎥 Preview Rendering Across Each OS</strong></summary>
 <img src="img/geometric-humanist-preview.gif" alt="Geometric Humanist Font Rendering">
 </details>
 
@@ -245,7 +245,7 @@ font-family: Optima, Candara, 'Noto Sans', source-sans-pro, sans-serif;
 &nbsp; &nbsp;💻 **[View in Your Browser](https://modernfontstacks.com/?stack=classical-humanist) ([Article View](https://modernfontstacks.com/?stack=classical-humanist#article-view))**
 
 <details>
-<summary><strong>🎥 Preview Rendering</strong></summary>
+<summary><strong>🎥 Preview Rendering Across Each OS</strong></summary>
 <img src="img/classical-humanist-preview.gif" alt="Classical Humanist Font Rendering">
 </details>
 
@@ -282,7 +282,7 @@ font-family: Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial
 &nbsp; &nbsp;💻 **[View in Your Browser](https://modernfontstacks.com/?stack=neo-grotesque) ([Article View](https://modernfontstacks.com/?stack=neo-grotesque#article-view))**
 
 <details>
-<summary><strong>🎥 Preview Rendering</strong></summary>
+<summary><strong>🎥 Preview Rendering Across Each OS</strong></summary>
 <img src="img/neo-grotesque-preview.gif" alt="Neo-Grotesque Font Rendering">
 </details>
 
@@ -318,7 +318,7 @@ font-family: 'Nimbus Mono PS', 'Courier New', 'Cutive Mono', monospace;
 &nbsp; &nbsp;💻 **[View in Your Browser](https://modernfontstacks.com/?stack=monospace-slab-serif) ([Article View](https://modernfontstacks.com/?stack=monospace-slab-serif#article-view))**
 
 <details>
-<summary><strong>🎥 Preview Rendering</strong></summary>
+<summary><strong>🎥 Preview Rendering Across Each OS</strong></summary>
 <img src="img/monospace-slab-serif-preview.gif" alt="Monospace Slab Serif Font Rendering">
 </details>
 
@@ -358,7 +358,7 @@ font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 
 &nbsp; &nbsp;💻 **[View in Your Browser](https://modernfontstacks.com/?stack=monospace-code) ([Article View](https://modernfontstacks.com/?stack=monospace-code#article-view))**
 
 <details>
-<summary><strong>🎥 Preview Rendering</strong></summary>
+<summary><strong>🎥 Preview Rendering Across Each OS</strong></summary>
 <img src="img/monospace-code-preview.gif" alt="Monospace Code Font Rendering">
 </details>
 
