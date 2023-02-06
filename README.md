@@ -39,6 +39,8 @@ font-family: system-ui, sans-serif;
 
 <img src="img/system-ui.png" alt="System UI Font Stack"> 
 
+&nbsp; &nbsp;🚗 **[Test Drive in Your Browser](https://modernfontstacks.com/?stack=system-ui)**
+
 <details>
 <summary><strong>🎥 Preview Rendering</strong></summary>
 <img src="img/system-ui-preview.gif" alt="System UI Font Rendering">
@@ -63,8 +65,6 @@ font-family: system-ui, sans-serif;
 - The fonts shown are the default fonts for UI in each modern OS.
 
 </details>
-
-&nbsp; &nbsp;🚗 **[Test Drive in Your Browser](https://modernfontstacks.com/?stack=system-ui)**
 
 <br>
 
