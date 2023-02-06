@@ -137,9 +137,9 @@ if (stacksAvail.includes(stackParam)) {
          el.dataset.on = false;
       });
       this.dataset.on = true;
-      urlParams.set('stack', this.className);
-      window.history.replaceState(null, null, '?' + urlParams + '#article-view');
-      //window.history.replaceState({}, document.title, location.protocol + '//' + location.host + location.pathname);
+      // urlParams.set('stack', this.className);
+      // window.history.replaceState(null, null, '?' + urlParams + '#article-view');
+      // window.history.replaceState({}, document.title, location.protocol + '//' + location.host + location.pathname);
       }, false);
     }
 );
