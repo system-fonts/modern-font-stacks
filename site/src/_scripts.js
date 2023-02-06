@@ -53,6 +53,7 @@ var fontWeightRange = document.querySelector('#fontweight');
 var fontWeightOutput = document.querySelector('#weightoutput');
 var fontWeights = document.querySelectorAll('.font-weights span');
 var systemfont = document.querySelectorAll('.font-stack span');
+var fontCard = document.querySelectorAll('.font-card');
 
 function changeSize(newVal){
   fonts.style.fontSize = newVal + 'em';
@@ -95,12 +96,12 @@ systemfont.forEach(function(el) {
 });
 
 
-// ----- TEST DRIVE ----- //
+// ----- ARTICLE VIEW ----- //
 
 var article = document.querySelector('article');
-var testDrive = document.querySelector('#test-drive');
-var testDriveMenu = document.querySelector('#test-drive details');
-var previewButtons = document.querySelectorAll('#test-drive button');
+var articleView = document.querySelector('#article-view');
+var articleViewMenu = document.querySelector('#article-view details');
+var previewButtons = document.querySelectorAll('#article-view button');
 var urlParams = new URLSearchParams(window.location.search);
 var stackParam = urlParams.get('stack');
 
@@ -115,8 +116,15 @@ if (stacksAvail.includes(stackParam)) {
   [].forEach.call(previewButtons, function(el) {
      el.dataset.on = false;
   });
-  document.querySelector(`.${CSS.escape(stackParam)}`).dataset.on = true;
-  testDrive.scrollIntoView();
+  document.querySelector(`#article-view .${CSS.escape(stackParam)}`).dataset.on = true;
+  document.querySelector(`#${CSS.escape(stackParam)}`).scrollIntoView();
+  document.querySelector(`#${CSS.escape(stackParam)}`).classList.add('highlight');
+  
+  document.addEventListener('click', function(e) {
+    [].forEach.call(fontCard, function(el) {
+       el.classList.remove('highlight');
+    });
+  }, { once: true });
 }
 
 // Font stack buttons
@@ -124,14 +132,14 @@ if (stacksAvail.includes(stackParam)) {
     e.addEventListener('click', function(){
       article.className = '';
       article.classList.add(this.className);
-      testDriveMenu.removeAttribute("open");
+      articleViewMenu.removeAttribute("open");
       [].forEach.call(previewButtons, function(el) {
          el.dataset.on = false;
       });
-      this.dataset.on = true;      
+      this.dataset.on = true;
       urlParams.set('stack', this.className);
-      //window.location.search = urlParams;
-      window.history.replaceState(null, null, '?' + urlParams);
+      window.history.replaceState(null, null, '?' + urlParams + '#article-view');
+      //window.history.replaceState({}, document.title, location.protocol + '//' + location.host + location.pathname);
       }, false);
     }
 );
@@ -156,11 +164,12 @@ document.addEventListener('click', event => {
   }
 });
 
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
+document.querySelectorAll('.smooth-scroll').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
         e.preventDefault();
         document.querySelector(this.getAttribute('href')).scrollIntoView({
             behavior: 'smooth'
         });
+        window.history.replaceState(null, null, this.getAttribute('href'));
     });
 });

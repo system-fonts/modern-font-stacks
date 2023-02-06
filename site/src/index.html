@@ -20,9 +20,9 @@
         </svg>
       </summary>
       <nav>
-        <a href="#about">About</a>
-        <a href="#font-stacks">Font Stacks</a>
-        <a href="#test-drive">Test Drive</a>
+        <a href="#about" class="smooth-scroll">About</a>
+        <a href="#font-stacks" class="smooth-scroll">Font Stacks</a>
+        <a href="#article-view" class="smooth-scroll">Article View</a>
         <a href="https://github.com/system-fonts/modern-font-stacks">GitHub</a>
       </nav>
     </details>
@@ -33,17 +33,19 @@
       <a href="/" class="logo-link">
         <svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="96" height="96">
           <title>Modern Font Stacks</title>
-          <path fill="#BBB" d="M20 20h100v100H20z" />
-          <path fill="#666" d="M14 14h100v100H14z" />
-          <path fill="#000" d="M8 8h100v100H8z" />
-          <path d="M61.77 40.74a70.8 70.8 0 0 1 10.01-5.08c2.83-1.1 5.23-1.66 7.18-1.66 4.04 0 7.18 1.32 9.42 3.96 2.25 2.6 3.37 6.26 3.37 10.98v28.47l1.8 1.6 5.33.5v3.61H77.05v-3.61l4.7-.5 1.8-1.6V50.94c0-3.54-.73-6.15-2.2-7.8-1.46-1.67-3.73-2.5-6.79-2.5-1.53 0-3.23.28-5.12.83-1.86.52-3.9 1.34-6.15 2.44v33.5l1.75 1.6 4.74.5v3.61H48.44v-3.61l4.84-.5 1.7-1.6V50.94c0-3.51-.73-6.1-2.2-7.76-1.43-1.7-3.64-2.54-6.63-2.54-1.63 0-3.39.28-5.28.83a34.98 34.98 0 0 0-6.1 2.44v33.5l1.7 1.6 4.8.5v3.61H19.33v-3.61l5.42-.5 1.7-1.6V41.23h-7.12V38.1l11.62-3.56h3.81V40a61.66 61.66 0 0 1 9.08-4.55c2.6-.97 4.92-1.46 6.94-1.46 2.44 0 4.59.57 6.44 1.7a12.22 12.22 0 0 1 4.54 5.04Z" fill="#fff" />
+          <path fill="#BBB" d="M20 20h100v100H20z" class="logo-back-layer" />
+          <path fill="#666" d="M14 14h100v100H14z" class="logo-middle-layer" />
+          <g class="logo-front-layer">
+            <path fill="#000" d="M8 8h100v100H8z" />
+              <path d="M61.77 40.74a70.8 70.8 0 0 1 10.01-5.08c2.83-1.1 5.23-1.66 7.18-1.66 4.04 0 7.18 1.32 9.42 3.96 2.25 2.6 3.37 6.26 3.37 10.98v28.47l1.8 1.6 5.33.5v3.61H77.05v-3.61l4.7-.5 1.8-1.6V50.94c0-3.54-.73-6.15-2.2-7.8-1.46-1.67-3.73-2.5-6.79-2.5-1.53 0-3.23.28-5.12.83-1.86.52-3.9 1.34-6.15 2.44v33.5l1.75 1.6 4.74.5v3.61H48.44v-3.61l4.84-.5 1.7-1.6V50.94c0-3.51-.73-6.1-2.2-7.76-1.43-1.7-3.64-2.54-6.63-2.54-1.63 0-3.39.28-5.28.83a34.98 34.98 0 0 0-6.1 2.44v33.5l1.7 1.6 4.8.5v3.61H19.33v-3.61l5.42-.5 1.7-1.6V41.23h-7.12V38.1l11.62-3.56h3.81V40a61.66 61.66 0 0 1 9.08-4.55c2.6-.97 4.92-1.46 6.94-1.46 2.44 0 4.59.57 6.44 1.7a12.22 12.22 0 0 1 4.54 5.04Z" fill="#fff" />
+          </g>
         </svg>
         <h1>Modern Font Stacks</h1>
       </a>
       <h2>System font stacks for the modern OS, organized by typeface classification</h2>
       <p>Maximizing the use of all local system fonts. No&nbsp;CLS, no&nbsp;jank, no&nbsp;KBs — instant&nbsp;renders.</p>
       <div id="about-buttons">
-        <a href="#font-stacks" class="btn">Try Font Stacks</a>
+        <a href="#font-stacks" class="btn smooth-scroll">Try Font Stacks</a>
         <a href="https://github.com/system-fonts/modern-font-stacks" class="btn">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="24"><path fill="currentColor" d="M32 0C14 0 0 14 0 32c0 21 19 30 22 30 2 0 2-1 2-2v-5c-7 2-10-2-11-5 0 0 0-1-2-3-1-1-5-3-1-3 3 0 5 4 5 4 3 4 7 3 9 2 0-2 2-4 2-4-8-1-14-4-14-15 0-4 1-7 3-9 0 0-2-4 0-9 0 0 5 0 9 4 3-2 13-2 16 0 4-4 9-4 9-4 2 7 0 9 0 9 2 2 3 5 3 9 0 11-7 14-14 15 1 1 2 3 2 6v8c0 1 0 2 2 2 3 0 22-9 22-30C64 14 50 0 32 0Z"/></svg>
           GitHub
@@ -78,9 +80,16 @@
     
     <div id="fonts" data-weight="400">
       
-      <div class="font-card" style="font-family: system-ui;">
+      <div id="system-ui" class="font-card system-ui">
         <div class="font-title">
-          <h3>System UI</h3>
+          <h3>
+            System UI
+            <a href="?stack=system-ui" class="font-link" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="20" height="20">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244" />
+              </svg>
+            </a>
+          </h3>
         </div>
         <p class="font-preview"></p>
         <div class="font-weights">
@@ -103,9 +112,16 @@
         </div>
       </div>
       
-      <div class="font-card" style="font-family: Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif;">
+      <div id="transitional" class="font-card transitional">
         <div class="font-title">
-          <h3>Transitional</h3>
+          <h3>
+            Transitional
+            <a href="?stack=transitional" class="font-link" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="20" height="20">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244" />
+              </svg>
+            </a>
+          </h3>
         </div>
         <p class="font-preview"></p>
         <div class="font-weights">
@@ -131,9 +147,16 @@
         </div>
       </div>
       
-      <div class="font-card" style="font-family: 'Iowan Old Style', 'Palatino Linotype', 'URW Palladio L', P052, serif;">
+      <div id="old-style" class="font-card old-style">
         <div class="font-title">
-          <h3>Old Style</h3>
+          <h3>
+            Old Style
+            <a href="?stack=old-style" class="font-link" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="20" height="20">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244" />
+              </svg>
+            </a> 
+          </h3>
         </div>
         <p class="font-preview"></p>
         <div class="font-weights">
@@ -159,9 +182,16 @@
         </div>
       </div>
       
-      <div class="font-card" style="font-family: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;">
+      <div id="humanist" class="font-card humanist">
         <div class="font-title">
-          <h3>Humanist</h3>
+          <h3>
+            Humanist
+            <a href="?stack=humanist" class="font-link" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="20" height="20">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244" />
+              </svg>
+            </a>
+          </h3>
         </div>
         <p class="font-preview"></p>
         <div class="font-weights">
@@ -189,9 +219,16 @@
         </div>
       </div>
       
-      <div class="font-card" style="font-family: Avenir, 'Avenir Next LT Pro', Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;">
+      <div id="geometric-humanist" class="font-card geometric-humanist">
         <div class="font-title">
-          <h3>Geometric Humanist</h3>
+          <h3>
+            Geometric Humanist
+            <a href="?stack=geometric-humanist" class="font-link" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="20" height="20">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244" />
+              </svg>
+            </a>
+          </h3>
         </div>
         <p class="font-preview"></p>
         <div class="font-weights">
@@ -219,9 +256,16 @@
         </div>
       </div>
       
-      <div class="font-card" style="font-family: Optima, Candara, 'Noto Sans', source-sans-pro, sans-serif;">
+      <div id="classical-humanist" class="font-card classical-humanist">
         <div class="font-title">
-          <h3>Classical Humanist</h3>
+          <h3>
+            Classical Humanist
+            <a href="?stack=classical-humanist" class="font-link" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="20" height="20">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244" />
+              </svg>
+            </a>
+          </h3>
         </div>
         <p class="font-preview"></p>
         <div class="font-weights">
@@ -247,9 +291,16 @@
         </div>
       </div>
       
-      <div class="font-card" style="font-family: Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial, sans-serif;">
+      <div id="neo-grotesque" class="font-card neo-grotesque">
         <div class="font-title">
-          <h3>Neo-Grotesque</h3>
+          <h3>
+            Neo-Grotesque
+            <a href="?stack=neo-grotesque" class="font-link" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="20" height="20">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244" />
+              </svg>
+            </a>
+          </h3>
         </div>
         <p class="font-preview"></p>
         <div class="font-weights">
@@ -277,9 +328,16 @@
         </div>
       </div>
       
-      <div class="font-card" style="font-family: 'Nimbus Mono PS', 'Courier New', 'Cutive Mono', monospace; -webkit-font-smoothing: auto; -moz-osx-font-smoothing: auto;">
+      <div id="monospace-slab-serif" class="font-card monospace-slab-serif">
         <div class="font-title">
-          <h3>Monospace Slab Serif</h3>
+          <h3>
+            Monospace Slab Serif
+            <a href="?stack=monospace-slab-serif" class="font-link" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="20" height="20">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244" />
+              </svg>
+            </a>
+          </h3>
         </div>
         <p class="font-preview"></p>
         <div class="font-weights">
@@ -304,9 +362,16 @@
         </div>
       </div>
       
-      <div class="font-card" style="font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;">
+      <div id="monospace-code" class="font-card monospace-code">
         <div class="font-title">
-          <h3>Monospace Code</h3>
+          <h3>
+            Monospace Code
+            <a href="?stack=monospace-code" class="font-link" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="20" height="20">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244" />
+              </svg>
+            </a>
+          </h3>
         </div>
         <p class="font-preview"></p>
         <div class="font-weights">
@@ -334,9 +399,16 @@
         </div>
       </div>
       
-      <div class="font-card" style="font-family: Bahnschrift, 'DIN Alternate', 'Franklin Gothic Medium', 'Nimbus Sans Narrow', sans-serif-condensed, sans-serif;">
+      <div id="industrial" class="font-card industrial">
         <div class="font-title">
-          <h3>Industrial</h3>
+          <h3>
+            Industrial
+            <a href="?stack=industrial" class="font-link" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="20" height="20">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244" />
+              </svg>
+            </a>
+          </h3>
           <span class="font-callout">Display</span>
         </div>
         <p class="font-preview"></p>
@@ -364,9 +436,16 @@
         </div>
       </div>
       
-      <div class="font-card" style="font-family: ui-rounded, 'Hiragino Maru Gothic ProN', Quicksand, Comfortaa, Manjari, 'Arial Rounded MT Bold', Calibri, source-sans-pro, sans-serif;">
+      <div id="rounded-sans" class="font-card rounded-sans">
         <div class="font-title">
-          <h3>Rounded Sans</h3>
+          <h3>
+            Rounded Sans
+            <a href="?stack=rounded-sans" class="font-link" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="20" height="20">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244" />
+              </svg>
+            </a>
+          </h3>
           <span class="font-callout">Display</span>
         </div>
         <p class="font-preview"></p>
@@ -397,9 +476,16 @@
         </div>
       </div>
       
-      <div class="font-card" style="font-family: Rockwell, 'Rockwell Nova', 'Roboto Slab', 'DejaVu Serif', 'Sitka Small', serif;">
+      <div id="slab-serif" class="font-card slab-serif">
         <div class="font-title">
-          <h3>Slab Serif</h3>
+          <h3>
+            Slab Serif
+            <a href="?stack=slab-serif" class="font-link" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="20" height="20">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244" />
+              </svg>
+            </a>
+          </h3>
           <span class="font-callout">Display</span>
         </div>
         <p class="font-preview"></p>
@@ -427,9 +513,16 @@
         </div>
       </div>
       
-      <div class="font-card" style="font-family: Superclarendon, 'Bookman Old Style', 'Sitka Heading', 'URW Bookman', 'URW Bookman L', 'Georgia Pro', Georgia, serif;">
+      <div id="antique" class="font-card antique">
         <div class="font-title">
-          <h3>Antique</h3>
+          <h3>
+            Antique
+            <a href="?stack=antique" class="font-link" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="20" height="20">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244" />
+              </svg>
+            </a>
+          </h3>
           <span class="font-callout">Display</span>
         </div>
         <p class="font-preview"></p>
@@ -458,9 +551,16 @@
         </div>
       </div>
       
-      <div class="font-card" style="font-family: Didot, 'Bodoni MT', 'Noto Serif Display', 'URW Palladio L', P052, Sylfaen, serif; -webkit-font-smoothing: auto; -moz-osx-font-smoothing: auto;">
+      <div id="didone" class="font-card didone">
         <div class="font-title">
-          <h3>Didone</h3>
+          <h3>
+              Didone
+              <a href="?stack=didone" class="font-link" hidden>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="20" height="20">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244" />
+                </svg>
+              </a>
+          </h3>
           <span class="font-callout">Display</span>
         </div>
         <p class="font-preview"></p>
@@ -489,9 +589,16 @@
         </div>
       </div>
       
-      <div class="font-card" style="font-family: 'Segoe Print', 'Bradley Hand', Chilanka, TSCu_Comic, casual, cursive;">
+      <div id="handwritten" class="font-card handwritten">
         <div class="font-title">
-          <h3>Handwritten</h3>
+          <h3>
+            Handwritten
+            <a href="?stack=handwritten" class="font-link" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="20" height="20">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244" />
+              </svg>
+            </a>
+          </h3>
           <span class="font-callout">Display</span>
         </div>
         <p class="font-preview"></p>
@@ -530,9 +637,9 @@
     
   </section>
   
-  <section id="test-drive">
+  <section id="article-view">
     
-    <h2>Test Drive</h2>
+    <h2>Article View</h2>
     
     <div class="ui-bg">
       <details class="ui">

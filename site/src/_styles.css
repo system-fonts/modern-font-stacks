@@ -105,20 +105,32 @@ header .logo-link {
   display: block;
   max-width: 22rem;
   margin: 0 auto 1.25rem;
-  text-decoration: none;
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.4rem;
+  transition: all 0.3s ease;
 }
 
 header .logo-link:hover {
-  text-decoration: underline;
-  text-decoration-thickness: 2px;
-  text-decoration-color: #ccc;
-  text-underline-offset: 0.4rem;
+  text-decoration-color: #ddd;
 }
 
 header svg {
   display: block;
   margin: 0 auto;
+  overflow: visible;
 }
+
+.logo-front-layer,
+.logo-middle-layer,
+.logo-back-layer {
+  transition: transform 0.3s ease;
+}
+
+header .logo-link:hover .logo-front-layer { transform: translate(-2px, -1px); }
+header .logo-link:hover .logo-middle-layer { transform: translate(2px, 1px); }
+header .logo-link:hover .logo-back-layer { transform: translate(6px, 3px); }
 
 header h1 {
   font-family: Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif;
@@ -321,6 +333,31 @@ section > h2 {
   border-bottom-width: 2px;
   border: 1px solid #888;
   box-shadow: 4px 4px 0 0 rgba(0,0,0,0.15);
+  scroll-margin-top: 6rem;
+}
+
+.font-link {
+  padding: 0 4px 0;
+  color: #707070;
+  position: relative;
+  top: 2px;
+  left: -4px;
+}
+
+.font-link:hover {
+  color: #000;
+}
+
+.font-title:hover .font-link {
+  display: inline-flex;
+}
+
+.font-card.highlight {
+  outline: 2px solid #000;
+}
+
+.font-card.highlight .font-link {
+  display: none;
 }
 
 .font-title {
@@ -448,21 +485,21 @@ section > h2 {
 
 /* === SECTION : FONT TEST DRIVE === */
 
-#test-drive {
+#article-view {
   background: #fff;
   padding-bottom: 3rem;
 }
 
-#test-drive .ui {
+#article-view .ui {
   list-style: none;
   padding: 0;
 }
 
-#test-drive .ui summary::-webkit-details-marker {
+#article-view .ui summary::-webkit-details-marker {
   display: none;
 }
 
-#test-drive .ui summary {
+#article-view .ui summary {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -470,7 +507,7 @@ section > h2 {
   gap: 0.75rem;
 }
 
-#test-drive .ui button {
+#article-view .ui button {
   appearance: none;
   flex: 1 auto;
   background: transparent;
@@ -487,16 +524,16 @@ section > h2 {
   position: relative;
 }
 
-#test-drive button:active {
+#article-view button:active {
  top: 1px; 
 }
 
-#test-drive button[data-on="true"] {
+#article-view button[data-on="true"] {
   border: 2px solid rgba(255,255,255, 1);
   color: #fff;
 }
 
-#test-drive article {
+#article-view article {
   font-size: 1.125rem;
   line-height: 1.7777778;
   max-width: 47rem;
@@ -504,7 +541,7 @@ section > h2 {
   padding: 1rem;
 }
 
-#test-drive article .title {
+#article-view article .title {
   display: block;
   font-size: 2.5rem;
   margin: 4rem auto 6rem;
@@ -514,7 +551,7 @@ section > h2 {
   font-weight: 200;
 }
 
-#test-drive article .author {
+#article-view article .author {
   display: block;
   font-size: 1.25rem;
   margin: 1rem auto;
@@ -525,12 +562,12 @@ section > h2 {
   font-style: italic;
 }
 
-#test-drive article img {
+#article-view article img {
   display: block;
   margin: 0 auto;
 }
 
-#test-drive article .chaper {
+#article-view article .chaper {
   display: block;
   font-size: 1rem;
   line-height: 1;
@@ -540,7 +577,7 @@ section > h2 {
   font-weight: 500;
 }
 
-#test-drive article .chaper-name {
+#article-view article .chaper-name {
   display: block;
   margin: 0.75rem 0 1rem;
   font-size: 1.75rem;
@@ -549,7 +586,7 @@ section > h2 {
   font-weight: 600;
 }
 
-#test-drive article p:first-of-type::first-letter {
+#article-view article p:first-of-type::first-letter {
   font-size: 225%;
   line-height: 1;
   margin-right: 0.1rem;
@@ -696,27 +733,27 @@ footer span {
     padding: 3rem 1.5rem 0;
   }
   
-  #test-drive .ui {
+  #article-view .ui {
     max-width: 84rem;
   }
-  #test-drive .ui summary {
+  #article-view .ui summary {
     padding: 1rem 4rem;
     gap: 0.5rem
   }
   
-  #test-drive article {
+  #article-view article {
     font-size: 1.25rem;
   }
   
-  #test-drive article .title {
+  #article-view article .title {
     font-size: 3rem;
   }
   
-  #test-drive article .chaper-name {
+  #article-view article .chaper-name {
     font-size: 2rem;
   }
   
-  #test-drive article img {
+  #article-view article img {
     margin: 0 -3rem 0 1.5rem;
     float: right;
   }
@@ -728,27 +765,27 @@ footer span {
 
 @media (max-width: 42rem) {
 
-  #test-drive .ui button {
+  #article-view .ui button {
     display: none;
   }
   
-  #test-drive button[data-on="true"] {
+  #article-view button[data-on="true"] {
     display: block !important;
     pointer-events: none;
   }
   
-  #test-drive button[data-on="true"]:after {
+  #article-view button[data-on="true"]:after {
     content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='%23fff' width='24' height='24'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='M8.25 15L12 18.75 15.75 15m-7.5-6L12 5.25 15.75 9' /%3E%3C/svg%3E%0A");
     position: absolute;
     right: 6px;
     top: 6px;
   }
   
-  #test-drive .ui[open] button {
+  #article-view .ui[open] button {
     display: block;
   }
   
-  #test-drive .ui[open] button[data-on="true"]:after {
+  #article-view .ui[open] button[data-on="true"]:after {
     content: none;
   }
 }
