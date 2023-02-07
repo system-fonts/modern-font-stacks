@@ -145,7 +145,7 @@ header h2 {
   font-size: 1.125rem;
   line-height: 1.3;
   text-align: center;
-  margin: 0.75rem;
+  margin: 0.75rem 0;
   font-weight: 500;
 }
 

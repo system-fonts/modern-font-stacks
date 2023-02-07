@@ -5,9 +5,9 @@
 </p>
 
 <h1 align="center">Modern Font Stacks</h1>
-<h3 align="center">System font stacks for the modern OS, organized by typeface classification</h3>
+<h3 align="center">System font stacks organized by typeface classification for every modern OS.</h3>
 
-<p align="center">Maximizing the use of all local system fonts. No CLS, no jank, no KBs — instant renders.</p>
+<p align="center">The fastest fonts available. No downloading, no layout shifts, no&nbsp;flashes — just instant&nbsp;renders.</p>
 
 <br>
 <hr>
