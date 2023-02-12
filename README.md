@@ -22,7 +22,8 @@
 <p align="center">
   <a href="#neo-grotesque">Neo-Grotesque</a> &nbsp;&middot;&nbsp; 
   <a href="#monospace-slab-serif">Monospace Slab Serif</a> &nbsp;&middot;&nbsp; 
-  <a href="#monospace-code">Monospace Code</a>
+  <a href="#monospace-code">Monospace Code</a> &nbsp;&middot;&nbsp; 
+  <a href="#industrial">Industrial</a>
 </p>
 <hr>
 
@@ -380,6 +381,47 @@ font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 
 #### Notes
 - SF Mono is [only available](https://caniuse.com/extended-system-fonts) via `ui-monospace` on macOS 10.15+ and iOS 13.3+ while using Safari
 - Droid Sans Mono for Android does not need to be specified in the stack as `monospace` is a name alias for it
+
+
+</details>
+
+<br>
+
+## Industrial
+
+Industrial typefaces originated in the late 19th century and was heavily influenced by the advancements in technology and industry during that time. Industrial typefaces are characterized by their bold, sans-serif letterforms, simple and straightforward appearance, and the use of straight lines and geometric shapes. 
+
+
+#### CSS Font Stack
+```css
+font-family: Bahnschrift, 'DIN Alternate', 'Franklin Gothic Medium', 'Nimbus Sans Narrow', sans-serif-condensed, sans-serif;
+```
+
+<img src="img/industrial.png" alt="Industrial Font Stack">
+
+&nbsp; &nbsp;💻 **[View in Your Browser](https://modernfontstacks.com/?stack=industrial) ([Article View](https://modernfontstacks.com/?stack=industrial#article-view))**
+
+<details>
+<summary><strong>🎥 Preview Rendering Across Operating Systems</strong></summary>
+<img src="img/industrial-preview.gif" alt="Industrial Font Rendering">
+</details>
+
+<details>
+<summary><strong>✅ Font Weights & Notes</strong></summary>
+
+<br>
+
+| Font Weights            | 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900 |
+|:------------------------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| Bahnschrift             |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |
+| DIN Alternate           |     |     |     |     |     |     |  ●  |     |     |
+| Franklin Gothic Medium  |     |     |     |     |  ●  |     |     |     |     |
+| Nimbus Sans Narrow      |     |     |     |  ●  |     |     |  ●  |     |     |
+| Roboto Condensed.       |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |
+
+#### Notes
+- Bahnschrift is one of the first [variable font](https://learn.microsoft.com/en-us/typography/font-list/bahnschrift) added to Windows.
+- [sans-serif-condensed](https://android.googlesource.com/platform/frameworks/base/+/master/data/fonts/fonts.xml#126) is a name alias for Roboto Condensed on Android
 
 
 </details>
