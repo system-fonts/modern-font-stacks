@@ -417,11 +417,12 @@ font-family: Bahnschrift, 'DIN Alternate', 'Franklin Gothic Medium', 'Nimbus San
 | DIN Alternate           |     |     |     |     |     |     |  ●  |     |     |
 | Franklin Gothic Medium  |     |     |     |     |  ●  |     |     |     |     |
 | Nimbus Sans Narrow      |     |     |     |  ●  |     |     |  ●  |     |     |
-| Roboto Condensed.       |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |
+| Roboto Condensed        |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |
 
 #### Notes
+- Since this stack is limited on weights across operating systems, it's best to use as a Medium/Bold display font
 - Bahnschrift is one of the first [variable font](https://learn.microsoft.com/en-us/typography/font-list/bahnschrift) added to Windows.
-- [sans-serif-condensed](https://android.googlesource.com/platform/frameworks/base/+/master/data/fonts/fonts.xml#126) is a name alias for Roboto Condensed on Android
+- Roboto Condensed uses name [sans-serif-condensed](https://android.googlesource.com/platform/frameworks/base/+/master/data/fonts/fonts.xml#126) under Android, so this font only targets Android devices.
 
 
 </details>
