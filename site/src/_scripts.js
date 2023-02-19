@@ -96,12 +96,11 @@ systemfont.forEach(function(el) {
 });
 
 
-// ----- ARTICLE VIEW ----- //
+// ----- PREVIEW ----- //
 
-var article = document.querySelector('article');
-var articleView = document.querySelector('#article-view');
-var articleViewMenu = document.querySelector('#article-view details');
-var previewButtons = document.querySelectorAll('#article-view button');
+var preview = document.querySelector('#preview');
+var previewMenu = document.querySelector('#preview details');
+var previewButtons = document.querySelectorAll('#preview button');
 var urlParams = new URLSearchParams(window.location.search);
 var stackParam = urlParams.get('stack');
 
@@ -111,12 +110,12 @@ var stacksAvail = Array.prototype.map.call(previewButtons, function(el) {
 
 // If has proper URL param
 if (stacksAvail.includes(stackParam)) {
-  article.className = '';
-  article.classList.add(stackParam);
+  preview.className = '';
+  preview.classList.add(stackParam);
   [].forEach.call(previewButtons, function(el) {
      el.dataset.on = false;
   });
-  document.querySelector(`#article-view .${CSS.escape(stackParam)}`).dataset.on = true;
+  document.querySelector(`#preview .${CSS.escape(stackParam)}`).dataset.on = true;
   document.querySelector(`#${CSS.escape(stackParam)}`).scrollIntoView();
   document.querySelector(`#${CSS.escape(stackParam)}`).classList.add('highlight');
   
@@ -130,15 +129,15 @@ if (stacksAvail.includes(stackParam)) {
 // Font stack buttons
 [].forEach.call(previewButtons, function(e){
     e.addEventListener('click', function(){
-      article.className = '';
-      article.classList.add(this.className);
-      articleViewMenu.removeAttribute("open");
+      preview.className = '';
+      preview.classList.add(this.className);
+      previewMenu.removeAttribute("open");
       [].forEach.call(previewButtons, function(el) {
          el.dataset.on = false;
       });
       this.dataset.on = true;
       // urlParams.set('stack', this.className);
-      // window.history.replaceState(null, null, '?' + urlParams + '#article-view');
+      // window.history.replaceState(null, null, '?' + urlParams + '#preview');
       // window.history.replaceState({}, document.title, location.protocol + '//' + location.host + location.pathname);
       }, false);
     }

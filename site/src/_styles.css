@@ -189,6 +189,7 @@ header p {
 /* === UI ELEMENTS === */
 
 section > h2 {
+  font-family: system-ui, sans-serif;
   font-size: 1rem;
   text-align: center;
   text-transform: uppercase;
@@ -483,23 +484,23 @@ section > h2 {
 }
 
 
-/* === SECTION : FONT TEST DRIVE === */
+/* === SECTION : PREVIEW : ARTICLE VIEW === */
 
-#article-view {
+#article-viewport {
   background: #fff;
   padding-bottom: 3rem;
 }
 
-#article-view .ui {
+#preview .ui {
   list-style: none;
   padding: 0;
 }
 
-#article-view .ui summary::-webkit-details-marker {
+#preview .ui summary::-webkit-details-marker {
   display: none;
 }
 
-#article-view .ui summary {
+#preview .ui summary {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -507,7 +508,7 @@ section > h2 {
   gap: 0.75rem;
 }
 
-#article-view .ui button {
+#preview .ui button {
   appearance: none;
   flex: 1 auto;
   background: transparent;
@@ -524,24 +525,24 @@ section > h2 {
   position: relative;
 }
 
-#article-view button:active {
+#preview button:active {
  top: 1px; 
 }
 
-#article-view button[data-on="true"] {
+#preview button[data-on="true"] {
   border: 2px solid rgba(255,255,255, 1);
   color: #fff;
 }
 
-#article-view article {
+#preview article {
   font-size: 1.125rem;
   line-height: 1.7777778;
   max-width: 47rem;
-  margin: 2rem auto;
-  padding: 1rem;
+  margin: 0 auto;
+  padding: 3rem 1rem 2rem;
 }
 
-#article-view article .title {
+#preview article .title {
   display: block;
   font-size: 2.5rem;
   margin: 4rem auto 6rem;
@@ -551,7 +552,7 @@ section > h2 {
   font-weight: 200;
 }
 
-#article-view article .author {
+#preview article .author {
   display: block;
   font-size: 1.25rem;
   margin: 1rem auto;
@@ -562,12 +563,12 @@ section > h2 {
   font-style: italic;
 }
 
-#article-view article img {
+#preview article img {
   display: block;
   margin: 0 auto;
 }
 
-#article-view article .chaper {
+#preview article .chaper {
   display: block;
   font-size: 1rem;
   line-height: 1;
@@ -577,7 +578,7 @@ section > h2 {
   font-weight: 500;
 }
 
-#article-view article .chaper-name {
+#preview article .chaper-name {
   display: block;
   margin: 0.75rem 0 1rem;
   font-size: 1.75rem;
@@ -586,10 +587,54 @@ section > h2 {
   font-weight: 600;
 }
 
-#article-view article p:first-of-type::first-letter {
+#preview article p:first-of-type::first-letter {
   font-size: 225%;
   line-height: 1;
   margin-right: 0.1rem;
+}
+
+
+/* === SECTION : PREVIEW : ARTICLE VIEW === */
+
+h2#characters {
+  scroll-margin-top: 7.45rem;
+}
+
+#font-characters {
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 0 1rem 4rem;
+}
+
+#font-characters h3 {
+  font-family: system-ui, sans-serif;
+  padding: 1rem;
+  background: #eee;
+  margin: 4rem 0 0;
+  border: 1px solid #888;
+  width: calc(100% + 1px);
+  margin-left: -1px;
+  box-shadow: 4px 4px 0 0 rgba(0,0,0,0.15);
+}
+
+#font-characters div {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(4rem, 1fr));
+  text-align: center;
+  font-size: 1.75rem;
+  line-height: 1;
+  background: #f5f5f5;
+  box-shadow: 4px 4px 0 0 rgba(0,0,0,0.15);
+}
+
+#font-characters span {
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  border: 1px solid #888;
+  margin: -1px 0 0 -1px;
 }
 
 
@@ -733,29 +778,44 @@ footer span {
     padding: 3rem 1.5rem 0;
   }
   
-  #article-view .ui {
+  #preview .ui {
     max-width: 84rem;
+    min-height: 7.5rem;
   }
-  #article-view .ui summary {
+  
+  #preview .ui summary {
     padding: 1rem 4rem;
     gap: 0.5rem
   }
   
-  #article-view article {
+  #preview article {
     font-size: 1.25rem;
   }
   
-  #article-view article .title {
+  #preview article .title {
     font-size: 3rem;
   }
   
-  #article-view article .chaper-name {
+  #preview article .chaper-name {
     font-size: 2rem;
   }
   
-  #article-view article img {
+  #preview article img {
     margin: 0 -3rem 0 1.5rem;
     float: right;
+  }
+  
+  #font-characters {
+    padding: 0 1.5rem 6rem;
+  }
+  
+  #font-characters div {
+    grid-template-columns: repeat(auto-fill, minmax(3.75rem, 1fr));
+    font-size: 1.5rem;
+  }
+  
+  #font-characters span {
+    height: 3.75rem;
   }
   
 }
@@ -765,27 +825,27 @@ footer span {
 
 @media (max-width: 42rem) {
 
-  #article-view .ui button {
+  #preview .ui button {
     display: none;
   }
   
-  #article-view button[data-on="true"] {
+  #preview button[data-on="true"] {
     display: block !important;
     pointer-events: none;
   }
   
-  #article-view button[data-on="true"]:after {
+  #preview button[data-on="true"]:after {
     content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='%23fff' width='24' height='24'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='M8.25 15L12 18.75 15.75 15m-7.5-6L12 5.25 15.75 9' /%3E%3C/svg%3E%0A");
     position: absolute;
     right: 6px;
     top: 6px;
   }
   
-  #article-view .ui[open] button {
+  #preview .ui[open] button {
     display: block;
   }
   
-  #article-view .ui[open] button[data-on="true"]:after {
+  #preview .ui[open] button[data-on="true"]:after {
     content: none;
   }
 }
