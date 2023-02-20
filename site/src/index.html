@@ -2401,21 +2401,8 @@
     <span>/</span>
     A passion project by <a href="https://twitter.com/danklammer">Dan Klammer</a>
   </footer>
-    
   
-  <script>${require('./_scripts.js')}</script>
-  <script type="module">
-    Array.from(systemfont).forEach((el) => {
-      const font = el.innerText;
-      isFontAvailable(font, (available) => {
-        if (available) {
-          el.classList.add('yep');
-        } else {
-          el.classList.add('nope');
-        }
-      });
-    });
-  </script>
+  <script type="module">${require('./_scripts.js')}</script>
   
 </body>
 </html>

@@ -93,6 +93,17 @@ const enterToBlur = (el) => {
   }
 };
 
+Array.from(systemfont).forEach((el) => {
+  const font = el.innerText;
+  isFontAvailable(font, (available) => {
+    if (available) {
+      el.classList.add('yep');
+    } else {
+      el.classList.add('nope');
+    }
+  });
+});
+
 
 // ----- PREVIEW ----- //
 const preview = document.querySelector('#preview');
