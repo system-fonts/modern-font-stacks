@@ -603,8 +603,13 @@ h2#characters {
 #font-characters {
   max-width: 84rem;
   margin: 0 auto;
-  padding: 4rem 1rem;
+  padding: 3rem 1rem;
   content-visibility: auto;
+  min-height: 150vh;
+}
+
+.character-set {
+  box-shadow: 4px 4px 0 0 rgba(0,0,0,0.15);
 }
 
 .character-set h3 {
@@ -616,7 +621,6 @@ h2#characters {
   border: 1px solid #888;
   width: calc(100% + 1px);
   margin-left: -1px;
-  box-shadow: 4px 4px 0 0 rgba(0,0,0,0.15);
 }
 
 .character-set:first-child h3 {
@@ -630,7 +634,6 @@ h2#characters {
   font-size: 1.75rem;
   line-height: 1;
   background: #f5f5f5;
-  box-shadow: 4px 4px 0 0 rgba(0,0,0,0.15);
 }
 
 .character-set span {
