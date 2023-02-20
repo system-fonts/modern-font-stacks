@@ -8,20 +8,20 @@
  * @author Sam Clarke <sam@samclarke.com>
  * @url https://www.samclarke.com/javascript-is-font-available/
  */
-(function (document) {
-  var width;
-  var body = document.body;
+((document) => {
+  let width;
+  const body = document.body;
 
-  var container = document.createElement('span');
-  container.innerHTML = Array(100).join('wi');
-  container.style.cssText = [
-    'position:absolute',
-    'width:auto',
-    'font-size:128px',
-    'left:-99999px'
-  ].join(' !important;');
+  const container = document.createElement('span');
+  container.innerHTML = 'wi'.repeat(100);
+  container.style.cssText = `
+    position:absolute;
+    width:auto;
+    font-size:128px;
+    left:-99999px;
+  `;
 
-  var getWidth = function (fontFamily) {
+  const getWidth = (fontFamily) => {
     container.style.fontFamily = fontFamily;
 
     body.appendChild(container);
@@ -33,61 +33,59 @@
 
   // Pre compute the widths of monospace, serif & sans-serif
   // to improve performance.
-  var monoWidth  = getWidth('monospace');
-  var serifWidth = getWidth('serif');
-  var sansWidth  = getWidth('sans-serif');
+  const monoWidth  = getWidth('monospace');
+  const serifWidth = getWidth('serif');
+  const sansWidth  = getWidth('sans-serif');
 
-  window.isFontAvailable = function (font) {
-    return monoWidth !== getWidth(font + ',monospace') ||
-      sansWidth !== getWidth(font + ',sans-serif') ||
-      serifWidth !== getWidth(font + ',serif');
+  window.isFontAvailable = (font) => {
+    return monoWidth !== getWidth(`${font},monospace`) ||
+      sansWidth !== getWidth(`${font},sans-serif`) ||
+      serifWidth !== getWidth(`${font},serif`);
   };
 })(document);
 
-
 // ----- FONT STACKS ----- //
+const fonts = document.querySelector('#fonts');
+const previewText = document.querySelector('#preview-text');
+const fontWeightRange = document.querySelector('#fontweight');
+const fontWeightOutput = document.querySelector('#weightoutput');
+const fontWeights = document.querySelectorAll('.font-weights span');
+const systemfont = document.querySelectorAll('.font-stack span');
+const fontCard = document.querySelectorAll('.font-card');
 
-var fonts = document.querySelector('#fonts');
-var previewText = document.querySelector('#preview-text');
-var fontWeightRange = document.querySelector('#fontweight');
-var fontWeightOutput = document.querySelector('#weightoutput');
-var fontWeights = document.querySelectorAll('.font-weights span');
-var systemfont = document.querySelectorAll('.font-stack span');
-var fontCard = document.querySelectorAll('.font-card');
+const changeSize = (newVal) => {
+  fonts.style.fontSize = `${newVal}em`;
+};
 
-function changeSize(newVal){
-  fonts.style.fontSize = newVal + 'em';
-}
-
-function changeWeight(newVal){
+const changeWeight = (newVal) => {
   fonts.style.fontWeight = newVal;
   fonts.setAttribute('data-weight', newVal);
-}
+};
 
-[].forEach.call(fontWeights, function(e){
-  e.addEventListener('click', function(){
+Array.from(fontWeights).forEach(e => {
+  e.addEventListener('click', () => {
     fonts.style.fontWeight = e.innerText;
     fonts.setAttribute('data-weight', e.innerText);
     fontWeightRange.value = e.innerText;
     fontWeightOutput.innerText = e.innerText;
-  }, false);
+  });
 });
 
-function updateText(newVal){
-  var elements = document.querySelectorAll('.font-preview');
-    Array.prototype.forEach.call(elements, function(el, i){
-      el = el.innerText = newVal;
-    });
-}
+const updateText = (newVal) => {
+  const elements = document.querySelectorAll('.font-preview');
+  Array.from(elements).forEach((el) => {
+    el.innerText = newVal;
+  });
+};
 
-function enterToBlur(el){
+const enterToBlur = (el) => {
   if (event.key == 'Enter'){
     el.blur();
   }
 };
 
-systemfont.forEach(function(el) {
-  var font = el.innerText;
+Array.from(systemfont).forEach((el) => {
+  const font = el.innerText;
   if (isFontAvailable(font)) {
     el.classList.add('yep');
   } else {
@@ -95,66 +93,59 @@ systemfont.forEach(function(el) {
   }
 });
 
-
 // ----- PREVIEW ----- //
+const preview = document.querySelector('#preview');
+const previewMenu = document.querySelector('#preview details');
+const previewButtons = document.querySelectorAll('#preview button');
+const urlParams = new URLSearchParams(window.location.search);
+const stackParam = urlParams.get('stack');
 
-var preview = document.querySelector('#preview');
-var previewMenu = document.querySelector('#preview details');
-var previewButtons = document.querySelectorAll('#preview button');
-var urlParams = new URLSearchParams(window.location.search);
-var stackParam = urlParams.get('stack');
-
-var stacksAvail = Array.prototype.map.call(previewButtons, function(el) {
-    return el.className;
-});
+const stacksAvail = Array.from(previewButtons, el => el.className);
 
 // If has proper URL param
 if (stacksAvail.includes(stackParam)) {
   preview.className = '';
   preview.classList.add(stackParam);
-  [].forEach.call(previewButtons, function(el) {
+  previewButtons.forEach(el => {
      el.dataset.on = false;
   });
   document.querySelector(`#preview .${CSS.escape(stackParam)}`).dataset.on = true;
   document.querySelector(`#${CSS.escape(stackParam)}`).scrollIntoView();
   document.querySelector(`#${CSS.escape(stackParam)}`).classList.add('highlight');
   
-  document.addEventListener('click', function(e) {
-    [].forEach.call(fontCard, function(el) {
+  document.addEventListener('click', e => {
+    fontCard.forEach(el => {
        el.classList.remove('highlight');
     });
   }, { once: true });
 }
 
 // Font stack buttons
-[].forEach.call(previewButtons, function(e){
-    e.addEventListener('click', function(){
-      preview.className = '';
-      preview.classList.add(this.className);
-      previewMenu.removeAttribute("open");
-      [].forEach.call(previewButtons, function(el) {
-         el.dataset.on = false;
-      });
-      this.dataset.on = true;
-      // urlParams.set('stack', this.className);
-      // window.history.replaceState(null, null, '?' + urlParams + '#preview');
-      // window.history.replaceState({}, document.title, location.protocol + '//' + location.host + location.pathname);
-      }, false);
-    }
-);
+previewButtons.forEach(e => {
+  e.addEventListener('click', function(){
+    preview.className = '';
+    preview.classList.add(this.className);
+    previewMenu.removeAttribute("open");
+    previewButtons.forEach(el => {
+       el.dataset.on = false;
+    });
+    this.dataset.on = true;
+    // urlParams.set('stack', this.className);
+    // window.history.replaceState(null, null, '?' + urlParams + '#preview');
+    // window.history.replaceState({}, document.title, location.protocol + '//' + location.host + location.pathname);
+  });
+});
 
 
 // ----- MENU ACTIONS ----- //
+const menu = document.querySelector('#menu details');
+const menuLinks = document.querySelectorAll('#menu nav a');
 
-var menu = document.querySelector('#menu details');
-var menuLinks = document.querySelectorAll('#menu nav a');
-
-[].forEach.call(menuLinks, function(e){
-    e.addEventListener('click', function(){
-      menu.removeAttribute("open");
-      }, false);
-    }
-);
+menuLinks.forEach(e => {
+  e.addEventListener('click', () => {
+    menu.removeAttribute("open");
+  });
+});
 
 document.addEventListener('click', event => {
   const isClickInside = menu.contains(event.target);
@@ -164,11 +155,11 @@ document.addEventListener('click', event => {
 });
 
 document.querySelectorAll('.smooth-scroll').forEach(anchor => {
-    anchor.addEventListener('click', function(e) {
-        e.preventDefault();
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-            behavior: 'smooth'
-        });
-        window.history.replaceState(null, null, this.getAttribute('href'));
+  anchor.addEventListener('click', e => {
+    e.preventDefault();
+    document.querySelector(anchor.getAttribute('href')).scrollIntoView({
+      behavior: 'smooth'
     });
+    window.history.replaceState(null, null, anchor.getAttribute('href'));
+  });
 });
