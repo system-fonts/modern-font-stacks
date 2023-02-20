@@ -88,10 +88,48 @@ const updateText = (newVal) => {
 };
 
 const enterToBlur = (el) => {
-  if (event.key == 'Enter'){
+  if (event.key === 'Enter'){
     el.blur();
   }
 };
+
+// add event listeners
+const fontSizeInput = document.getElementById('fontsize');
+fontSizeInput.addEventListener('input', (event) => {
+  const newVal = event.target.value;
+  document.querySelector('#sizeoutput').innerText = newVal;
+  changeSize(newVal);
+});
+fontSizeInput.addEventListener('change', (event) => {
+  const newVal = event.target.value;
+  changeSize(newVal);
+});
+
+const fontWeightInput = document.getElementById('fontweight');
+fontWeightInput.addEventListener('input', (event) => {
+  const newVal = event.target.value;
+  document.querySelector('#weightoutput').innerText = newVal;
+  changeWeight(newVal);
+});
+fontWeightInput.addEventListener('change', (event) => {
+  const newVal = event.target.value;
+  changeWeight(newVal);
+});
+
+const previewTextInput = document.getElementById('preview-text');
+previewTextInput.addEventListener('input', (event) => {
+  const newVal = event.target.value;
+  updateText(newVal);
+});
+previewTextInput.addEventListener('change', (event) => {
+  const newVal = event.target.value;
+  updateText(newVal);
+});
+previewTextInput.addEventListener('keyup', (event) => {
+  if (event.key === 'Enter') {
+    event.target.blur();
+  }
+});
 
 Array.from(systemfont).forEach((el) => {
   const font = el.innerText;

@@ -66,16 +66,16 @@
             Font Size:&nbsp;
             <output id="sizeoutput">2</output>
           </label>
-          <input id="fontsize" name="fontsize" type="range" min="1.25" max="4" step=".25" value="2" oninput="sizeoutput.value = this.value; changeSize(this.value)" onchange="changeSize(this.value)">
+          <input id="fontsize" name="fontsize" type="range" min="1.25" max="4" step=".25" value="2">
         </div>
         <div>
           <label for="fontweight">
             Font Weight:&nbsp;
             <output id="weightoutput">400</output>
           </label>
-          <input id="fontweight" name="fontweight" type="range" min="100" max="900" step="100" value="400" oninput="weightoutput.value = this.value; changeWeight(this.value)" onchange="changeWeight(this.value)">
+          <input id="fontweight" name="fontweight" type="range" min="100" max="900" step="100" value="400">
         </div>
-        <input id="preview-text" type="search" size="30" onkeyup="enterToBlur(this);" oninput="updateText(this.value)" onchange="updateText(this.value)" placeholder="Type something to preview text..." enterkeyhint="done">
+        <input id="preview-text" type="search" size="30" placeholder="Type something to preview text..." enterkeyhint="done">
       </div>
     </div>
     
