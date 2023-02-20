@@ -601,23 +601,29 @@ h2#characters {
 }
 
 #font-characters {
-  max-width: 80rem;
+  max-width: 84rem;
   margin: 0 auto;
-  padding: 0 1rem 4rem;
+  padding: 4rem 1rem;
+  content-visibility: auto;
 }
 
-#font-characters h3 {
+.character-set h3 {
   font-family: system-ui, sans-serif;
+  font-weight: 500;
   padding: 1rem;
   background: #eee;
-  margin: 4rem 0 0;
+  margin: 3rem 0 0;
   border: 1px solid #888;
   width: calc(100% + 1px);
   margin-left: -1px;
   box-shadow: 4px 4px 0 0 rgba(0,0,0,0.15);
 }
 
-#font-characters div {
+.character-set:first-child h3 {
+  margin-top: 0;
+}
+
+.character-set div {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(4rem, 1fr));
   text-align: center;
@@ -627,7 +633,7 @@ h2#characters {
   box-shadow: 4px 4px 0 0 rgba(0,0,0,0.15);
 }
 
-#font-characters span {
+.character-set span {
   height: 4rem;
   display: flex;
   justify-content: center;
@@ -805,17 +811,30 @@ footer span {
     float: right;
   }
   
-  #font-characters {
-    padding: 0 1.5rem 6rem;
-  }
-  
-  #font-characters div {
+  .character-set div {
     grid-template-columns: repeat(auto-fill, minmax(3.75rem, 1fr));
     font-size: 1.5rem;
   }
   
-  #font-characters span {
+  .character-set span {
     height: 3.75rem;
+  }
+  
+}
+
+
+/* === LG DESKTOP STYLES === */
+
+@media (min-width: 80rem) {
+  
+  #font-characters {
+    padding: 3rem 1.5rem 6rem;
+    column-count: 2;
+    column-gap: 3rem;
+  }
+  
+  .character-set {
+    break-inside: avoid;
   }
   
 }
