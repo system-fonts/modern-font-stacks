@@ -2,12 +2,16 @@
  * Checks if a font is available to be used on a web page.
  *
  * @param {String} fontName The name of the font to check
- * @return {Boolean}
+ * @param {Function} callback A function to handle the boolean result of the font availability check
  * @license MIT
  * @copyright Sam Clarke 2013
  * @author Sam Clarke <sam@samclarke.com>
  * @url https://www.samclarke.com/javascript-is-font-available/
+ * 
+ * Modified on 02/2023 to execute the font availability check asynchronously 
+ * using requestIdleCallback, and to invoke the callback function with the boolean result of the check.
  */
+ 
 ((document) => {
   let width;
   const body = document.body;
@@ -33,16 +37,21 @@
 
   // Pre compute the widths of monospace, serif & sans-serif
   // to improve performance.
-  const monoWidth  = getWidth('monospace');
+  const monoWidth = getWidth('monospace');
   const serifWidth = getWidth('serif');
-  const sansWidth  = getWidth('sans-serif');
-
-  window.isFontAvailable = (font) => {
-    return monoWidth !== getWidth(`${font},monospace`) ||
-      sansWidth !== getWidth(`${font},sans-serif`) ||
-      serifWidth !== getWidth(`${font},serif`);
+  const sansWidth = getWidth('sans-serif');
+  
+  window.isFontAvailable = (font, callback) => {
+    requestIdleCallback(() => {
+      const available =
+        monoWidth !== getWidth(`${font},monospace`) ||
+        sansWidth !== getWidth(`${font},sans-serif`) ||
+        serifWidth !== getWidth(`${font},serif`);
+      callback(available);
+    });
   };
 })(document);
+
 
 // ----- FONT STACKS ----- //
 const fonts = document.querySelector('#fonts');
@@ -86,12 +95,15 @@ const enterToBlur = (el) => {
 
 Array.from(systemfont).forEach((el) => {
   const font = el.innerText;
-  if (isFontAvailable(font)) {
-    el.classList.add('yep');
-  } else {
-    el.classList.add('nope');
-  }
+  isFontAvailable(font, (available) => {
+    if (available) {
+      el.classList.add('yep');
+    } else {
+      el.classList.add('nope');
+    }
+  });
 });
+
 
 // ----- PREVIEW ----- //
 const preview = document.querySelector('#preview');
