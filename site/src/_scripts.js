@@ -42,13 +42,24 @@
   const sansWidth = getWidth('sans-serif');
   
   window.isFontAvailable = (font, callback) => {
-    requestIdleCallback(() => {
-      const available =
-        monoWidth !== getWidth(`${font},monospace`) ||
-        sansWidth !== getWidth(`${font},sans-serif`) ||
-        serifWidth !== getWidth(`${font},serif`);
-      callback(available);
-    });
+    if ('requestIdleCallback' in window) {
+      requestIdleCallback(() => {
+        const available =
+          monoWidth !== getWidth(`${font},monospace`) ||
+          sansWidth !== getWidth(`${font},sans-serif`) ||
+          serifWidth !== getWidth(`${font},serif`);
+        callback(available);
+      });
+    } else {
+      // Fallback to setTimeout for Safari
+      setTimeout(() => {
+        const available =
+          monoWidth !== getWidth(`${font},monospace`) ||
+          sansWidth !== getWidth(`${font},sans-serif`) ||
+          serifWidth !== getWidth(`${font},serif`);
+        callback(available);
+      }, 0);
+    }
   };
 })(document);
 
