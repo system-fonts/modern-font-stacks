@@ -23,7 +23,8 @@
   <a href="#neo-grotesque">Neo-Grotesque</a> &nbsp;&middot;&nbsp; 
   <a href="#monospace-slab-serif">Monospace Slab Serif</a> &nbsp;&middot;&nbsp; 
   <a href="#monospace-code">Monospace Code</a> &nbsp;&middot;&nbsp; 
-  <a href="#industrial">Industrial</a>
+  <a href="#industrial">Industrial</a> &nbsp;&middot;&nbsp; 
+  <a href="#rounded-sans">Rounded Sans</a>
 </p>
 <hr>
 
@@ -424,6 +425,50 @@ font-family: Bahnschrift, 'DIN Alternate', 'Franklin Gothic Medium', 'Nimbus San
 - Bahnschrift is one of the first [variable font](https://learn.microsoft.com/en-us/typography/font-list/bahnschrift) added to Windows.
 - Roboto Condensed uses name [sans-serif-condensed](https://android.googlesource.com/platform/frameworks/base/+/master/data/fonts/fonts.xml#126) under Android, so this font only targets Android devices.
 
+
+</details>
+
+<br>
+
+## Rounded Sans
+
+Rounded typefaces are characterized by the rounded curved letterforms and give a softer, friendlier appearance. The rounded edges give the typeface a more organic and playful feel, making it suitable for use in informal or child-friendly designs. The rounded sans-serif style has been popular since the 1950s, and it continues to be widely used in advertising, branding, and other forms of graphic design.
+
+
+#### CSS Font Stack
+```css
+font-family: ui-rounded, 'Hiragino Maru Gothic ProN', Quicksand, Comfortaa, Manjari, 'Arial Rounded MT Bold', Calibri, source-sans-pro, sans-serif;
+```
+
+<img src="img/rounded-sans.png" alt="Rounded Sans Font Stack">
+
+&nbsp; &nbsp;💻 **[View in Your Browser](https://modernfontstacks.com/?stack=rounded-sans) ([Article View](https://modernfontstacks.com/?stack=rounded-sans#article-view))**
+
+<details>
+<summary><strong>🎥 Preview Rendering Across Operating Systems</strong></summary>
+<img src="img/rounded-sans-preview.gif" alt="Rounded Sans Font Rendering">
+</details>
+
+<details>
+<summary><strong>✅ Font Weights & Notes</strong></summary>
+
+<br>
+
+| Font Weights            | 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900 |
+|:------------------------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| SF Pro Rounded          |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |
+| Hiragino Maru Gothic    |     |     |     |  ●  |     |     |     |     |     |
+| Quicksand               |     |     |  ●  |  ●  |     |     |  ●  |     |     |
+| Comfortaa               |     |     |  ●  |  ●  |     |     |  ●  |     |     |
+| Manjari                 |  ●  |     |     |  ●  |     |     |  ●  |     |     |
+| Arial Rounded MT Bold   |     |     |     |     |     |     |  ●  |     |     |
+| Calibri                 |     |     |  ●  |  ●  |     |     |  ●  |     |     |
+| Source Sans Pro         |     |     |     |  ●  |     |  ●  |  ●  |     |     |
+
+#### Notes
+- SF Pro Rounded is [only available](https://caniuse.com/extended-system-fonts) via `ui-rounded` on macOS 10.15+ and iOS 13.3+ while using Safari
+- Hiragino Maru Gothic is technically a Japanese typeface but has support for all the latin characters. The Mac font does not include a bold so a faux bold will be displayed on screen.
+- Source Sans Pro uses name [source-sans-pro](https://android.googlesource.com/platform/frameworks/base/+/master/data/fonts/fonts.xml#263) under Android, so this font only targets Android devices.
 
 </details>
 
