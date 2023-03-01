@@ -41,7 +41,7 @@ font-family: system-ui, sans-serif;
 
 <img src="img/system-ui.png" alt="System UI Font Stack">
 
-&nbsp; &nbsp;💻 **[View in Your Browser](https://modernfontstacks.com/?stack=system-ui) ([Article View](https://modernfontstacks.com/?stack=system-ui#article-view))**
+&nbsp; &nbsp;💻 **[View in Your Browser](https://modernfontstacks.com/?stack=system-ui) ([Article View](https://modernfontstacks.com/?stack=system-ui#article-view) / [Characters](https://modernfontstacks.com/?stack=system-ui#characters))**
 
 <details>
 <summary><strong>🎥 Preview Rendering Across Operating Systems</strong></summary>
@@ -81,7 +81,7 @@ font-family: Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif;
 
 <img src="img/transitional.png" alt="Transitional Font Stack">
 
-&nbsp; &nbsp;💻 **[View in Your Browser](https://modernfontstacks.com/?stack=transitional) ([Article View](https://modernfontstacks.com/?stack=transitional#article-view))**
+&nbsp; &nbsp;💻 **[View in Your Browser](https://modernfontstacks.com/?stack=transitional) ([Article View](https://modernfontstacks.com/?stack=transitional#article-view) / [Characters](https://modernfontstacks.com/?stack=transitional#characters))**
 
 <details>
 <summary><strong>🎥 Preview Rendering Across Operating Systems</strong></summary>
@@ -122,7 +122,7 @@ font-family: 'Iowan Old Style', 'Palatino Linotype', 'URW Palladio L', P052, ser
 
 <img src="img/old-style.png" alt="Old Style Font Stack">
 
-&nbsp; &nbsp;💻 **[View in Your Browser](https://modernfontstacks.com/?stack=old-style) ([Article View](https://modernfontstacks.com/?stack=old-style#article-view))**
+&nbsp; &nbsp;💻 **[View in Your Browser](https://modernfontstacks.com/?stack=old-style) ([Article View](https://modernfontstacks.com/?stack=old-style#article-view) / [Characters](https://modernfontstacks.com/?stack=old-style#characters))**
 
 <details>
 <summary><strong>🎥 Preview Rendering Across Operating Systems</strong></summary>
@@ -161,7 +161,7 @@ font-family: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-s
 
 <img src="img/humanist.png" alt="Humanist Font Stack">
 
-&nbsp; &nbsp;💻 **[View in Your Browser](https://modernfontstacks.com/?stack=humanist) ([Article View](https://modernfontstacks.com/?stack=humanist#article-view))**
+&nbsp; &nbsp;💻 **[View in Your Browser](https://modernfontstacks.com/?stack=humanist) ([Article View](https://modernfontstacks.com/?stack=humanist#article-view) / [Characters](https://modernfontstacks.com/?stack=humanist#characters))**
 
 <details>
 <summary><strong>🎥 Preview Rendering Across Operating Systems</strong></summary>
@@ -201,7 +201,8 @@ font-family: Avenir, 'Avenir Next LT Pro', Montserrat, Corbel, 'URW Gothic', sou
 
 <img src="img/geometric-humanist.png" alt="Geometric Humanist Font Stack">
 
-&nbsp; &nbsp;💻 **[View in Your Browser](https://modernfontstacks.com/?stack=geometric-humanist) ([Article View](https://modernfontstacks.com/?stack=geometric-humanist#article-view))**
+&nbsp; &nbsp;💻 **[View in Your Browser](https://modernfontstacks.com/?stack=geometric-humanist) ([Article View](https://modernfontstacks.com/?stack=geometric-humanist#article-view) / [Characters](https://modernfontstacks.com/?stack=geometric-humanist#characters))**
+
 
 <details>
 <summary><strong>🎥 Preview Rendering Across Operating Systems</strong></summary>
@@ -244,7 +245,7 @@ font-family: Optima, Candara, 'Noto Sans', source-sans-pro, sans-serif;
 <img src="img/classical-humanist.png" alt="Classical Humanist Font Stack">
 
 
-&nbsp; &nbsp;💻 **[View in Your Browser](https://modernfontstacks.com/?stack=classical-humanist) ([Article View](https://modernfontstacks.com/?stack=classical-humanist#article-view))**
+&nbsp; &nbsp;💻 **[View in Your Browser](https://modernfontstacks.com/?stack=classical-humanist) ([Article View](https://modernfontstacks.com/?stack=classical-humanist#article-view) / [Characters](https://modernfontstacks.com/?stack=classical-humanist#characters))**
 
 <details>
 <summary><strong>🎥 Preview Rendering Across Operating Systems</strong></summary>
@@ -281,7 +282,7 @@ font-family: Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial
 
 <img src="img/neo-grotesque.png" alt="Neo-Grotesque Font Stack">
 
-&nbsp; &nbsp;💻 **[View in Your Browser](https://modernfontstacks.com/?stack=neo-grotesque) ([Article View](https://modernfontstacks.com/?stack=neo-grotesque#article-view))**
+&nbsp; &nbsp;💻 **[View in Your Browser](https://modernfontstacks.com/?stack=neo-grotesque) ([Article View](https://modernfontstacks.com/?stack=neo-grotesque#article-view) / [Characters](https://modernfontstacks.com/?stack=neo-grotesque#characters))**
 
 <details>
 <summary><strong>🎥 Preview Rendering Across Operating Systems</strong></summary>
@@ -317,7 +318,7 @@ font-family: 'Nimbus Mono PS', 'Courier New', 'Cutive Mono', monospace;
 
 <img src="img/monospace-slab-serif.png" alt="Monospace Slab Serif Font Stack">
 
-&nbsp; &nbsp;💻 **[View in Your Browser](https://modernfontstacks.com/?stack=monospace-slab-serif) ([Article View](https://modernfontstacks.com/?stack=monospace-slab-serif#article-view))**
+&nbsp; &nbsp;💻 **[View in Your Browser](https://modernfontstacks.com/?stack=monospace-slab-serif) ([Article View](https://modernfontstacks.com/?stack=monospace-slab-serif#article-view) / [Characters](https://modernfontstacks.com/?stack=monospace-slab-serif#characters))**
 
 <details>
 <summary><strong>🎥 Preview Rendering Across Operating Systems</strong></summary>
@@ -357,7 +358,7 @@ font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 
 
 <img src="img/monospace-code.png" alt="Monospace Code Font Stack">
 
-&nbsp; &nbsp;💻 **[View in Your Browser](https://modernfontstacks.com/?stack=monospace-code) ([Article View](https://modernfontstacks.com/?stack=monospace-code#article-view))**
+&nbsp; &nbsp;💻 **[View in Your Browser](https://modernfontstacks.com/?stack=monospace-code) ([Article View](https://modernfontstacks.com/?stack=monospace-code#article-view) / [Characters](https://modernfontstacks.com/?stack=monospace-code#characters))**
 
 <details>
 <summary><strong>🎥 Preview Rendering Across Operating Systems</strong></summary>
@@ -400,7 +401,7 @@ font-family: Bahnschrift, 'DIN Alternate', 'Franklin Gothic Medium', 'Nimbus San
 
 <img src="img/industrial.png" alt="Industrial Font Stack">
 
-&nbsp; &nbsp;💻 **[View in Your Browser](https://modernfontstacks.com/?stack=industrial) ([Article View](https://modernfontstacks.com/?stack=industrial#article-view))**
+&nbsp; &nbsp;💻 **[View in Your Browser](https://modernfontstacks.com/?stack=industrial) ([Article View](https://modernfontstacks.com/?stack=industrial#article-view) / [Characters](https://modernfontstacks.com/?stack=industrial#characters))**
 
 <details>
 <summary><strong>🎥 Preview Rendering Across Operating Systems</strong></summary>
@@ -442,7 +443,7 @@ font-family: ui-rounded, 'Hiragino Maru Gothic ProN', Quicksand, Comfortaa, Manj
 
 <img src="img/rounded-sans.png" alt="Rounded Sans Font Stack">
 
-&nbsp; &nbsp;💻 **[View in Your Browser](https://modernfontstacks.com/?stack=rounded-sans) ([Article View](https://modernfontstacks.com/?stack=rounded-sans#article-view))**
+&nbsp; &nbsp;💻 **[View in Your Browser](https://modernfontstacks.com/?stack=rounded-sans) ([Article View](https://modernfontstacks.com/?stack=rounded-sans#article-view) / [Characters](https://modernfontstacks.com/?stack=rounded-sans#characters))**
 
 <details>
 <summary><strong>🎥 Preview Rendering Across Operating Systems</strong></summary>
