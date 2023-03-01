@@ -223,7 +223,7 @@ font-family: Avenir, 'Avenir Next LT Pro', Montserrat, Corbel, 'URW Gothic', sou
 | Source Sans Pro       |     |     |     |  ●  |     |  ●  |  ●  |     |     |
 
 #### Notes
-- Avenir was chosen over Avenir Next for macOS because the weight 300 is much more legible on the web over the 200 weight that Avenir Next has.
+- Avenir was chosen over Avenir Next for macOS because the weight 300 is much more legible on the web over the 200 weight that Avenir Next has. If you're looking for an ultra-light or ultra-black, feel free to swap Avenir for Avenir Next.
 - [Avenir Next LT Pro](https://learn.microsoft.com/en-us/typography/font-list/avenirnextltpro) is supplied with Microsoft Office products.
 - Source Sans Pro uses name [source-sans-pro](https://android.googlesource.com/platform/frameworks/base/+/master/data/fonts/fonts.xml#263) under Android, so this font only targets Android devices.
 
@@ -468,7 +468,7 @@ font-family: ui-rounded, 'Hiragino Maru Gothic ProN', Quicksand, Comfortaa, Manj
 #### Notes
 - SF Pro Rounded is [only available](https://caniuse.com/extended-system-fonts) via `ui-rounded` on macOS 10.15+ and iOS 13.3+ while using Safari
 - Hiragino Maru Gothic is technically a Japanese typeface but has support for all the latin characters. The Mac font does not include a bold so a faux bold will be displayed on screen.
-- Source Sans Pro uses name [source-sans-pro](https://android.googlesource.com/platform/frameworks/base/+/master/data/fonts/fonts.xml#263) under Android, so this font only targets Android devices.
+- Source Sans Pro uses name [source-sans-pro](https://android.googlesource.com/platform/frameworks/base/+/master/data/fonts/fonts.xml#263) under Android, so this font only targets Android devices. It's not a rounded typeface, but it's better than Roboto here.
 
 </details>
 
