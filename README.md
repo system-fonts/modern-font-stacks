@@ -510,7 +510,7 @@ font-family: Rockwell, 'Rockwell Nova', 'Roboto Slab', 'DejaVu Serif', 'Sitka Sm
 |:------------------------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | Rockwell                |     |     |     |  ●  |     |     |  ●  |     |     |
 | Rockwell Nova           |     |     |  ●  |  ●  |     |     |  ●  |  ●  |     |
-| Roboto Slab             |     |     |     |  ●  |     |     |  ●  |     |     |
+| Roboto Slab             |  ●  |     |  ●  |  ●  |     |     |  ●  |     |     |
 | DejaVu Serif            |     |     |     |  ●  |     |     |  ●  |     |     |
 | Sitka Small             |     |     |     |  ●  |     |     |  ●  |     |     |
 | Noto Serif              |     |     |     |  ●  |     |     |  ●  |     |     |
