@@ -16,15 +16,18 @@
   <a href="#transitional">Transitional</a> &nbsp;&middot;&nbsp; 
   <a href="#old-style">Old Style</a> &nbsp;&middot;&nbsp; 
   <a href="#humanist">Humanist</a> &nbsp;&middot;&nbsp; 
-  <a href="#geometric-humanist">Geometric Humanist</a> &nbsp;&middot;&nbsp; 
-  <a href="#classical-humanist">Classical Humanist</a>
+  <a href="#geometric-humanist">Geometric Humanist</a>
 </p>
 <p align="center">
+  <a href="#classical-humanist">Classical Humanist</a> &nbsp;&middot;&nbsp; 
   <a href="#neo-grotesque">Neo-Grotesque</a> &nbsp;&middot;&nbsp; 
   <a href="#monospace-slab-serif">Monospace Slab Serif</a> &nbsp;&middot;&nbsp; 
   <a href="#monospace-code">Monospace Code</a> &nbsp;&middot;&nbsp; 
-  <a href="#industrial">Industrial</a> &nbsp;&middot;&nbsp; 
-  <a href="#rounded-sans">Rounded Sans</a>
+  <a href="#industrial">Industrial</a>
+</p>
+<p align="center">
+  <a href="#rounded-sans">Rounded Sans</a> &nbsp;&middot;&nbsp; 
+  <a href="#slab-serif">Slab Serif</a>
 </p>
 <hr>
 
@@ -303,6 +306,10 @@ font-family: Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial
 | Nimbus Sans           |     |     |     |  ●  |     |  ●  |  ●  |     |     |
 | Arial                 |     |     |     |  ●  |     |  ●  |  ●  |     |     |
 
+#### Notes
+- [Arial Nova](https://apps.microsoft.com/store/detail/arial-nova/9NS5CT1MZ7M8) is available as a supplemental downloadable font.
+
+
 </details>
 
 <br>
@@ -470,6 +477,49 @@ font-family: ui-rounded, 'Hiragino Maru Gothic ProN', Quicksand, Comfortaa, Manj
 - SF Pro Rounded is [only available](https://caniuse.com/extended-system-fonts) via `ui-rounded` on macOS 10.15+ and iOS 13.3+ while using Safari
 - Hiragino Maru Gothic is technically a Japanese typeface but has support for all the latin characters. The Mac font does not include a bold so a faux bold will be displayed on screen.
 - Source Sans Pro uses name [source-sans-pro](https://android.googlesource.com/platform/frameworks/base/+/master/data/fonts/fonts.xml#263) under Android, so this font only targets Android devices. It's not a rounded typeface, but it's better than Roboto here.
+
+</details>
+
+<br>
+
+## Slab Serif
+
+Slab Serif typefaces are characterized by the presence of thick, block-like serifs on the ends of each letterform. These serifs are usually unbracketed, meaning they do not have any curved or tapered transitions to the main stroke of the letter.
+
+
+#### CSS Font Stack
+```css
+font-family: Rockwell, 'Rockwell Nova', 'Roboto Slab', 'DejaVu Serif', 'Sitka Small', serif;
+```
+
+<img src="img/slab-serif.png" alt="Slab Serif Font Stack">
+
+&nbsp; &nbsp;💻 **[View in Your Browser](https://modernfontstacks.com/?stack=slab-serif) ([Article View](https://modernfontstacks.com/?stack=slab-serif#article-view) / [Characters](https://modernfontstacks.com/?stack=slab-serif#characters))**
+
+<details>
+<summary><strong>🎥 Preview Rendering Across Operating Systems</strong></summary>
+<img src="img/slab-serif-preview.gif" alt="Slab Serif Font Rendering">
+</details>
+
+<details>
+<summary><strong>✅ Font Weights & Notes</strong></summary>
+
+<br>
+
+| Font Weights            | 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900 |
+|:------------------------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| Rockwell                |     |     |     |  ●  |     |     |  ●  |     |     |
+| Rockwell Nova           |     |     |  ●  |  ●  |     |     |  ●  |  ●  |     |
+| Roboto Slab             |     |     |     |  ●  |     |     |  ●  |     |     |
+| DejaVu Serif            |     |     |     |  ●  |     |     |  ●  |     |     |
+| Sitka Small             |     |     |     |  ●  |     |     |  ●  |     |     |
+| Noto Serif              |     |     |     |  ●  |     |     |  ●  |     |     |
+
+
+#### Notes
+- [Rockwell](https://learn.microsoft.com/en-us/typography/font-list/rockwell) is included with Windows Office
+- [Rockwell Nova](https://apps.microsoft.com/store/detail/arial-nova/9NS5CT1MZ7M8) is available as a supplemental downloadable font.
+- Android uses Noto Serif as its default `serif` font, so no need to specify in the stack.
 
 </details>
 
