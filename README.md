@@ -27,7 +27,8 @@
 </p>
 <p align="center">
   <a href="#rounded-sans">Rounded Sans</a> &nbsp;&middot;&nbsp; 
-  <a href="#slab-serif">Slab Serif</a>
+  <a href="#slab-serif">Slab Serif</a> &nbsp;&middot;&nbsp; 
+  <a href="#antique">Antique</a>
 </p>
 <hr>
 
@@ -143,7 +144,7 @@ font-family: 'Iowan Old Style', 'Palatino Linotype', 'URW Palladio L', P052, ser
 | Palatino Linotype     |     |     |     |  ●  |     |     |  ●  |     |     |
 | URW Palladio L        |     |     |     |  ●  |     |     |  ●  |     |     |
 | P052                  |     |     |     |  ●  |     |     |  ●  |     |     |
-| Noto Serif            |     |     |     |  ●  |     |     |  ●  |     |     |
+| Noto Serif¹           |     |     |     |  ●  |     |     |  ●  |     |     |
 
 
 #### Notes
@@ -520,6 +521,47 @@ font-family: Rockwell, 'Rockwell Nova', 'Roboto Slab', 'DejaVu Serif', 'Sitka Sm
 - [Rockwell](https://learn.microsoft.com/en-us/typography/font-list/rockwell) is included with Windows Office
 - [Rockwell Nova](https://apps.microsoft.com/store/detail/arial-nova/9NS5CT1MZ7M8) is available as a supplemental downloadable font.
 - Android uses Noto Serif as its default `serif` font, so no need to specify in the stack.
+
+</details>
+
+<br>
+
+## Antique
+
+Antique typefaces, also known as Egyptians, are a subset of serif typefaces that were popular in the 19th century. They are characterized by their block-like serifs and thick uniform stroke weight. 
+
+#### CSS Font Stack
+```css
+font-family: Superclarendon, 'Bookman Old Style', 'URW Bookman', 'URW Bookman L', 'Georgia Pro', Georgia, serif;
+```
+
+<img src="img/antique.png" alt="Antique Font Stack">
+
+&nbsp; &nbsp;💻 **[View in Your Browser](https://modernfontstacks.com/?stack=antique) ([Article View](https://modernfontstacks.com/?stack=antique#article-view) / [Characters](https://modernfontstacks.com/?stack=antique#characters))**
+
+<details>
+<summary><strong>🎥 Preview Rendering Across Operating Systems</strong></summary>
+<img src="img/antique-preview.gif" alt="Antique Font Rendering">
+</details>
+
+<details>
+<summary><strong>✅ Font Weights & Notes</strong></summary>
+
+<br>
+
+| Font Weights            | 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900 |
+|:------------------------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| Superclarendon          |     |     |  ●  |  ●  |     |     |  ●  |     |  ●  |
+| Bookman Old Style       |     |     |     |  ●  |     |     |  ●  |     |     |
+| URW Bookman             |     |     |  ●  |     |     |  ●  |     |     |     |
+| Georgia Pro             |     |     |  ●  |  ●  |     |  ●  |  ●  |     |  ●  |
+| Georgia                 |     |     |     |  ●  |     |     |  ●  |     |     |
+| Noto Serif¹             |     |     |     |  ●  |     |     |  ●  |     |     |
+
+
+#### Notes
+- [Georigia Pro](https://apps.microsoft.com/store/detail/georgia-pro/9N9DZG1XT2MB) is available as a supplemental downloadable font.
+- Android uses Noto Serif as alias for `Georgia`, so no need to specify in the stack.
 
 </details>
 
