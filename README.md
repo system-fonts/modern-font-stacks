@@ -567,6 +567,49 @@ font-family: Superclarendon, 'Bookman Old Style', 'URW Bookman', 'URW Bookman L'
 
 <br>
 
+## Didone
+
+Didone typefaces, also known as Modern typefaces, are characterized by the high contrast between thick and thin strokes, vertical stress, and hairline serifs with no bracketing. The Didone style emerged in the late 18th century and gained popularity during the 19th century.
+
+
+#### CSS Font Stack
+```css
+font-family: Didot, 'Bodoni MT', 'Noto Serif Display', 'URW Palladio L', P052, Sylfaen, serif;
+```
+
+<img src="img/didone.png" alt="Didone Font Stack">
+
+&nbsp; &nbsp;💻 **[View in Your Browser](https://modernfontstacks.com/?stack=didone) ([Article View](https://modernfontstacks.com/?stack=didone#article-view) / [Characters](https://modernfontstacks.com/?stack=didone#characters))**
+
+<details>
+<summary><strong>🎥 Preview Rendering Across Operating Systems</strong></summary>
+<img src="img/didone-preview.gif" alt="Didone Font Rendering">
+</details>
+
+<details>
+<summary><strong>✅ Font Weights & Notes</strong></summary>
+
+<br>
+
+| Font Weights            | 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900 |
+|:------------------------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| Didot                   |     |     |     |  ●  |     |     |  ●  |     |     |
+| Bodoni MT               |     |     |     |  ●  |     |     |  ●  |     |  ●  |
+| Noto Serif Display      |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |
+| URW Palladio L          |     |     |     |  ●  |     |     |  ●  |     |     |
+| P052                    |     |     |     |  ●  |     |     |  ●  |     |     |
+| Sylfaen                 |     |     |     |  ●  |     |     |     |     |     |
+| Noto Serif¹             |     |     |     |  ●  |     |     |  ●  |     |     |
+
+
+#### Notes
+- Android uses Noto Serif as its default `serif` font, so no need to specify in the stack.
+- Sylfaen does not include a bold so a faux bold will be displayed on screen.
+
+</details>
+
+<br>
+
 ## Additional Features
 
 #### Emoji Support
