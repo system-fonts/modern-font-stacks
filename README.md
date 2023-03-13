@@ -28,7 +28,8 @@
 <p align="center">
   <a href="#rounded-sans">Rounded Sans</a> &nbsp;&middot;&nbsp; 
   <a href="#slab-serif">Slab Serif</a> &nbsp;&middot;&nbsp; 
-  <a href="#antique">Antique</a>
+  <a href="#antique">Antique</a> &nbsp;&middot;&nbsp; 
+  <a href="#didone">Didone</a>
 </p>
 <hr>
 
