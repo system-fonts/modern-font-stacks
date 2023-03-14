@@ -74,7 +74,8 @@ font-family: system-ui, sans-serif;
 
 </details>
 
-<br>
+<p align="right"><a href="#modern-font-stacks">Back to Top ↑</a></p>
+
 
 ## Transitional
 
@@ -115,7 +116,8 @@ font-family: Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif;
 
 </details>
 
-<br>
+<p align="right"><a href="#modern-font-stacks">Back to Top ↑</a></p>
+
 
 ## Old Style
 
@@ -154,7 +156,8 @@ font-family: 'Iowan Old Style', 'Palatino Linotype', 'URW Palladio L', P052, ser
 
 </details>
 
-<br>
+<p align="right"><a href="#modern-font-stacks">Back to Top ↑</a></p>
+
 
 ## Humanist
 
@@ -194,7 +197,8 @@ font-family: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-s
 
 </details>
 
-<br>
+<p align="right"><a href="#modern-font-stacks">Back to Top ↑</a></p>
+
 
 ## Geometric Humanist
 
@@ -234,10 +238,10 @@ font-family: Avenir, 'Avenir Next LT Pro', Montserrat, Corbel, 'URW Gothic', sou
 - [Avenir Next LT Pro](https://learn.microsoft.com/en-us/typography/font-list/avenirnextltpro) is supplied with Microsoft Office products.
 - Source Sans Pro uses name [source-sans-pro](https://android.googlesource.com/platform/frameworks/base/+/master/data/fonts/fonts.xml#263) under Android, so this font only targets Android devices.
 
-
 </details>
 
-<br>
+<p align="right"><a href="#modern-font-stacks">Back to Top ↑</a></p>
+
 
 ## Classical Humanist
 
@@ -275,7 +279,8 @@ font-family: Optima, Candara, 'Noto Sans', source-sans-pro, sans-serif;
 
 </details>
 
-<br>
+<p align="right"><a href="#modern-font-stacks">Back to Top ↑</a></p>
+
 
 ## Neo-Grotesque
 
@@ -315,7 +320,8 @@ font-family: Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial
 
 </details>
 
-<br>
+<p align="right"><a href="#modern-font-stacks">Back to Top ↑</a></p>
+
 
 ## Monospace Slab Serif
 
@@ -354,7 +360,8 @@ font-family: 'Nimbus Mono PS', 'Courier New', 'Cutive Mono', monospace;
 
 </details>
 
-<br>
+<p align="right"><a href="#modern-font-stacks">Back to Top ↑</a></p>
+
 
 ## Monospace Code
 
@@ -394,10 +401,10 @@ font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 
 - SF Mono is [only available](https://caniuse.com/extended-system-fonts) via `ui-monospace` on macOS 10.15+ and iOS 13.3+ while using Safari
 - Droid Sans Mono for Android does not need to be specified in the stack as `monospace` is a name alias for it
 
-
 </details>
 
-<br>
+<p align="right"><a href="#modern-font-stacks">Back to Top ↑</a></p>
+
 
 ## Industrial
 
@@ -436,10 +443,10 @@ font-family: Bahnschrift, 'DIN Alternate', 'Franklin Gothic Medium', 'Nimbus San
 - Bahnschrift is one of the first [variable font](https://learn.microsoft.com/en-us/typography/font-list/bahnschrift) added to Windows.
 - Roboto Condensed uses name [sans-serif-condensed](https://android.googlesource.com/platform/frameworks/base/+/master/data/fonts/fonts.xml#126) under Android, so this font only targets Android devices.
 
-
 </details>
 
-<br>
+<p align="right"><a href="#modern-font-stacks">Back to Top ↑</a></p>
+
 
 ## Rounded Sans
 
@@ -483,7 +490,8 @@ font-family: ui-rounded, 'Hiragino Maru Gothic ProN', Quicksand, Comfortaa, Manj
 
 </details>
 
-<br>
+<p align="right"><a href="#modern-font-stacks">Back to Top ↑</a></p>
+
 
 ## Slab Serif
 
@@ -526,7 +534,8 @@ font-family: Rockwell, 'Rockwell Nova', 'Roboto Slab', 'DejaVu Serif', 'Sitka Sm
 
 </details>
 
-<br>
+<p align="right"><a href="#modern-font-stacks">Back to Top ↑</a></p>
+
 
 ## Antique
 
@@ -567,7 +576,8 @@ font-family: Superclarendon, 'Bookman Old Style', 'URW Bookman', 'URW Bookman L'
 
 </details>
 
-<br>
+<p align="right"><a href="#modern-font-stacks">Back to Top ↑</a></p>
+
 
 ## Didone
 
@@ -610,7 +620,8 @@ font-family: Didot, 'Bodoni MT', 'Noto Serif Display', 'URW Palladio L', P052, S
 
 </details>
 
-<br>
+<p align="right"><a href="#modern-font-stacks">Back to Top ↑</a></p>
+
 
 ## Handwritten
 
@@ -649,7 +660,8 @@ font-family: 'Segoe Print', 'Bradley Hand', Chilanka, TSCu_Comic, casual, cursiv
 
 </details>
 
-<br>
+<p align="right"><a href="#modern-font-stacks">Back to Top ↑</a></p>
+
 
 ## Additional Features
 
@@ -680,3 +692,5 @@ html {
 - [iOS 9.3 or newer](https://developer.apple.com/fonts/system-fonts/)
 - [macOS 10.9 (Mavericks) or newer](https://support.apple.com/en-us/HT201375)
 - [Linux](https://docs.google.com/spreadsheets/d/1kbxC3UyGTzpA9aOEJD-GYH0uHTops5VSEb8jKKD9Wwc/edit?usp=sharing) (Sampled 12 popular distros)
+
+<p align="right"><a href="#modern-font-stacks">Back to Top ↑</a></p>
