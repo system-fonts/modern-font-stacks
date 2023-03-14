@@ -22,14 +22,15 @@
   <a href="#classical-humanist">Classical Humanist</a> &nbsp;&middot;&nbsp; 
   <a href="#neo-grotesque">Neo-Grotesque</a> &nbsp;&middot;&nbsp; 
   <a href="#monospace-slab-serif">Monospace Slab Serif</a> &nbsp;&middot;&nbsp; 
-  <a href="#monospace-code">Monospace Code</a> &nbsp;&middot;&nbsp; 
-  <a href="#industrial">Industrial</a>
+  <a href="#monospace-code">Monospace Code</a>
 </p>
 <p align="center">
+  <a href="#industrial">Industrial</a> &nbsp;&middot;&nbsp; 
   <a href="#rounded-sans">Rounded Sans</a> &nbsp;&middot;&nbsp; 
   <a href="#slab-serif">Slab Serif</a> &nbsp;&middot;&nbsp; 
   <a href="#antique">Antique</a> &nbsp;&middot;&nbsp; 
-  <a href="#didone">Didone</a>
+  <a href="#didone">Didone</a> &nbsp;&middot;&nbsp; 
+  <a href="#handwritten">Handwritten</a>
 </p>
 <hr>
 
@@ -606,6 +607,45 @@ font-family: Didot, 'Bodoni MT', 'Noto Serif Display', 'URW Palladio L', P052, S
 #### Notes
 - Android uses Noto Serif as its default `serif` font, so no need to specify in the stack.
 - Sylfaen does not include a bold so a faux bold will be displayed on screen.
+
+</details>
+
+<br>
+
+## Handwritten
+
+Handwritten typefaces are designed to mimic the look and feel of handwriting. Despite the vast array of handwriting styles, this font stack tend to adopt a more informal and everyday style of handwriting.
+
+#### CSS Font Stack
+```css
+font-family: 'Segoe Print', 'Bradley Hand', Chilanka, TSCu_Comic, casual, cursive;
+```
+
+<img src="img/handwritten.png" alt="Handwritten Font Stack">
+
+&nbsp; &nbsp;💻 **[View in Your Browser](https://modernfontstacks.com/?stack=handwritten) ([Article View](https://modernfontstacks.com/?stack=handwritten#article-view) / [Characters](https://modernfontstacks.com/?stack=handwritten#characters))**
+
+<details>
+<summary><strong>🎥 Preview Rendering Across Operating Systems</strong></summary>
+<img src="img/handwritten-preview.gif" alt="Handwritten Font Rendering">
+</details>
+
+<details>
+<summary><strong>✅ Font Weights & Notes</strong></summary>
+
+<br>
+
+| Font Weights            | 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900 |
+|:------------------------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| Segoe Print             |     |     |     |  ●  |     |     |  ●  |     |     |
+| Bradley Hand            |     |     |     |     |     |     |  ●  |     |     |
+| Chilanka                |     |     |     |  ●  |     |     |     |     |     |
+| TSCu_Comic              |     |     |     |  ●  |     |     |     |     |     |
+| Coming Soon             |     |     |     |  ●  |     |     |     |     |     |
+
+
+#### Notes
+- Coming Soon uses name [casual](https://android.googlesource.com/platform/frameworks/base/+/master/data/fonts/fonts.xml#249) under Android, so this font only targets Android devices.
 
 </details>
 
