@@ -22,8 +22,10 @@ a {
   text-underline-offset: 4px;
 }
 
-a:hover  {
-  text-decoration-color: #000;
+@media (hover: hover) {
+  a:hover  {
+    text-decoration-color: #000;
+  }
 }
 
 
@@ -78,9 +80,11 @@ a:hover  {
   text-decoration: none;
 }
 
-#menu nav a:hover {
-  color: #202020;
-  text-decoration: underline;
+@media (hover: hover) {
+  #menu nav a:hover {
+    color: #202020;
+    text-decoration: underline;
+    }
 }
 
 
@@ -103,7 +107,6 @@ header > div {
 
 header .logo-link {
   display: block;
-  max-width: 22rem;
   margin: 0 auto 1.25rem;
   text-decoration: underline;
   text-decoration-color: transparent;
@@ -112,8 +115,10 @@ header .logo-link {
   transition: all 0.3s ease;
 }
 
-header .logo-link:hover {
-  text-decoration-color: #ddd;
+@media (hover: hover) {
+  header .logo-link:hover {
+    text-decoration-color: #ddd;
+  }
 }
 
 header svg {
@@ -128,9 +133,11 @@ header svg {
   transition: transform 0.3s ease;
 }
 
-header .logo-link:hover .logo-front-layer { transform: translate(-2px, -1px); }
-header .logo-link:hover .logo-middle-layer { transform: translate(2px, 1px); }
-header .logo-link:hover .logo-back-layer { transform: translate(6px, 3px); }
+@media (hover: hover) {
+  header .logo-link:hover .logo-front-layer { transform: translate(-2px, -1px); }
+  header .logo-link:hover .logo-middle-layer { transform: translate(2px, 1px); }
+  header .logo-link:hover .logo-back-layer { transform: translate(6px, 3px); }
+}
 
 header h1 {
   font-family: Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif;
@@ -177,8 +184,10 @@ header p {
   background: #fdfdfd;
 }
 
-.btn:hover {
-  border: 2px solid #aaa;
+@media (hover: hover) {
+  .btn:hover {
+    border: 2px solid #aaa;
+  }
 }
 
 .btn:active {
@@ -341,24 +350,29 @@ section > h2 {
   padding: 0 4px 0;
   color: #707070;
   position: relative;
-  top: 2px;
-  left: -4px;
+  top: 4px;
+  left: 2px;
+  float: right;
 }
 
-.font-link:hover {
-  color: #000;
+@media (hover: hover) {
+  .font-link:hover {
+    color: #000;
+  }
+  
+  .font-title:hover .font-link {
+    display: inline-flex;
+  }
 }
 
-.font-title:hover .font-link {
-  display: inline-flex;
+@media (hover: none) {
+  .font-title .font-link {
+    display: inline-flex;
+  }
 }
 
 .font-card.highlight {
   outline: 2px solid #000;
-}
-
-.font-card.highlight .font-link {
-  display: none;
 }
 
 .font-title {
@@ -737,9 +751,11 @@ footer a {
   text-decoration-thickness: 1px;
 }
 
-footer a:hover {
-  color: inherit;
-  text-decoration-color: #fff;
+@media (hover: hover) {
+  footer a:hover {
+    color: inherit;
+    text-decoration-color: #fff;
+  }
 }
 
 footer span {
