@@ -379,7 +379,7 @@ section > h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1.25rem 1rem;
+  padding: 1.25rem .75rem;
   border-bottom: 1px solid #e5e7eb;
 }
 
@@ -408,7 +408,7 @@ section > h2 {
   display: block;
   flex: 1 auto;
   margin: 0;
-  padding: 1.5rem 1rem;
+  padding: 1.5rem .75rem;
   line-height: 1.2;
   overflow: hidden;
 }
@@ -802,6 +802,14 @@ footer span {
     grid-template-columns: repeat(auto-fill, minmax(22rem, 1fr));
     gap: 0 1.5rem;
     padding: 3rem 1.5rem 0;
+  }
+  
+  .font-title {
+    padding: 1.25rem 1rem;
+  }
+  
+  .font-preview {
+    padding: 1.5rem 1rem;
   }
   
   .font-weights {
