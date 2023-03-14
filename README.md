@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://modernfontstacks.com/">
-    <img src="img/modern-font-stacks-logo.svg" width="128" height="128" alt="Modern Font Stacks">
+    <img src="img/logo-modern-font-stacks.svg" width="128" height="128" alt="Modern Font Stacks">
   </a>
 </p>
 
