@@ -486,15 +486,19 @@ section > h2 {
   background: white;
 }
 
-.nope { color: #DC2626; }
-.yep { color: #408439; }
+.nope {
+  color: #DC2626;
+}
 
-.yep:first-child, :not(.yep) + .yep {
+.yep {
   text-decoration: underline;
   text-underline-offset: 3px;
+  color: #408439;
 }
+
 .yep ~ .yep {
-  text-decoration: none;
+  text-decoration-style: dotted;
+  color: initial;
 }
 
 
