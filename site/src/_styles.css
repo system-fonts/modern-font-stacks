@@ -497,7 +497,7 @@ section > h2 {
 
 .yep ~ .yep {
   text-decoration-style: dotted;
-  color: initial;
+  text-decoration-color: #26599799;
 }
 
 
