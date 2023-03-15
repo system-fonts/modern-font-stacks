@@ -487,7 +487,7 @@ section > h2 {
 }
 
 .nope { color: #DC2626; }
-.yep { color: #408439; }
+.yep { color: #265997; }
 
 .yep:first-child, :not(.yep) + .yep {
   text-decoration: underline;
