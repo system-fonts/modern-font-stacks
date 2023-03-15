@@ -329,7 +329,7 @@ section > h2 {
 #fonts {
   max-width: 84rem;
   margin: 0 auto;
-  padding: 2rem 1rem 0;
+  padding: 2rem 1rem;
   font-size: 2rem;
 }
 
@@ -475,15 +475,14 @@ section > h2 {
 }
 
 #font-stacks-key {
-  display: inline-flex;
+  display: flex;
   flex-direction: row;
-  margin: 0.5rem auto 4rem;
   gap: 1rem;
   justify-content: center;
   padding: 1rem;
   font-size: 13px;
   font-weight: 500;
-  background: white;
+  grid-column: 1 / -1;
 }
 
 .nope { color: #DC2626; }
@@ -802,7 +801,7 @@ footer span {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(22rem, 1fr));
     gap: 0 1.5rem;
-    padding: 3rem 1.5rem 0;
+    padding: 3rem 1.5rem 4rem;
   }
   
   .font-title {
