@@ -478,11 +478,37 @@ section > h2 {
   display: flex;
   flex-direction: row;
   gap: 1rem;
-  justify-content: center;
+  justify-content: space-between;
   padding: 1rem;
   font-size: 13px;
   font-weight: 500;
   grid-column: 1 / -1;
+}
+
+#font-stacks-key > div {
+  display: flex;
+  flex: 1 auto;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: center;
+}
+
+#font-stacks-key .how-to-use {
+  display: none;
+  gap: 0.5rem;
+}
+
+#font-stacks-key .how-to-use span {
+  font-weight: normal;
+}
+
+#font-stacks-key .how-to-use code {
+  font-family: 'Cascadia Code', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+  background: #f4f6f6;
+  padding: 4px;
+  border-radius: 3px;
+  font-size: 12px;
+  color: #1e293b;
 }
 
 .nope {
@@ -767,8 +793,7 @@ footer span {
 }
 
 
-/* === DESKTOP STYLES === */
-
+/* === SM DESKTOP STYLES === */
 @media (min-width: 42rem) {
   
   header h2 {
@@ -863,9 +888,20 @@ footer span {
   
 }
 
+/* === MD DESKTOP STYLES === */
+@media (min-width: 54rem) {
+  
+  #font-stacks-key .how-to-use {
+    display: flex;
+  }
+
+  #font-stacks-key > div {
+    flex: 0 auto;
+  }
+  
+}
 
 /* === LG DESKTOP STYLES === */
-
 @media (min-width: 80rem) {
   
   #font-characters {
