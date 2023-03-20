@@ -69,7 +69,7 @@ font-family: system-ui, sans-serif;
 | Noto Sans             |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |
 
 #### Notes
-- System UI is less of a font stack and more of a CSS value, `system-ui`, representing the default user interface font.
+- System UI is less of a font stack and more of a CSS value, `system-ui`, representing the default user interface font. It is [widely supported](https://caniuse.com/font-family-system-ui) on all modern operating systems.
 - The fonts shown are the default fonts for UI in each modern OS.
 
 </details>
