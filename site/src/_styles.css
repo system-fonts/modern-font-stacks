@@ -106,8 +106,7 @@ header > div {
 }
 
 header .logo-link {
-  display: block;
-  margin: 0 auto 1.25rem;
+  display: inline-block;
   text-decoration: underline;
   text-decoration-color: transparent;
   text-decoration-thickness: 2px;
@@ -144,7 +143,7 @@ header h1 {
   font-size: 2.25rem;
   line-height: 1.1;
   text-align: center;
-  margin: 0.5rem 1rem 1rem;
+  margin: 0.5rem 1rem 0.5rem;
   font-weight: 400;
 }
 
