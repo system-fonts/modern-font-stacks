@@ -314,6 +314,7 @@ font-family: Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial
 
 #### Notes
 - [Arial Nova](https://apps.microsoft.com/store/detail/arial-nova/9NS5CT1MZ7M8) is available as a supplemental downloadable font.
+- Roboto is used for Linux (MX Linux, ElementaryOS, etc) and manual installs. It will not render Roboto on Android, but [Android's generic sans-serif](https://android.googlesource.com/platform/frameworks/base/+/master/data/fonts/fonts.xml#26) will.
 
 
 </details>
