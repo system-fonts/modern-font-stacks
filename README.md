@@ -455,7 +455,7 @@ Rounded typefaces are characterized by the rounded curved letterforms and give a
 
 #### CSS Font Stack
 ```css
-font-family: ui-rounded, 'Hiragino Maru Gothic ProN', Quicksand, Comfortaa, Manjari, 'Arial Rounded MT Bold', Calibri, source-sans-pro, sans-serif;
+font-family: ui-rounded, 'Hiragino Maru Gothic ProN', Quicksand, Comfortaa, Manjari, 'Arial Rounded MT', 'Arial Rounded MT Bold', Calibri, source-sans-pro, sans-serif;
 ```
 
 <img src="img/rounded-sans.png" alt="Rounded Sans Font Stack">
@@ -479,6 +479,7 @@ font-family: ui-rounded, 'Hiragino Maru Gothic ProN', Quicksand, Comfortaa, Manj
 | Quicksand               |     |     |  ●  |  ●  |     |     |  ●  |     |     |
 | Comfortaa               |     |     |  ●  |  ●  |     |     |  ●  |     |     |
 | Manjari                 |  ●  |     |     |  ●  |     |     |  ●  |     |     |
+| Arial Rounded MT        |     |     |     |     |     |     |  ●  |     |     |
 | Arial Rounded MT Bold   |     |     |     |     |     |     |  ●  |     |     |
 | Calibri                 |     |     |  ●  |  ●  |     |     |  ●  |     |     |
 | Source Sans Pro         |     |     |     |  ●  |     |  ●  |  ●  |     |     |
@@ -486,7 +487,9 @@ font-family: ui-rounded, 'Hiragino Maru Gothic ProN', Quicksand, Comfortaa, Manj
 #### Notes
 - SF Pro Rounded is [only available](https://caniuse.com/extended-system-fonts) via `ui-rounded` on macOS 10.15+ and iOS 13.3+ while using Safari
 - Hiragino Maru Gothic is technically a Japanese typeface but has support for all the latin characters. The Mac font does not include a bold so a faux bold will be displayed on screen.
+- Arial Rounded MT is needed for Windows, while Arial Rounded MT Bold is needed for iOS, Mac, and older Windows installs
 - Source Sans Pro uses name [source-sans-pro](https://android.googlesource.com/platform/frameworks/base/+/master/data/fonts/fonts.xml#263) under Android, so this font only targets Android devices. It's not a rounded typeface, but it's better than Roboto here.
+
 
 </details>
 
