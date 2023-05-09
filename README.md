@@ -329,7 +329,7 @@ Monospace Slab Serif typefaces are characterized by their fixed-width letters, w
 
 #### CSS Font Stack
 ```css
-font-family: 'Nimbus Mono PS', 'Courier New', 'Cutive Mono', monospace;
+font-family: 'Nimbus Mono PS', 'Courier New', monospace;
 ```
 
 <img src="img/monospace-slab-serif.png" alt="Monospace Slab Serif Font Stack">
@@ -354,7 +354,7 @@ font-family: 'Nimbus Mono PS', 'Courier New', 'Cutive Mono', monospace;
 
 #### Notes
 - Nimbus Mono PS is specified first because many Linux distros create name alias for Courier New and not always represent a slab serif
-- Cutive Mono probably doesn't need to be prepresented in the stack as Android creates a name alias for Courier New.
+- Cutive Mono doesn't need to be represented in the stack as Android creates a name alias for Courier New.
 - Cutive Mono unfortunately only has one weight
 
 

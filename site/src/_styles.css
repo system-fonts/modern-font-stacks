@@ -721,7 +721,7 @@ h2#characters {
 }
 
 .monospace-slab-serif {
-  font-family: 'Nimbus Mono PS', 'Courier New', 'Cutive Mono', monospace;
+  font-family: 'Nimbus Mono PS', 'Courier New', monospace;
   -webkit-font-smoothing: auto;
   -moz-osx-font-smoothing: auto;
 }
