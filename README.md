@@ -227,7 +227,6 @@ font-family: Avenir, 'Avenir Next LT Pro', Montserrat, Corbel, 'URW Gothic', sou
 | Font Weights          | 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900 |
 |:----------------------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | Avenir                |     |     |  ●  |  ●  |  ●  |     |     |  ●  |  ●  |
-| Avenir Next LT Pro    |     |     |  ●  |  ●  |     |     |  ●  |     |     |
 | Montserrat            |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |  ●  |
 | Corbel                |     |     |  ●  |  ●  |     |     |  ●  |     |     |
 | URW Gothic            |     |     |  ●  |     |     |  ●  |     |     |     |
@@ -235,7 +234,6 @@ font-family: Avenir, 'Avenir Next LT Pro', Montserrat, Corbel, 'URW Gothic', sou
 
 #### Notes
 - Avenir was chosen over Avenir Next for macOS because the weight 300 is much more legible on the web over the 200 weight that Avenir Next has. If you're looking for an ultra-light or ultra-black, feel free to swap Avenir for Avenir Next.
-- [Avenir Next LT Pro](https://learn.microsoft.com/en-us/typography/font-list/avenirnextltpro) is supplied with Microsoft Office products.
 - Source Sans Pro uses name [source-sans-pro](https://android.googlesource.com/platform/frameworks/base/+/master/data/fonts/fonts.xml#263) under Android, so this font only targets Android devices.
 
 </details>
