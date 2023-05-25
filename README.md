@@ -206,7 +206,7 @@ Geometric Humanist typefaces are characterized by their clean, geometric forms a
 
 #### CSS Font Stack
 ```css
-font-family: Avenir, 'Avenir Next LT Pro', Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
 ```
 
 <img src="img/geometric-humanist.png" alt="Geometric Humanist Font Stack">
