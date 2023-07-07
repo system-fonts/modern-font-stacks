@@ -33,7 +33,12 @@
   <a href="#handwritten">Handwritten</a>
 </p>
 <hr>
-
+<p align="center">
+  <br>
+  <a href="#additional-features">Additional Features</a> &nbsp;&nbsp;/&nbsp;&nbsp;
+  <a href="#operating-system-support">Operating System Support</a> &nbsp;&nbsp;/&nbsp;&nbsp;
+  <a href="#plugins-and-extensions">Plugins and Extensions</a>
+</p>
 <br>
 
 ## System UI
@@ -694,5 +699,12 @@ html {
 - [iOS 9.3 or newer](https://developer.apple.com/fonts/system-fonts/)
 - [macOS 10.9 (Mavericks) or newer](https://support.apple.com/en-us/HT201375)
 - [Linux](https://docs.google.com/spreadsheets/d/1kbxC3UyGTzpA9aOEJD-GYH0uHTops5VSEb8jKKD9Wwc/edit?usp=sharing) (Sampled 12 popular distros)
+
+<p align="right"><a href="#modern-font-stacks">Back to Top ↑</a></p>
+
+
+## Plugins and Extensions
+- [Modern Font Stacks for Tailwind CSS](https://github.com/BorisAnthony/mfs-tailwind) by [BorisAnthony](https://github.com/BorisAnthony)
+- [Modern Font Stacks for WordPress](https://github.com/LittleBigThing/Modern-Font-Stacks-for-WP) by [LittleBigThing](https://github.com/LittleBigThing)
 
 <p align="right"><a href="#modern-font-stacks">Back to Top ↑</a></p>
