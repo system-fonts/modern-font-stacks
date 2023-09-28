@@ -70,7 +70,8 @@ const previewText = document.querySelector('#preview-text');
 const fontWeightRange = document.querySelector('#fontweight');
 const fontWeightOutput = document.querySelector('#weightoutput');
 const fontWeights = document.querySelectorAll('.font-weights span');
-const systemfont = document.querySelectorAll('.font-stack span');
+const systemFont = document.querySelectorAll('.font-stack span');
+const systemFontWeight = document.querySelectorAll('.font-stack var');
 const fontCard = document.querySelectorAll('.font-card');
 
 const changeSize = (newVal) => {
@@ -80,14 +81,20 @@ const changeSize = (newVal) => {
 const changeWeight = (newVal) => {
   fonts.style.fontWeight = newVal;
   fonts.setAttribute('data-weight', newVal);
+    systemFontWeight.forEach(element => {
+    element.innerText = newVal;
+  });
 };
 
 Array.from(fontWeights).forEach(e => {
   e.addEventListener('click', () => {
-    fonts.style.fontWeight = e.innerText;
-    fonts.setAttribute('data-weight', e.innerText);
-    fontWeightRange.value = e.innerText;
-    fontWeightOutput.innerText = e.innerText;
+    const fontWeightValue = e.innerText;
+    fonts.style.fontWeight = fontWeightValue;
+    fonts.setAttribute('data-weight', fontWeightValue);
+    fontWeightRange.value = fontWeightValue;
+    systemFontWeight.forEach(element => {
+      element.innerText = fontWeightValue;
+    });
   });
 });
 
@@ -142,7 +149,7 @@ previewTextInput.addEventListener('keyup', (event) => {
   }
 });
 
-Array.from(systemfont).forEach((el) => {
+Array.from(systemFont).forEach((el) => {
   const font = el.innerText;
   isFontAvailable(font, (available) => {
     if (available) {

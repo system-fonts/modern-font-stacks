@@ -473,6 +473,15 @@ section > h2 {
   color: #1e293b;
 }
 
+.font-stack code strong {
+  display: block;
+  font-weight: 400;
+}
+
+.font-stack code var {
+  font-style: normal;
+}
+
 #font-stacks-key {
   display: flex;
   flex-direction: row;
