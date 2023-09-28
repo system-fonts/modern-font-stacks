@@ -474,8 +474,8 @@ section > h2 {
 }
 
 .font-stack code strong {
-  display: block;
   font-weight: 400;
+  display: block;
 }
 
 .font-stack code var {

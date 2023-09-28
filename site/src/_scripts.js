@@ -81,8 +81,14 @@ const changeSize = (newVal) => {
 const changeWeight = (newVal) => {
   fonts.style.fontWeight = newVal;
   fonts.setAttribute('data-weight', newVal);
-    systemFontWeight.forEach(element => {
-    element.innerText = newVal;
+  systemFontWeight.forEach(element => {
+    if (newVal === '400'){
+      element.innerText = 'normal';
+    } else if (newVal === '700') {
+      element.innerText = 'bold';
+    } else {
+      element.innerText = newVal;
+    }
   });
 };
 
@@ -93,7 +99,13 @@ Array.from(fontWeights).forEach(e => {
     fonts.setAttribute('data-weight', fontWeightValue);
     fontWeightRange.value = fontWeightValue;
     systemFontWeight.forEach(element => {
-      element.innerText = fontWeightValue;
+      if (fontWeightValue === '400'){
+        element.innerText = 'normal';
+      } else if (fontWeightValue === '700') {
+        element.innerText = 'bold';
+      } else {
+        element.innerText = fontWeightValue;
+      }
     });
   });
 });
