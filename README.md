@@ -579,7 +579,7 @@ font-family: Superclarendon, 'Bookman Old Style', 'URW Bookman', 'URW Bookman L'
 
 
 #### Notes
-- [Georigia Pro](https://apps.microsoft.com/store/detail/georgia-pro/9N9DZG1XT2MB) is available as a supplemental downloadable font.
+- [Georgia Pro](https://apps.microsoft.com/store/detail/georgia-pro/9N9DZG1XT2MB) is available as a supplemental downloadable font.
 - Android uses Noto Serif as alias for `Georgia`, so no need to specify in the stack.
 
 </details>
