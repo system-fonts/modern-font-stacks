@@ -619,7 +619,7 @@ section > h2 {
   margin: 0 auto;
 }
 
-#preview article .chaper {
+#preview article .chapter {
   display: block;
   font-size: 1rem;
   line-height: 1;
@@ -629,7 +629,7 @@ section > h2 {
   font-weight: 500;
 }
 
-#preview article .chaper-name {
+#preview article .chapter-name {
   display: block;
   margin: 0.75rem 0 1rem;
   font-size: 1.75rem;
@@ -876,7 +876,7 @@ footer span {
     font-size: 3rem;
   }
   
-  #preview article .chaper-name {
+  #preview article .chapter-name {
     font-size: 2rem;
   }
   
