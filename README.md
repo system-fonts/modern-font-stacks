@@ -707,5 +707,6 @@ html {
 ## Plugins and Extensions
 - [Modern Font Stacks for Tailwind CSS](https://github.com/BorisAnthony/mfs-tailwind) by [BorisAnthony](https://github.com/BorisAnthony)
 - [Modern Font Stacks for WordPress](https://github.com/LittleBigThing/Modern-Font-Stacks-for-WP) by [LittleBigThing](https://github.com/LittleBigThing)
+- Modern Font Stacks are supported natively by [Webstudio](http://github.com/webstudio-is/webstudio/)
 
 <p align="right"><a href="#modern-font-stacks">Back to Top ↑</a></p>
