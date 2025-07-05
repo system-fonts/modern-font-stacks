@@ -73,6 +73,7 @@ const fontWeights = document.querySelectorAll('.font-weights span');
 const systemFont = document.querySelectorAll('.font-stack span');
 const systemFontWeight = document.querySelectorAll('.font-stack var');
 const fontCard = document.querySelectorAll('.font-card');
+const copyButton = document.querySelectorAll('.btn.copy');
 
 const changeSize = (newVal) => {
   fonts.style.fontSize = `${newVal}em`;
@@ -172,6 +173,55 @@ Array.from(systemFont).forEach((el) => {
   });
 });
 
+// copy to clipboard button
+const displayCopySuccess = (el) => {
+  var innerHtmlToRestore = el.innerHTML;
+  el.innerHTML = '✓';
+  el.classList.add('success');
+  setTimeout(() => {
+    el.innerHTML = innerHtmlToRestore;
+    el.classList.remove('success');
+  }, 500);
+};
+Array.from(copyButton).forEach((el) => {
+  el.addEventListener('click', (event) => {
+    const codeEl = event.target.parentNode.querySelector('code');
+    try {
+      // try to use the Clipboard API;...
+      window.navigator.clipboard.writeText(codeEl.innerText)
+        .then(() => displayCopySuccess(event.target));
+    } catch (error) {
+      console.warn('Failed to copy CSS to clipboard using Clipboard API! '+
+                   '...trying "execCommand". '+
+                   `Original error:\n\t ${error}`);
+      try {
+        // ... otherwise, try to use document.execCommand as a fallback
+        const selectionRangesToRestore = [];
+        let selection = window.getSelection();
+        for (let i = 0; i < selection.rangeCount; ++i) {
+            selectionRangesToRestore.push(selection.getRangeAt(i));
+        }
+        selection.removeAllRanges();
+        const tempRange = document.createRange();
+        tempRange.setStart(codeEl, 0);
+        tempRange.setEnd(codeEl.nextSibling, 0);
+        selection.addRange(tempRange);
+        document.execCommand('copy');
+        selection.removeAllRanges();
+        selectionRangesToRestore.forEach((range) => selection.addRange(range));
+        displayCopySuccess(event.target);
+      } catch (error) {
+        console.error('Failed to copy CSS to clipboard using "execCommand"! '+
+                      '...disabling copy buttons. '+
+                      `Original error:\n\t ${error}`);
+        Array.from(copyButton).forEach((el) => {
+            el.setAttribute("disabled", "");
+            el.title = "Failed to copy CSS!";
+        });
+      }
+    }
+  });
+});
 
 // ----- PREVIEW ----- //
 const preview = document.querySelector('#preview');
