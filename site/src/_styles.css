@@ -461,7 +461,7 @@ section > h2 {
 
 .font-stack {
   display: flex;
-  justify-content: start;
+  justify-content: space-between;
   align-items: center;
   min-height: 5rem;
   text-align: left;
@@ -540,6 +540,20 @@ section > h2 {
   text-decoration-color: #26599799;
 }
 
+.btn.copy {
+  font-size: 1.5rem;
+  font-family: initial;
+  max-width: 48px;
+  min-width: 48px;
+  max-height: 48px;
+  min-height: 48px;
+  justify-self: end;
+  align-self: end;
+}
+.btn.copy.success {
+  color: #2A2;
+  border-color: #2A2;
+}
 
 /* === SECTION : PREVIEW : ARTICLE VIEW === */
 
